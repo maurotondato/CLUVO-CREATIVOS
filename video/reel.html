@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>CLUVO Reel</title>
+<style>
+@font-face{font-family:"DM Sans";src:url(fonts/dmsans.woff2) format("woff2");font-weight:100 1000;font-style:normal}
+@font-face{font-family:"Instrument Serif";src:url(fonts/instrument-italic.woff2) format("woff2");font-style:italic}
+:root{
+  --g950:#04100b;--g900:#0a2219;--g800:#103326;--g700:#174a37;--g600:#1f6048;--g500:#2f7d5b;
+  --lime:#c6f432;--ink:#0f1a15;--mute:#6b7a73;--line:#e3e9e6;--bgl:#f4f7f5;--coral:#ff6b57;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+body{font-family:"DM Sans",sans-serif;color:#fff;-webkit-font-smoothing:antialiased}
+#stage{position:absolute;inset:0;overflow:hidden;background:var(--g950)}
+.abs{position:absolute}
+.scene{position:absolute;inset:0;overflow:hidden;will-change:transform,opacity}
+.serif{font-family:"Instrument Serif",serif;font-style:italic;font-weight:400;letter-spacing:-1px}
+.lime{color:var(--lime)}
+.center{left:0;right:0;text-align:center}
+/* grain + vignette */
+#grain{position:absolute;inset:-50%;pointer-events:none;opacity:.07;mix-blend-mode:overlay;z-index:50;
+ background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+#vig{position:absolute;inset:0;pointer-events:none;z-index:49;background:radial-gradient(ellipse 80% 60% at 50% 50%,transparent 55%,rgba(0,0,0,.45) 100%)}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;z-index:60;pointer-events:none}
+
+/* ---------- S1 hook ---------- */
+#s1{background:radial-gradient(ellipse 90% 60% at 50% 45%,#0f2a1f 0%,#050d09 70%)}
+.hk{position:absolute;left:0;right:0;text-align:center;font-weight:800;letter-spacing:-3px;line-height:1}
+.hk .w{display:inline-block;margin:0 .12em;will-change:transform,opacity}
+#hk1{top:560px;font-size:96px}
+#hk2{top:680px;font-size:96px}
+#hk3{top:790px;font-size:200px;color:var(--coral)}
+#hk4{top:990px;font-size:150px}
+#sheet{left:90px;top:1180px;width:900px;transform:rotate(-5deg);display:grid;grid-template-columns:150px 230px 190px 160px 170px;
+  background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.5);opacity:.95}
+#sheet div{height:58px;border-right:1px solid #d9dedb;border-bottom:1px solid #d9dedb;color:#26302b;font-size:22px;padding:15px 12px;white-space:nowrap;overflow:hidden;font-weight:500}
+#sheet .hd{background:#e9eeeb;font-weight:700;color:#55625b}
+#sheet .err{color:#d93025;font-weight:700;background:#fdecea}
+.bub{position:absolute;background:#fff;color:#16201b;border-radius:28px;padding:20px 28px 16px;font-size:31px;font-weight:600;
+  box-shadow:0 18px 50px rgba(0,0,0,.45);white-space:nowrap;will-change:transform,opacity}
+.bub small{display:block;font-size:20px;font-weight:700;margin-bottom:4px}
+.bub i{font-style:normal;font-size:18px;color:#8a9690;margin-left:16px;font-weight:500}
+.bub.g{background:#dcf8c6}
+#badge{right:70px;top:190px;background:#ff3b30;color:#fff;font-weight:800;font-size:30px;padding:14px 26px;border-radius:40px;box-shadow:0 10px 40px rgba(255,59,48,.5)}
+
+/* ---------- shared: wordmark ---------- */
+.wm{font-weight:800;letter-spacing:-.04em;line-height:1;display:inline-flex;align-items:center;color:#fff;white-space:nowrap}
+.wm .o{display:inline-block;width:.70em;height:.70em;border-radius:50%;border:.15em solid var(--lime);margin-left:.03em;transform:translateY(.02em)}
+
+/* ---------- S2/S3 app ---------- */
+#s2{background:radial-gradient(ellipse 100% 70% at 50% 30%,#1b5a42 0%,#0c2a1f 55%,#06150f 100%)}
+#glow2{left:140px;top:900px;width:800px;height:800px;border-radius:50%;background:radial-gradient(circle,rgba(198,244,50,.18),transparent 65%)}
+#wm2{left:0;right:0;top:250px;display:flex;justify-content:center;font-size:170px}
+#con{left:0;right:0;top:190px;text-align:center;font-size:44px;font-weight:600;color:rgba(255,255,255,.75)}
+.cap{position:absolute;left:0;right:0;text-align:center;font-weight:800;letter-spacing:-3px;line-height:1.02}
+.cap .l{display:block;overflow:hidden;padding-bottom:8px}
+.cap .l span{display:inline-block;will-change:transform}
+#cap2{top:215px;font-size:84px}
+#cap3{top:215px;font-size:84px}
+#cap2 .serif,#cap3 .serif{font-size:104px}
+
+#phone{left:220px;top:540px;width:640px;height:1240px;border-radius:84px;background:#0b0f0d;padding:16px;
+  box-shadow:0 0 0 3px #2a3330,0 60px 120px rgba(0,0,0,.6),0 0 140px rgba(198,244,50,.10);will-change:transform}
+#screen{position:relative;width:100%;height:100%;border-radius:68px;overflow:hidden;background:var(--bgl);color:var(--ink)}
+#island{position:absolute;left:50%;top:14px;width:150px;height:40px;margin-left:-75px;background:#000;border-radius:24px;z-index:20}
+#sbar{position:absolute;left:0;right:0;top:0;height:64px;z-index:19;display:flex;justify-content:space-between;align-items:center;padding:6px 44px 0;font-weight:700;font-size:22px}
+#strip{position:absolute;left:0;top:0;width:1824px;height:100%;display:flex;will-change:transform}
+.scr{position:relative;width:608px;height:100%;flex:none}
+.hero{position:relative;height:300px;background:url(img/club_photo.jpg) center/cover;color:#fff}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,16,11,.55),rgba(4,16,11,.82))}
+.hero .in{position:absolute;left:30px;right:30px;bottom:30px}
+.crest{width:58px;height:58px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 3px rgba(255,255,255,.3)}
+.hero .club{display:flex;align-items:center;gap:14px;font-size:17px;letter-spacing:2px;font-weight:600;opacity:.9;margin-bottom:16px}
+.hero h2{font-size:42px;font-weight:700;letter-spacing:-1px}
+.hero p{font-size:19px;opacity:.85;margin-top:6px}
+.pad{padding:26px 26px 0}
+.h3{font-size:32px;font-weight:700;letter-spacing:-.5px}
+.sub{font-size:18px;color:var(--mute);margin-top:4px}
+#days{display:flex;gap:10px;margin-top:20px}
+.day{width:100px;height:112px;border-radius:20px;border:2px solid var(--line);background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:15px;color:var(--mute);font-weight:600;position:relative}
+.day b{font-size:36px;color:var(--ink);font-weight:700;line-height:1.1}
+.day.sel{background:var(--g700);border-color:var(--g700);color:rgba(255,255,255,.8)}
+.day.sel b{color:#fff}
+#grid{margin-top:22px;background:#fff;border-radius:22px;border:2px solid var(--line);padding:14px}
+.gr{display:grid;grid-template-columns:86px 1fr 1fr 1fr;gap:9px;margin-bottom:9px;align-items:center}
+.gr.hdr{font-size:16px;color:var(--mute);font-weight:700;text-align:center;margin-bottom:12px}
+.gr .t{font-size:18px;color:var(--mute);font-weight:700;text-align:center}
+.cell{height:64px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;will-change:transform}
+.cell.lib{background:#e7f5ec;color:#1f7a4c;border:2px solid #c3e6d0}
+.cell.ocu{background:#eef1ef;color:#a3aea8;border:2px solid #eef1ef}
+.cell.mine{background:var(--g700);color:#fff;border:2px solid var(--g700)}
+.promo{margin-top:18px;background:var(--g800);color:#fff;border-radius:22px;padding:18px 22px;display:flex;align-items:center;justify-content:space-between}
+.promo b{font-size:20px;display:block}.promo span{font-size:15px;opacity:.75}
+.pbtn{background:#fff;color:var(--g900);font-weight:700;font-size:16px;padding:10px 20px;border-radius:14px}
+#nav{position:absolute;left:0;right:0;bottom:0;height:104px;background:#fff;border-top:2px solid var(--line);display:flex;justify-content:space-around;align-items:flex-start;padding-top:14px;z-index:15}
+.nv{display:flex;flex-direction:column;align-items:center;gap:6px;font-size:15px;font-weight:600;color:#9aa6a0;width:120px}
+.nv svg{width:32px;height:32px}
+.nv.on{color:var(--g700)}
+#navind{position:absolute;top:0;height:4px;width:80px;background:var(--g700);border-radius:0 0 4px 4px}
+#toast{position:absolute;left:22px;right:22px;top:70px;z-index:30;background:var(--g900);color:#fff;border-radius:30px;padding:22px 24px;display:flex;align-items:center;gap:18px;box-shadow:0 20px 50px rgba(0,0,0,.35)}
+.ck{width:54px;height:54px;border-radius:50%;background:var(--lime);display:flex;align-items:center;justify-content:center;flex:none}
+#toast b{font-size:24px;display:block}
+#toast span{font-size:18px;opacity:.8}
+#touch{position:absolute;width:76px;height:76px;margin:-38px 0 0 -38px;border-radius:50%;background:rgba(255,255,255,.55);border:3px solid rgba(255,255,255,.95);box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:40}
+#ripple{position:absolute;width:76px;height:76px;margin:-38px 0 0 -38px;border-radius:50%;border:4px solid #fff;z-index:39}
+.topbar{padding:80px 26px 0}
+.tabs{display:flex;background:#e9eeeb;border-radius:18px;padding:6px;margin-top:20px}
+.tabs div{flex:1;text-align:center;padding:12px;font-size:18px;font-weight:600;color:var(--mute);border-radius:14px}
+.tabs .on{background:#fff;color:var(--ink);box-shadow:0 2px 6px rgba(0,0,0,.06)}
+.cls{margin-top:18px;background:#fff;border:2px solid var(--line);border-radius:24px;padding:20px;display:flex;gap:18px;align-items:center}
+.dt{width:84px;height:92px;border-radius:18px;background:#e7f5ec;color:var(--g700);display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:700;font-size:15px;flex:none}
+.dt b{font-size:32px;line-height:1.05}
+.cls .info{flex:1;min-width:0}
+.cls .info b{font-size:22px;display:block;letter-spacing:-.3px}
+.cls .info span{font-size:16px;color:var(--mute);display:block;margin-top:4px}
+.chip{display:inline-block;margin-top:8px;font-size:14px;font-weight:700;color:#1f7a4c;background:#e7f5ec;border-radius:20px;padding:4px 12px}
+.btn{position:relative;flex:none;height:54px;padding:0 20px;border-radius:16px;background:var(--g700);color:#fff;font-weight:700;font-size:17px;display:flex;align-items:center;justify-content:center;gap:8px;overflow:hidden}
+.btn .ok{position:absolute;inset:0;background:var(--lime);color:var(--g900);display:flex;align-items:center;justify-content:center;gap:6px}
+.tcard{margin-top:22px;background:#fff;border:2px solid var(--line);border-radius:28px;overflow:hidden}
+.tcard .img{height:250px;position:relative;background:#2f6e4c}
+.tcard .img svg{position:absolute;inset:0;width:100%;height:100%}
+.tcard .badge{position:absolute;left:20px;top:20px;background:var(--lime);color:var(--g900);font-weight:800;font-size:15px;padding:8px 14px;border-radius:20px}
+.tcard .bd{padding:22px}
+.tcard .bd b{font-size:28px;letter-spacing:-.5px}
+.tcard .bd span{display:block;font-size:17px;color:var(--mute);margin-top:6px}
+.prog{height:12px;background:#eef1ef;border-radius:8px;margin:18px 0 8px;overflow:hidden}
+.prog div{height:100%;background:var(--g700);border-radius:8px}
+.tcard .btn{width:100%;margin-top:18px;height:62px;font-size:20px}
+#confetti{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:35}
+#confetti i{position:absolute;width:12px;height:18px;border-radius:3px}
+
+/* ---------- S4 admin ---------- */
+#s4{background:radial-gradient(ellipse 100% 70% at 50% 20%,#123a2b 0%,#071811 55%,#030b07 100%)}
+#pill4{left:0;right:0;top:170px;text-align:center}
+#pill4 span{display:inline-block;border:2px solid rgba(198,244,50,.6);color:var(--lime);font-weight:700;font-size:24px;letter-spacing:4px;padding:10px 26px;border-radius:40px}
+#cap4{top:250px;font-size:96px}
+#cap4 .serif{font-size:124px}
+.card{position:absolute;width:465px;height:430px;background:#fff;color:var(--ink);border-radius:40px;padding:34px;box-shadow:0 30px 70px rgba(0,0,0,.45);will-change:transform,opacity;overflow:hidden}
+.ch{display:flex;align-items:center;gap:16px;font-size:27px;font-weight:700;letter-spacing:-.5px}
+.ic{width:62px;height:62px;border-radius:18px;background:var(--g700);display:flex;align-items:center;justify-content:center;flex:none}
+.ic svg{width:34px;height:34px}
+.big{font-size:62px;font-weight:800;letter-spacing:-2px;margin-top:30px;font-variant-numeric:tabular-nums}
+.up{display:inline-block;margin-top:10px;background:#e7f5ec;color:#1f7a4c;font-weight:700;font-size:20px;padding:6px 14px;border-radius:20px}
+.srow{display:flex;align-items:center;gap:12px;margin-top:20px;font-size:20px;font-weight:600}
+.srow .nm{width:120px}
+.srow .bar{flex:1;height:14px;background:#eef1ef;border-radius:8px;overflow:hidden}
+.srow .bar div{height:100%;border-radius:8px;background:var(--g500)}
+.srow .q{width:56px;text-align:right;color:var(--mute);font-size:18px}
+.warn{display:inline-flex;align-items:center;gap:8px;margin-top:22px;background:#fdecea;color:#c62828;font-weight:700;font-size:19px;padding:8px 16px;border-radius:14px}
+.prow{display:flex;align-items:center;gap:14px;margin-top:16px;font-size:20px;font-weight:600}
+.prow .cc{width:36px;height:36px;border-radius:50%;background:var(--g700);display:flex;align-items:center;justify-content:center;flex:none}
+.prow .amt{margin-left:auto;font-weight:700}
+.prow span.d{color:var(--mute);font-weight:500}
+#bars{position:absolute;left:34px;right:34px;bottom:34px;height:190px;display:flex;align-items:flex-end;gap:14px}
+#bars .b{flex:1;display:flex;flex-direction:column;align-items:center;gap:8px;height:100%;justify-content:flex-end}
+#bars .b div{width:100%;border-radius:10px 10px 4px 4px;background:#cfe3d8}
+#bars .b.hi div{background:var(--g700)}
+#bars .b span{font-size:16px;color:var(--mute);font-weight:700}
+#marq{left:0;top:1560px;width:2400px;display:flex;gap:16px;white-space:nowrap}
+#marq span{display:inline-flex;align-items:center;gap:10px;border:2px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);color:#fff;font-size:28px;font-weight:600;padding:16px 28px;border-radius:40px}
+#marq span:before{content:"";width:10px;height:10px;border-radius:50%;background:var(--lime)}
+
+/* ---------- S5 sports ---------- */
+#s5{background:#06120d}
+#s5bg{position:absolute;inset:0}
+#sword{left:0;right:0;top:250px;height:230px;overflow:hidden;text-align:center}
+#sword div{font-size:210px;font-weight:800;letter-spacing:-8px;line-height:1.05;will-change:transform}
+.banner{position:absolute;left:70px;top:600px;width:940px;height:600px;border-radius:48px;overflow:hidden;box-shadow:0 40px 90px rgba(0,0,0,.5);will-change:transform,clip-path}
+.banner svg.court{position:absolute;inset:0;width:100%;height:100%}
+.banner .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 35%,rgba(0,0,0,.72) 100%)}
+.banner .in{position:absolute;left:44px;right:44px;bottom:42px;display:flex;align-items:flex-end;justify-content:space-between}
+.banner .crest2{width:96px;height:96px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;margin-bottom:18px}
+.banner .crest2 svg{width:60px;height:60px}
+.banner h4{font-size:58px;font-weight:800;letter-spacing:-1.5px;line-height:1}
+.banner p{font-size:24px;opacity:.85;margin-top:8px}
+.banner .cta{height:72px;padding:0 30px;border-radius:22px;font-size:26px;font-weight:800;display:flex;align-items:center}
+#uirow{left:70px;right:70px;top:1250px;display:flex;gap:16px;justify-content:center}
+#uirow .d{width:120px;height:132px;border-radius:26px;background:rgba(255,255,255,.08);border:2px solid rgba(255,255,255,.14);display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:20px;font-weight:600;color:rgba(255,255,255,.7)}
+#uirow .d b{font-size:44px;color:#fff;line-height:1.1}
+#uirow .d.s{color:rgba(0,0,0,.6)}
+#uirow .d.s b{color:#0a0a0a}
+#tiles{position:absolute;inset:0}
+.tile{position:absolute;width:455px;height:255px;border-radius:32px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.45);will-change:transform,opacity}
+.tile svg.court{position:absolute;inset:0;width:100%;height:100%}
+.tile .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(0,0,0,.75) 100%)}
+.tile .in{position:absolute;left:22px;right:22px;bottom:20px;display:flex;align-items:center;gap:14px}
+.tile .crest2{width:56px;height:56px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;flex:none}
+.tile .crest2 svg{width:36px;height:36px}
+.tile b{font-size:27px;font-weight:800;letter-spacing:-.5px;display:block;line-height:1.05}
+.tile span{font-size:17px;opacity:.85}
+.tile .acc{position:absolute;right:20px;top:20px;width:30px;height:30px;border-radius:50%;border:4px solid #fff}
+#cap5{top:250px;font-size:96px}
+#cap5 .serif{font-size:124px}
+#custom{left:0;right:0;top:1440px;text-align:center}
+#custom span{display:inline-flex;align-items:center;gap:14px;font-size:30px;font-weight:600;color:rgba(255,255,255,.9);background:rgba(255,255,255,.07);border:2px solid rgba(255,255,255,.15);border-radius:40px;padding:18px 34px}
+#custom em{font-style:normal;color:var(--lime)}
+
+/* ---------- S6 end ---------- */
+#s6{background:radial-gradient(ellipse 90% 55% at 50% 42%,#123a2b 0%,#06120d 55%,#020504 100%)}
+#ring6{left:540px;top:820px;width:10px;height:10px;border-radius:50%;border:3px solid var(--lime)}
+#wm6{left:0;right:0;top:640px;display:flex;justify-content:center;font-size:230px}
+#sweep{position:absolute;left:0;right:0;top:640px;height:240px;pointer-events:none;mix-blend-mode:overlay}
+#tag6{top:930px;font-size:56px;font-weight:700;letter-spacing:-1.5px;line-height:1.1}
+#tag6 .serif{font-size:72px}
+#by6{left:0;right:0;top:1150px;display:flex;flex-direction:column;align-items:center;gap:22px}
+#by6 small{font-size:26px;letter-spacing:6px;color:rgba(255,255,255,.55);font-weight:600}
+#by6 img{width:380px}
+#cta6{left:0;right:0;top:1500px;display:flex;justify-content:center}
+#cta6 .pill{display:flex;align-items:center;gap:22px;background:#fff;color:var(--g900);border-radius:60px;padding:16px 16px 16px 46px;font-size:44px;font-weight:800;letter-spacing:-1px;position:relative;overflow:hidden}
+#cta6 .arr{width:84px;height:84px;border-radius:50%;background:var(--lime);display:flex;align-items:center;justify-content:center}
+#cta6 .sh{position:absolute;top:0;bottom:0;width:120px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.8),transparent);transform:skewX(-20deg)}
+#lab6{left:0;right:0;top:1440px;text-align:center;font-size:26px;letter-spacing:5px;color:rgba(255,255,255,.6);font-weight:600}
+</style>
+</head>
+<body>
+<div id="stage">
+
+<!-- ===================== S1 HOOK ===================== -->
+<div class="scene" id="s1"><div id="s1in" class="scene">
+  <div class="hk" id="hk1"><span class="w">¿Tu</span><span class="w">club</span><span class="w">todavía</span></div>
+  <div class="hk" id="hk2"><span class="w">se</span><span class="w">maneja</span><span class="w">con</span></div>
+  <div class="hk serif" id="hk3"><span class="w">planillas</span></div>
+  <div class="hk" id="hk4"><span class="w">y</span><span class="w serif">mensajes?</span></div>
+  <div class="abs" id="sheet"></div>
+  <div class="bub" id="b1" style="left:60px;top:250px"><small style="color:#1f8a5b">Martín · Socio</small>¿Hay cancha a las 19?<i>19:02</i></div>
+  <div class="bub g" id="b2" style="left:430px;top:400px"><small style="color:#7a4bd1">Tesorería</small>¿Quién pagó la cuota?<i>19:03</i></div>
+  <div class="bub" id="b3" style="left:70px;top:1330px"><small style="color:#d2691e">Profe Carlos</small>Se suspende la clase de 20 hs<i>19:03</i></div>
+  <div class="bub g" id="b4" style="left:420px;top:1500px"><small style="color:#1f6fd1">Lucía</small>¿Me anotás al torneo?<i>19:04</i></div>
+  <div class="bub" id="b5" style="left:110px;top:1660px"><small style="color:#c2185b">Buffet</small>¿Cuánto se vendió hoy?<i>19:04</i></div>
+  <div class="abs" id="badge">+47 sin leer</div>
+</div></div>
+
+<!-- ===================== S2/S3 APP ===================== -->
+<div class="scene" id="s2"><div id="s2in" class="scene">
+  <div class="abs" id="glow2"></div>
+  <div class="abs" id="con">Con</div>
+  <div class="abs" id="wm2"><div class="wm" id="wm2w">CLUV<span class="o"></span></div></div>
+  <div class="cap" id="cap2"><span class="l"><span id="c2a">Reservá canchas</span></span><span class="l"><span id="c2b" class="serif lime">en segundos</span></span></div>
+  <div class="cap" id="cap3"><span class="l"><span id="c3a">Clases</span></span><span class="l"><span id="c3b" class="serif lime">y torneos</span></span></div>
+
+  <div class="abs" id="phone"><div id="screen">
+    <div id="island"></div>
+    <div id="sbar"><span>9:41</span><span style="display:flex;gap:8px;align-items:center">
+      <svg width="30" height="20" viewBox="0 0 30 20"><rect x="0" y="12" width="5" height="8" rx="1" fill="currentColor"/><rect x="8" y="8" width="5" height="12" rx="1" fill="currentColor"/><rect x="16" y="4" width="5" height="16" rx="1" fill="currentColor"/><rect x="24" y="0" width="5" height="20" rx="1" fill="currentColor"/></svg>
+      <svg width="40" height="20" viewBox="0 0 40 20"><rect x="1" y="1" width="33" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><rect x="4" y="4" width="24" height="12" rx="2" fill="currentColor"/><rect x="36" y="7" width="3" height="6" rx="1" fill="currentColor"/></svg></span></div>
+    <div id="strip">
+      <!-- Reservar -->
+      <div class="scr">
+        <div class="hero"><div class="in">
+          <div class="club"><div class="crest" id="crestA"></div>HIPÓDROMO TENIS</div>
+          <h2>Hola, Lucas</h2><p>Reservá canchas, clases y torneos</p>
+        </div></div>
+        <div class="pad">
+          <div class="h3">Reservar</div>
+          <div class="sub">Elegí el día y un turno libre.</div>
+          <div id="days">
+            <div class="day" id="d0">JUE<b>8</b>oct</div><div class="day" id="d1">VIE<b>9</b>oct</div><div class="day" id="d2">SÁB<b>10</b>oct</div><div class="day" id="d3">DOM<b>11</b>oct</div><div class="day" id="d4">LUN<b>12</b>oct</div>
+          </div>
+          <div id="grid"></div>
+          <div class="promo"><div><b>Torneo Amistoso Primavera</b><span>Inscripción abierta · Sáb 12 oct</span></div><div class="pbtn">Ver</div></div>
+        </div>
+      </div>
+      <!-- Clases -->
+      <div class="scr">
+        <div class="topbar">
+          <div class="h3">Clases</div><div class="sub">Anotate a las clases del club.</div>
+          <div class="tabs"><div class="on">Disponibles</div><div>Mis clases</div></div>
+          <div class="cls"><div class="dt">MAR<b>14</b></div><div class="info"><b>Grupal intermedio</b><span>Prof. Carlos Gómez · 18:00</span><span class="chip">2 cupos</span></div>
+            <div class="btn" id="btnCls">Anotarme<div class="ok" id="okCls"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#0a2219" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Listo</div></div></div>
+          <div class="cls"><div class="dt">MIÉ<b>15</b></div><div class="info"><b>Escuelita menores</b><span>Prof. Ana Ruiz · 17:00</span><span class="chip">5 cupos</span></div><div class="btn">Anotarme</div></div>
+          <div class="cls"><div class="dt">JUE<b>16</b></div><div class="info"><b>Clase particular</b><span>Prof. Carlos Gómez · 10:00</span><span class="chip">1 cupo</span></div><div class="btn">Anotarme</div></div>
+          <div class="cls"><div class="dt">VIE<b>17</b></div><div class="info"><b>Cardio tenis</b><span>Prof. Ana Ruiz · 19:00</span><span class="chip">4 cupos</span></div><div class="btn">Anotarme</div></div>
+        </div>
+      </div>
+      <!-- Torneos -->
+      <div class="scr">
+        <div class="topbar">
+          <div class="h3">Torneos</div><div class="sub">Participá y viví la competencia.</div>
+          <div class="tcard"><div class="img" id="tImg"><span class="badge">INSCRIPCIÓN ABIERTA</span></div>
+            <div class="bd"><b>Torneo Amistoso Primavera</b><span>Sáb 12 oct · Singles · Inscripción $5.000</span>
+              <div class="prog"><div id="tprog" style="width:72%"></div></div>
+              <span style="margin-top:0;font-size:16px" id="tcount">23 de 32 inscriptos</span>
+              <div class="btn" id="btnT">Inscribirme<div class="ok" id="okT"><svg width="26" height="26" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#0a2219" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>¡Ya estás inscripto!</div></div>
+            </div></div>
+          <div class="cls"><div class="dt" style="background:#fff4d6;color:#8a5a00">DIC<b>06</b></div><div class="info"><b>Copa Verano · Dobles</b><span>Inscripción desde el 1/11</span><span class="chip" style="color:#8a5a00;background:#fff4d6">Próximamente</span></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="nav"><div id="navind"></div>
+      <div class="nv" id="nv0"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Reservar</div>
+      <div class="nv" id="nv1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg>Clases</div>
+      <div class="nv" id="nv2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4a2 2 0 0 1 0-4h2M18 9h2a2 2 0 0 0 0-4h-2M4 22h16M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22M18 2H6v7a6 6 0 0 0 12 0V2z"/></svg>Torneos</div>
+      <div class="nv" id="nv3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Perfil</div>
+    </div>
+    <div id="toast"><div class="ck"><svg width="30" height="30" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#0a2219" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div><b>¡Reserva confirmada!</b><span>Vie 9 · 19:00 · Cancha 2</span></div></div>
+    <div id="confetti"></div>
+    <div id="ripple"></div><div id="touch"></div>
+  </div></div>
+</div></div>
+
+<!-- ===================== S4 ADMIN ===================== -->
+<div class="scene" id="s4"><div id="s4in" class="scene">
+  <div class="abs" id="pill4"><span>PANEL DEL DUEÑO</span></div>
+  <div class="cap" id="cap4"><span class="l"><span id="c4a">Y vos controlás</span></span><span class="l"><span id="c4b" class="serif lime">todo</span></span></div>
+
+  <div class="card" id="k1" style="left:60px;top:580px">
+    <div class="ch"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#c6f432" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7H5a2 2 0 0 1 0-4h13v4"/><path d="M3 5v14a2 2 0 0 0 2 2h15V7"/><circle cx="16" cy="14" r="1.5" fill="#c6f432"/></svg></div>Caja del día</div>
+    <div class="big" id="cajaN">$ 0</div>
+    <span class="up">▲ 18% vs. ayer</span>
+    <svg style="position:absolute;left:34px;right:34px;bottom:34px;width:397px;height:110px" viewBox="0 0 397 110"><path id="spark" d="M0 95 L50 80 L95 86 L140 60 L185 68 L230 42 L275 50 L320 24 L360 30 L397 8" fill="none" stroke="#174a37" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </div>
+  <div class="card" id="k2" style="left:555px;top:580px">
+    <div class="ch"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#c6f432" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8M12 13v8"/></svg></div>Stock · Buffet</div>
+    <div class="srow"><span class="nm">Bebidas</span><span class="bar"><div id="sb1"></div></span><span class="q">48 u</span></div>
+    <div class="srow"><span class="nm">Pelotas</span><span class="bar"><div id="sb2" style="background:#e5484d"></div></span><span class="q" style="color:#e5484d">3 u</span></div>
+    <div class="srow"><span class="nm">Snacks</span><span class="bar"><div id="sb3"></div></span><span class="q">32 u</span></div>
+    <span class="warn" id="warn"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#c62828" stroke-width="2.4" stroke-linecap="round"><path d="M12 3L2 20h20L12 3zM12 10v4M12 17v.5"/></svg>Reponer pelotas</span>
+  </div>
+  <div class="card" id="k3" style="left:60px;top:1040px">
+    <div class="ch"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#c6f432" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/></svg></div>Pagos online</div>
+    <div class="prow" id="p1"><span class="cc"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#c6f432" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Cuota social<span class="amt">$18.000</span></div>
+    <div class="prow" id="p2"><span class="cc"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#c6f432" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Reserva C2<span class="amt">$12.000</span></div>
+    <div class="prow" id="p3"><span class="cc"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#c6f432" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Torneo<span class="amt">$5.000</span></div>
+    <div class="prow" id="p4"><span class="cc"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#c6f432" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Clase grupal<span class="amt">$9.500</span></div>
+  </div>
+  <div class="card" id="k4" style="left:555px;top:1040px">
+    <div class="ch"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#c6f432" stroke-width="2.2" stroke-linecap="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>Reportes</div>
+    <div style="font-size:20px;color:var(--mute);margin-top:18px;font-weight:600">Ocupación semanal <b style="color:var(--ink);font-size:26px" id="occ">0%</b></div>
+    <div id="bars"></div>
+  </div>
+  <div class="abs" id="marq"></div>
+</div></div>
+
+<!-- ===================== S5 SPORTS ===================== -->
+<div class="scene" id="s5"><div id="s5in" class="scene">
+  <div id="s5bg"></div>
+  <div class="abs" id="sword"><div id="swordT">TENIS</div></div>
+  <div class="banner" id="banA"></div>
+  <div class="banner" id="banB"></div>
+  <div class="abs" id="uirow"></div>
+  <div class="cap" id="cap5"><span class="l"><span id="c5a">Se adapta a</span></span><span class="l"><span id="c5b" class="serif lime">tu deporte</span></span></div>
+  <div id="tiles"></div>
+  <div class="abs" id="custom"><span>Tu logo <em>·</em> tus colores <em>·</em> la foto de tu club</span></div>
+</div></div>
+
+<!-- ===================== S6 END ===================== -->
+<div class="scene" id="s6"><div id="s6in" class="scene">
+  <div class="abs" id="ring6"></div>
+  <div class="abs" id="wm6"><div class="wm" id="wm6w">CLUV<span class="o"></span></div></div>
+  <div class="cap" id="tag6"><span class="l"><span id="t6a">La gestión de tu club,</span></span><span class="l"><span id="t6b" class="serif lime">en un solo lugar.</span></span></div>
+  <div class="abs" id="by6"><small>DESARROLLADO POR</small><img src="img/moctlab_white.png" id="mlogo"></div>
+  <div class="abs" id="lab6">CONOCÉ MÁS EN</div>
+  <div class="abs" id="cta6"><div class="pill" id="pill6">moctlab.com.ar<div class="arr"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0a2219" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div><div class="sh" id="sh6"></div></div></div>
+</div></div>
+
+<div id="vig"></div><div id="grain"></div><div id="flash"></div>
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+const C=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const P=(t,a,b)=>C((t-a)/(b-a));
+const L=(a,b,x)=>a+(b-a)*x;
+const eo3=x=>1-Math.pow(1-x,3), eo5=x=>1-Math.pow(1-x,5), ei3=x=>x*x*x;
+const eio=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const eback=x=>{const c1=2.0,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)};
+const spr=x=>x<=0?0:x>=1?1:1-Math.exp(-6.5*x)*Math.cos(9.5*x);
+function S(el,o){ // set styles: o = {op,x,y,s,sx,sy,r,b}
+  if(typeof el==='string')el=$(el);
+  const tr=`translate(${(o.x||0).toFixed(2)}px,${(o.y||0).toFixed(2)}px) scale(${(o.sx??o.s??1).toFixed(4)},${(o.sy??o.s??1).toFixed(4)}) rotate(${(o.r||0).toFixed(2)}deg)`;
+  el.style.transform=tr;
+  if(o.op!==undefined){el.style.opacity=C(o.op).toFixed(3);el.style.visibility=o.op<=0.001?'hidden':'visible'}
+  el.style.filter=o.b?`blur(${o.b.toFixed(2)}px)`:'none';
+}
+// "pop" entrance: t0 start, dur
+const pop=(t,t0,d=.35)=>{const x=P(t,t0,t0+d);return {op:P(t,t0,t0+d*.4),s:L(.6,1,eback(x))}};
+const rise=(t,t0,d=.45,dy=60)=>{const x=eo5(P(t,t0,t0+d));return {op:P(t,t0,t0+d*.5),y:(1-x)*dy}};
+const maskUp=(t,t0,d=.45)=>{const x=eo5(P(t,t0,t0+d));return {y:(1-x)*130,op:1}};
+const maskOut=(t,t0,d=.3)=>{const x=ei3(P(t,t0,t0+d));return {y:-x*130,op:1}};
+
+/* ---------- build static parts ---------- */
+const CREST=`<svg width="40" height="40" viewBox="0 0 48 48"><circle cx="24" cy="24" r="22" fill="none" stroke="#174a37" stroke-width="2"/><g fill="none" stroke="#174a37" stroke-width="2.4"><ellipse cx="18" cy="17" rx="7" ry="9" transform="rotate(-35 18 17)"/><ellipse cx="30" cy="17" rx="7" ry="9" transform="rotate(35 30 17)"/><path d="M22 24l9 12M26 24l-9 12" stroke-linecap="round"/></g><circle cx="24" cy="38" r="2.5" fill="#c6f432"/></svg>`;
+$('crestA').innerHTML=CREST;
+// spreadsheet
+(()=>{const rows=[["Fecha","Socio","Turno","Pagó","Obs."],["08/10","J. Pérez","18 hs","NO","llamar"],["08/10","M. Díaz","¿19 hs?","#¡REF!","???"],["09/10","L. Gómez","20 hs","SÍ","doble?"],["09/10","—","21 hs","#N/A","cancela"],["10/10","Socio 214","¿?","NO","deuda"]];
+ let h='';rows.forEach((r,i)=>r.forEach(c=>{const cls=i==0?'hd':(/#|\?\?\?|NO|¿/.test(c)?'err':'');h+=`<div class="${cls}" data-r="${i}">${c}</div>`}));$('sheet').innerHTML=h;})();
+// court grid
+const HOURS=["17:00","18:00","19:00","20:00","21:00"];
+const PAT_A=[[1,1,0],[1,0,1],[1,1,1],[0,1,1],[1,0,0]]; // 1=ocupado (JUE)
+const PAT_B=[[0,1,0],[1,0,1],[1,0,1],[0,1,0],[0,0,1]]; // VIE
+(()=>{let h='<div class="gr hdr"><span>Hora</span><span>Cancha 1</span><span>Cancha 2</span><span>Cancha 3</span></div>';
+ HOURS.forEach((hr,i)=>{h+=`<div class="gr"><span class="t">${hr}</span>`;for(let j=0;j<3;j++)h+=`<div class="cell" id="c${i}${j}"></div>`;h+='</div>'});$('grid').innerHTML=h;})();
+// tournament image
+const COURT={
+ tenis:(w,h)=>`<svg class="court" viewBox="0 0 940 600" preserveAspectRatio="xMidYMid slice"><rect width="940" height="600" fill="#2b6a48"/><rect x="110" y="90" width="720" height="420" fill="#3b8a5c" stroke="#fff" stroke-width="7"/><path d="M110 140H830M110 460H830M275 140V460M665 140V460M275 300H665" stroke="#fff" stroke-width="6" fill="none"/><path d="M470 70V530" stroke="#e8f0eb" stroke-width="10" stroke-dasharray="4 8"/><circle cx="610" cy="220" r="16" fill="#d7f53b"/></svg>`,
+ padel:()=>`<svg class="court" viewBox="0 0 940 600" preserveAspectRatio="xMidYMid slice"><rect width="940" height="600" fill="#0c2f5c"/><rect x="100" y="95" width="740" height="410" fill="#1d6bd0" stroke="rgba(255,255,255,.45)" stroke-width="22"/><rect x="100" y="95" width="740" height="410" fill="none" stroke="#fff" stroke-width="5"/><path d="M290 95V505M650 95V505M290 300H650" stroke="#fff" stroke-width="5"/><path d="M470 80V520" stroke="#e5eefb" stroke-width="10" stroke-dasharray="4 8"/><circle cx="380" cy="380" r="15" fill="#e6f53b"/></svg>`,
+ futbol:()=>{let s='';for(let i=0;i<10;i++)s+=`<rect x="${i*94}" width="94" height="600" fill="${i%2?'#2c9a4c':'#33a957'}"/>`;return `<svg class="court" viewBox="0 0 940 600" preserveAspectRatio="xMidYMid slice">${s}<g stroke="#fff" stroke-width="6" fill="none"><rect x="70" y="70" width="800" height="460"/><path d="M470 70V530"/><circle cx="470" cy="300" r="78"/><rect x="70" y="170" width="120" height="260"/><rect x="750" y="170" width="120" height="260"/></g><circle cx="470" cy="300" r="7" fill="#fff"/></svg>`},
+ hockey:()=>`<svg class="court" viewBox="0 0 940 600" preserveAspectRatio="xMidYMid slice"><rect width="940" height="600" fill="#123a9c"/><rect x="70" y="70" width="800" height="460" fill="#1f56d6" stroke="#fff" stroke-width="6"/><g stroke="#fff" stroke-width="6" fill="none"><path d="M470 70V530M290 70V530M650 70V530"/><path d="M70 160A150 150 0 0 1 70 440"/><path d="M870 160A150 150 0 0 0 870 440"/></g><circle cx="560" cy="250" r="12" fill="#fff"/></svg>`,
+ basquet:()=>{let s='';for(let i=0;i<14;i++)s+=`<rect y="${i*44}" width="940" height="44" fill="${i%2?'#c98745':'#d19150'}"/>`;return `<svg class="court" viewBox="0 0 940 600" preserveAspectRatio="xMidYMid slice">${s}<g stroke="#fff" stroke-width="6" fill="none"><rect x="70" y="70" width="800" height="460"/><path d="M470 70V530"/><circle cx="470" cy="300" r="70"/><rect x="70" y="220" width="170" height="160"/><rect x="700" y="220" width="170" height="160"/><path d="M70 110A230 230 0 0 1 70 490M870 110A230 230 0 0 0 870 490"/></g></svg>`},
+ voley:()=>`<svg class="court" viewBox="0 0 940 600" preserveAspectRatio="xMidYMid slice"><rect width="940" height="600" fill="#1c3f7a"/><rect x="140" y="110" width="660" height="380" fill="#f08c2a" stroke="#fff" stroke-width="6"/><path d="M360 110V490M580 110V490" stroke="#fff" stroke-width="5"/><path d="M470 90V510" stroke="#fff" stroke-width="10" stroke-dasharray="4 8"/></svg>`,
+};
+const ICON={
+ tenis:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#d7f53b"/><path d="M9 11c9 6 9 20 0 26M39 11c-9 6-9 20 0 26" stroke="#fff" stroke-width="3" fill="none"/></svg>`,
+ padel:`<svg viewBox="0 0 48 48"><rect x="12" y="3" width="24" height="28" rx="12" fill="#1d6bd0"/><g fill="#fff"><circle cx="20" cy="12" r="1.8"/><circle cx="28" cy="12" r="1.8"/><circle cx="24" cy="18" r="1.8"/><circle cx="20" cy="24" r="1.8"/><circle cx="28" cy="24" r="1.8"/></g><rect x="21" y="30" width="6" height="15" rx="3" fill="#0c2f5c"/></svg>`,
+ futbol:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#fff" stroke="#111" stroke-width="2.5"/><path d="M24 15l8 6-3 9h-10l-3-9z" fill="#111"/><path d="M24 15V5M32 21l9-3M29 30l6 8M19 30l-6 8M16 21l-9-3" stroke="#111" stroke-width="2.5"/></svg>`,
+ hockey:`<svg viewBox="0 0 48 48"><path d="M32 4L22 34q-2 7-9 7H8" stroke="#123a9c" stroke-width="6" fill="none" stroke-linecap="round"/><circle cx="34" cy="38" r="5" fill="#f5c518"/></svg>`,
+ basquet:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#f07b1e"/><path d="M4 24h40M24 4v40M10 10c8 8 8 20 0 28M38 10c-8 8-8 20 0 28" stroke="#3a1a05" stroke-width="2.4" fill="none"/></svg>`,
+ voley:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#fff" stroke="#1c3f7a" stroke-width="2.5"/><path d="M24 4c-6 10-6 20 0 20s16 4 18 8M24 24c-8 0-16 6-18 10M24 24c6 4 6 12 2 20" stroke="#1c3f7a" stroke-width="2.5" fill="none"/></svg>`,
+};
+const SP=[
+ {k:'tenis',w:'TENIS',club:'Hipódromo Tenis',acc:'#c6f432',accInk:'#0a2219',bg:'#0b2a1d'},
+ {k:'padel',w:'PÁDEL',club:'Pádel Club Norte',acc:'#38bdf8',accInk:'#04223a',bg:'#071c36'},
+ {k:'futbol',w:'FÚTBOL',club:'Complejo F5 Sur',acc:'#4ade80',accInk:'#052e16',bg:'#062a14'},
+ {k:'hockey',w:'HOCKEY',club:'Hockey Club Oeste',acc:'#facc15',accInk:'#2a2100',bg:'#0a1a4a'},
+ {k:'basquet',w:'BÁSQUET',club:'Atlético Centro',acc:'#fb923c',accInk:'#2a1000',bg:'#2a1204'},
+ {k:'voley',w:'VÓLEY',club:'Vóley Club Costa',acc:'#f472b6',accInk:'#2a0418',bg:'#1a0f2e'},
+];
+$('tImg').insertAdjacentHTML('afterbegin',COURT.tenis());
+function bannerHTML(sp){return COURT[sp.k]()+`<div class="shade"></div><div class="in"><div><div class="crest2">${ICON[sp.k]}</div><h4>${sp.club}</h4><p>Reservá canchas, clases y torneos</p></div><div class="cta" style="background:${sp.acc};color:${sp.accInk}">Reservar</div></div>`}
+// tiles
+(()=>{let h='';SP.forEach((sp,i)=>{const x=70+(i%2)*485,y=560+Math.floor(i/2)*285;
+ h+=`<div class="tile" id="tl${i}" style="left:${x}px;top:${y}px">${COURT[sp.k]()}<div class="shade"></div><div class="acc" style="background:${sp.acc}"></div><div class="in"><div class="crest2">${ICON[sp.k]}</div><div><b>${sp.club}</b><span>${sp.w.charAt(0)+sp.w.slice(1).toLowerCase()}</span></div></div></div>`});$('tiles').innerHTML=h;})();
+// bars
+(()=>{const d=["L","M","M","J","V","S","D"];let h='';d.forEach((x,i)=>h+=`<div class="b${i==5?' hi':''}"><div id="bb${i}"></div><span>${x}</span></div>`);$('bars').innerHTML=h;})();
+const BARH=[.45,.55,.5,.7,.85,1,.75];
+// marquee
+(()=>{const it=["Canales WhatsApp","Profesores","Calendario","Sponsors","CRM","Sitio web","Buffet / POS","Multi-sede","Conteo diario"];let h='';for(let k=0;k<2;k++)it.forEach(x=>h+=`<span>${x}</span>`);$('marq').innerHTML=h;})();
+// confetti
+(()=>{let h='';const cols=['#c6f432','#174a37','#ffffff','#38bdf8','#ff6b57'];for(let i=0;i<46;i++)h+=`<i id="cf${i}" style="background:${cols[i%5]}"></i>`;$('confetti').innerHTML=h;})();
+const rnd=(i,s=1)=>{const x=Math.sin(i*127.1+s*311.7)*43758.5453;return x-Math.floor(x)};
+
+let curA=-1,curB=-1,curUi=-1;
+function setBanner(id,idx,store){ if(store===idx)return idx; $(id).innerHTML=bannerHTML(SP[idx]); return idx;}
+function setUi(idx){ if(curUi===idx)return; curUi=idx; const sp=SP[idx];
+  const ds=[["JUE",8],["VIE",9],["SÁB",10],["DOM",11],["LUN",12]];let h='';
+  ds.forEach((d,i)=>h+=`<div class="d${i==1?' s':''}" style="${i==1?`background:${sp.acc};border-color:${sp.acc}`:''}">${d[0]}<b>${d[1]}</b></div>`);
+  h+=`<div class="d" style="width:auto;padding:0 34px;flex-direction:row;font-size:28px;font-weight:800;background:${sp.acc};border-color:${sp.acc};color:${sp.accInk}">Reservar</div>`;
+  $('uirow').innerHTML=h; $('s5bg').style.background=`radial-gradient(ellipse 100% 70% at 50% 40%, ${sp.bg} 0%, #030806 80%)`; $('swordT').style.color=sp.acc; $('swordT').textContent=sp.w;}
+
+/* ---------- RENDER ---------- */
+function vis(id,a,b){const on=window.__t>=a&&window.__t<b;$(id).style.display=on?'block':'none';return on}
+
+function render(t){
+  window.__t=t;
+  /* ===== S1 0-3.1 ===== */
+  if(vis('s1',0,3.15)){
+    const words=[...document.querySelectorAll('#s1 .w')];
+    const wt=[0.25,0.42,0.66,1.04,1.18,1.57,1.75,2.22,2.29];
+    words.forEach((w,i)=>{const x=P(t,wt[i],wt[i]+.32);S(w,{op:P(t,wt[i],wt[i]+.08),y:(1-eo5(x))*40,s:L(1.25,1,eo5(x)),b:(1-x)*8})});
+    // planillas: shake slightly
+    const pl=words[6]; if(t>1.75){const k=P(t,1.75,2.0);S(pl,{op:1,s:L(1.5,1,eo5(k)),r:Math.sin(t*40)*1.2*(1-k)})}
+    // sheet rows
+    document.querySelectorAll('#sheet div').forEach(d=>{const r=+d.dataset.r;const x=P(t,1.78+r*.06,1.9+r*.06);d.style.opacity=x;});
+    S('sheet',{op:P(t,1.72,1.85),y:(1-eo5(P(t,1.72,2.1)))*80,r:-5});
+    const bt=[2.3,2.42,2.54,2.66,2.78];
+    ['b1','b2','b3','b4','b5'].forEach((b,i)=>{const p=pop(t,bt[i],.3);S(b,{...p,r:(i%2?3:-3)})});
+    S('badge',pop(t,2.86,.25));
+    // chaos shake + exit
+    const sh=P(t,2.55,2.95)*(1-P(t,2.95,3.1));
+    const ex=eio(P(t,2.9,3.12));
+    S('s1in',{x:Math.sin(t*63)*10*sh,y:Math.cos(t*51)*8*sh,s:L(1,.86,ex),b:ex*14,op:1-ex*.6});
+    S('s1',{op:1});
+  }
+  /* ===== S2+S3 2.9-8.3 ===== */
+  if(vis('s2',2.9,8.35)){
+    // circle reveal
+    const r=eio(P(t,2.9,3.2))*1300;
+    $('s2').style.clipPath=t<3.2?`circle(${r}px at 540px 960px)`:'none';
+    const push=L(1.06,1,eo3(P(t,2.9,3.6)));
+    // exit to S4
+    const ex=eio(P(t,7.95,8.3));
+    S('s2in',{s:push*L(1,.92,ex),op:1-ex,b:ex*10});
+    S('glow2',{op:.9+.1*Math.sin(t*2),s:1+.05*Math.sin(t*1.3)});
+    // "Con" + wordmark
+    S('con',{...rise(t,3.08,.35,30),op:P(t,3.08,3.2)*(1-P(t,4.1,4.3))});
+    const wmIn=P(t,3.35,3.75), wmMove=eio(P(t,4.15,4.55));
+    S('wm2',{op:P(t,3.35,3.45),y:L(0,-150,wmMove)+(1-eo5(wmIn))*40,s:L(1.35,1,eo5(wmIn))*L(1,.38,wmMove),b:(1-wmIn)*16});
+    // caption 2
+    const out2=P(t,6.0,6.3);
+    S('c2a',t<6?maskUp(t,4.38,.45):maskOut(t,6.0,.28));
+    S('c2b',t<6?maskUp(t,5.3,.45):maskOut(t,6.04,.28));
+    $('cap2').style.display=(t>4.3&&t<6.4)?'block':'none';
+    // caption 3
+    $('cap3').style.display=(t>6.4)?'block':'none';
+    S('c3a',maskUp(t,6.68,.45)); S('c3b',maskUp(t,7.22,.45));
+    // phone entrance
+    const ph=spr(P(t,3.05,4.1));
+    S('phone',{y:L(1300,0,ph),r:L(8,0,ph)});
+    // days selection
+    const tapDay=4.5, tapCell=5.0;
+    for(let i=0;i<5;i++){$('d'+i).classList.toggle('sel',(t<tapDay+.05)?i==0:i==1)}
+    S('d1',{s:t>tapDay&&t<tapDay+.25?1-.08*Math.sin(P(t,tapDay,tapDay+.25)*Math.PI):1});
+    // grid cells
+    for(let i=0;i<5;i++)for(let j=0;j<3;j++){
+      const c=$('c'+i+j); const st=tapDay+.08+(i*3+j)*.022; const flip=P(t,st,st+.16);
+      const pat=flip<.5?PAT_A:PAT_B; let cls=pat[i][j]?'ocu':'lib';
+      let txt=pat[i][j]?'Ocupado':'Libre';
+      if(i==2&&j==1&&t>tapCell+.06){cls='mine';txt='Tu turno ✓'}
+      c.className='cell '+cls; c.textContent=txt;
+      let s=1; if(i==2&&j==1&&t>tapCell){s=1+.12*Math.sin(P(t,tapCell,tapCell+.3)*Math.PI)}
+      S(c,{sy:Math.abs(Math.cos(flip*Math.PI))*(1)||0.0001,sx:s,op:1});
+    }
+    // toast
+    const ti=eback(P(t,5.22,5.55)), to=eio(P(t,5.95,6.15));
+    S('toast',{y:L(-200,0,ti)-to*220,op:P(t,5.22,5.3)*(1-to)});
+    // strip slide
+    const sl1=eio(P(t,6.08,6.45)), sl2=eio(P(t,7.08,7.45));
+    S('strip',{x:-608*sl1-608*sl2});
+    $('sbar').style.color=sl1<.5?'#fff':'#0f1a15';
+    // nav
+    const navIdx=t<6.1?0:t<7.1?1:2;
+    for(let i=0;i<4;i++)$('nv'+i).classList.toggle('on',i==navIdx);
+    const nx=L(L(20,172,sl1),324,sl2);
+    $('navind').style.left=(nx+0)+'px';
+    // class button
+    const okc=eo3(P(t,6.78,6.95)); S('okCls',{op:1,y:(1-okc)*60}); $('okCls').style.clipPath=`inset(${(1-okc)*100}% 0 0 0)`;
+    S('btnCls',{s:t>6.7&&t<7?1-.08*Math.sin(P(t,6.7,6.95)*Math.PI):1});
+    // tournament
+    const okt=eo3(P(t,7.6,7.78)); S('okT',{op:1}); $('okT').style.clipPath=`inset(0 ${(1-okt)*100}% 0 0)`;
+    S('btnT',{s:t>7.52&&t<7.8?1-.05*Math.sin(P(t,7.52,7.78)*Math.PI):1});
+    $('tprog').style.width=L(72,75,eo3(P(t,7.6,7.9)))+'%'; $('tcount').textContent=t>7.62?'24 de 32 inscriptos':'23 de 32 inscriptos';
+    // confetti
+    for(let i=0;i<46;i++){const el=$('cf'+i);const k=P(t,7.62,8.3);if(k<=0||k>=1){el.style.opacity=0;continue}
+      const a=rnd(i)*Math.PI-Math.PI; const v=380+rnd(i,2)*520; const tt=k*.75;
+      const x=304+Math.cos(a)*v*tt; const y=900+Math.sin(a)*v*tt+900*tt*tt;
+      el.style.opacity=1-P(k,.7,1); el.style.transform=`translate(${x}px,${y}px) rotate(${k*720*(rnd(i,3)-.5)}deg)`;}
+    // touch indicator positions (screen coords, screen width 608)
+    const taps=[[3.9,tapDay,173,480],[tapDay+.2,tapCell,330,770],[6.4,6.72,500,272],[7.25,7.54,304,795]];
+    let tx=-200,ty=-200,top=0,press=0;
+    for(const[a,b,x,y] of taps){ if(t>=a-.45&&t<=b+.35){ const k=eo3(P(t,a-.45,b-.08)); tx=L(x+90,x,k); ty=L(y+160,y,k); top=P(t,a-.45,a-.25)*(1-P(t,b+.18,b+.35)); press=Math.sin(P(t,b-.06,b+.12)*Math.PI);}}
+    // smooth chained movement between tap 1 and 2
+    if(t>tapDay&&t<tapCell+.35){const k=eio(P(t,tapDay+.08,tapCell-.05));tx=L(173,330,k);ty=L(480,770,k);top=1-P(t,tapCell+.18,tapCell+.35);press=Math.max(Math.sin(P(t,tapDay-.06,tapDay+.12)*Math.PI),Math.sin(P(t,tapCell-.06,tapCell+.12)*Math.PI))}
+    S('touch',{x:tx,y:ty,s:1-.25*press,op:top*.95});
+    let rp=0,rk=0;for(const[,b,x,y] of taps){if(t>=b&&t<b+.45){rk=P(t,b,b+.45);rp=1;S('ripple',{x,y,s:L(.6,2.6,eo3(rk)),op:(1-rk)*.9})}}
+    if(!rp)S('ripple',{op:0});
+  }
+  /* ===== S4 8.0-12.45 ===== */
+  if(vis('s4',7.95,12.5)){
+    const en=eio(P(t,7.95,8.3)), ex=eio(P(t,12.15,12.45));
+    S('s4in',{s:L(1.1,1,en)*L(1,1.25,ex),op:en*(1-ex),b:(1-en)*10+ex*18});
+    S('s4',{op:1});
+    S('pill4',rise(t,8.12,.4,30));
+    S('c4a',maskUp(t,8.18,.45)); S('c4b',{...maskUp(t,8.95,.4)});
+    const kt=[9.48,10.06,10.68,11.14];
+    ['k1','k2','k3','k4'].forEach((k,i)=>{const x=P(t,kt[i],kt[i]+.5);S(k,{op:P(t,kt[i],kt[i]+.12),y:(1-spr(x))*120,s:L(.82,1,spr(x)),r:(1-spr(x))*(i%2?4:-4)})});
+    const cn=eo3(P(t,9.6,10.5)); $('cajaN').textContent='$ '+Math.round(1284500*cn).toLocaleString('es-AR');
+    const sp=$('spark'); const len=520; sp.style.strokeDasharray=len; sp.style.strokeDashoffset=len*(1-eio(P(t,9.65,10.5)));
+    [['sb1',.82],['sb2',.07],['sb3',.6]].forEach(([id,w],i)=>{$(id).style.width=(w*100*eo3(P(t,10.2+i*.08,10.6+i*.08)))+'%'});
+    S('warn',{op:P(t,10.45,10.55),s:1+.06*Math.sin(Math.max(0,t-10.5)*10)*(t>10.5?1:0)});
+    ['p1','p2','p3','p4'].forEach((p,i)=>S(p,{...rise(t,10.82+i*.13,.3,24)}));
+    for(let i=0;i<7;i++){$('bb'+i).style.height=(BARH[i]*140*eback(P(t,11.24+i*.05,11.6+i*.05)))+'px'}
+    $('occ').textContent=Math.round(87*eo3(P(t,11.25,11.9)))+'%';
+    S('marq',{x:-P(t,11.4,12.5)*620+30,op:P(t,11.55,11.75)});
+  }
+  /* ===== S5 12.2-16.55 ===== */
+  if(vis('s5',12.2,16.6)){
+    const en=eio(P(t,12.2,12.5)), ex=eio(P(t,16.3,16.55));
+    S('s5in',{s:L(.85,1,en)*L(1,.9,ex),op:en*(1-ex),b:(1-en)*14+ex*16});
+    S('s5',{op:1});
+    const sw=[12.4,13.14,13.66,14.02,14.17,14.31]; let idx=0; for(let i=0;i<sw.length;i++)if(t>=sw[i])idx=i;
+    const prev=Math.max(0,idx-1);
+    curA=setBanner('banA',prev,curA); curB=setBanner('banB',idx,curB); setUi(idx);
+    const d=idx>=3?.1:.22; const k=eio(P(t,sw[idx],sw[idx]+d));
+    $('banB').style.clipPath=idx==0?'none':`inset(0 0 0 ${(1-k)*100}%)`;
+    const grid=P(t,14.45,14.75);
+    const punch=1+.035*Math.sin(P(t,sw[idx],sw[idx]+.3)*Math.PI);
+    ['banA','banB'].forEach(id=>S(id,{s:punch*L(1,.6,eio(grid)),op:1-grid,y:L(0,40,grid)}));
+    // big word
+    const wk=eo5(P(t,sw[idx],sw[idx]+(idx>=3?.1:.3)));
+    S('swordT',{y:(1-wk)*220,op:1-grid});
+    S('uirow',{op:(1-grid)*P(t,12.45,12.65),y:(1-eo5(P(t,12.45,12.8)))*60});
+    // grid
+    for(let i=0;i<6;i++){const x=P(t,14.48+i*.07,14.98+i*.07);S('tl'+i,{op:P(t,14.48+i*.07,14.6+i*.07),s:L(.7,1,spr(x)),y:(1-spr(x))*60})}
+    $('cap5').style.display=t>14.4?'block':'none';
+    S('c5a',maskUp(t,14.42,.45)); S('c5b',maskUp(t,15.05,.45));
+    S('custom',rise(t,15.45,.5,40));
+  }
+  /* ===== S6 16.35-20 ===== */
+  if(vis('s6',16.35,20.1)){
+    const en=eio(P(t,16.35,16.6));
+    S('s6',{op:en});
+    S('s6in',{s:L(1.0,1.04,P(t,16.5,20))});
+    const r=eo5(P(t,16.48,17.2)); S('ring6',{s:r*260,op:(1-r)*.9});
+    const w=P(t,16.55,17.05); S('wm6',{op:P(t,16.55,16.65),s:L(1.6,1,eo5(w)),b:(1-eo5(w))*20});
+    $('wm6w').style.letterSpacing=L(.15,-.04,eo5(w))+'em';
+    // sweep highlight
+    const swp=P(t,17.0,17.7); $('sweep').style.background=`linear-gradient(100deg,transparent ${swp*140-40}%,rgba(255,255,255,.9) ${swp*140-20}%,transparent ${swp*140}%)`;
+    S('t6a',maskUp(t,17.05,.45)); S('t6b',maskUp(t,17.3,.45));
+    S('by6',rise(t,17.9,.5,40));
+    S('lab6',rise(t,18.35,.4,20));
+    const cp=P(t,18.45,18.85); S('cta6',{op:P(t,18.45,18.55),s:L(.6,1,eback(cp))*(1+.025*Math.sin(Math.max(0,t-19)*6))});
+    S('sh6',{x:L(-200,900,P(t,19.0,19.6))});
+  }
+  // flashes at hard cuts
+  const fl=Math.max(0,1-Math.abs(t-3.0)/.08)*.0+Math.max(0,1-Math.abs(t-16.5)/.1)*.35;
+  $('flash').style.opacity=fl;
+  // grain jitter
+  $('grain').style.transform=`translate(${(rnd(Math.floor(t*30))*100-50).toFixed(0)}px,${(rnd(Math.floor(t*30),7)*100-50).toFixed(0)}px)`;
+}
+// sweep element
+(()=>{const d=document.createElement('div');d.id='sweep';$('s6in').appendChild(d)})();
+window.render=render;
+render(parseFloat(new URLSearchParams(location.search).get('t')||'0'));
+</script>
+</body>
+</html>
