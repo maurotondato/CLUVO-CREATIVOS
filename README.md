@@ -40,3 +40,7 @@ npx openedit --help               # lista de comandos (render, transcribe, mix-a
 ```
 
 Cada pieza que se haga con el skill queda en `runs/<key>/` (ignorado en git).
+
+## Wan 2.2 (video con IA)
+
+Hay scripts para generar clips con [Wan2.2](https://github.com/Wan-Video/Wan2.2), ya sea pagando en fal (`wan/fal.sh`) o gratis en una PC con GPU NVIDIA de 24 GB (`wan/instalar-local.sh` y `wan/generar-local.sh`). Ver [`wan/README.md`](wan/README.md).
