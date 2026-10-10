@@ -1,3 +1,6 @@
 video/build/
 video/preview/
 __pycache__/
+node_modules/
+runs/
+.open-edit-prefs.json

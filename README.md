@@ -29,3 +29,14 @@ node render.js full 60 build/video_60.mp4           # animación (Playwright) ->
 - `video/reel.html` tiene toda la animación. `render(t)` dibuja el fotograma del segundo `t`, así que cada render da exactamente el mismo resultado. Para revisar un instante puntual se puede abrir con `?t=5.4`.
 - Las pantallas de la app están recreadas con el diseño real de CLUVO y cargadas con datos de ejemplo.
 - La foto de cancha de tenis pertenece al club demo "Hipódromo Tenis". Cada club carga la suya desde Personalización.
+
+## Open Edit (VEED)
+
+El skill [`open-edit`](https://github.com/veedstudio/open-edit) está instalado en `.claude/skills/open-edit/` (y `.agents/skills/` para Codex/Gemini), con el CLI `@veedstudio/openedit-cli` fijado en `package.json`.
+
+```bash
+npm install                       # instala el CLI fijado
+npx openedit --help               # lista de comandos (render, transcribe, mix-audio, etc.)
+```
+
+Cada pieza que se haga con el skill queda en `runs/<key>/` (ignorado en git).
