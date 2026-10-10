@@ -144,22 +144,21 @@ export const Flashes: React.FC = () => {
 /** Grano fino animado (cambia en cada frame) y viñeta leve. */
 export const GrainAndVignette: React.FC = () => {
 	const frame = useCurrentFrame();
+	const k = Math.floor(random(`grain-k-${frame}`) * 12);
+	const ox = Math.round(random(`grain-x-${frame}`) * 400);
+	const oy = Math.round(random(`grain-y-${frame}`) * 400);
 	return (
 		<>
-			<AbsoluteFill style={{mixBlendMode: 'overlay', opacity: 0.075}}>
-				<svg width={W} height={H}>
-					<filter id={`grain-${frame}`} x="0" y="0" width="100%" height="100%">
-						<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves={2} seed={frame + 1} stitchTiles="stitch" />
-						<feColorMatrix type="saturate" values="0" />
-						<feComponentTransfer>
-							<feFuncR type="linear" slope={1.6} intercept={-0.3} />
-							<feFuncG type="linear" slope={1.6} intercept={-0.3} />
-							<feFuncB type="linear" slope={1.6} intercept={-0.3} />
-						</feComponentTransfer>
-					</filter>
-					<rect width={W} height={H} filter={`url(#grain-${frame})`} />
-				</svg>
-			</AbsoluteFill>
+			<AbsoluteFill
+				style={{
+					mixBlendMode: 'overlay',
+					opacity: 0.32,
+					backgroundImage: `url(${staticFile(`grain/g${String(k).padStart(2, '0')}.png`)})`,
+					backgroundSize: `${W}px ${H}px`,
+					backgroundPosition: `${ox}px ${oy}px`,
+					backgroundRepeat: 'repeat',
+				}}
+			/>
 			<AbsoluteFill
 				style={{
 					background: 'radial-gradient(ellipse 75% 62% at 50% 50%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.42) 100%)',

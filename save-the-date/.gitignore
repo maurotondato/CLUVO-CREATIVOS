@@ -8,9 +8,12 @@ analysis/*.wav
 public/plates.mp4
 public/crystals.mp4
 output/render_master.mov
+output/frames/
 output/audio_final.wav
 output/x264wa*
 qa/final_frames/
 qa/final_frames_png/
 qa/stills/
 qa/render*.log
+public/grain/
+qa/partial/

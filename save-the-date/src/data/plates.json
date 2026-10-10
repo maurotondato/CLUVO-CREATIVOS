@@ -168,9 +168,9 @@
     226,
     238
    ],
-   "shot": "stage",
-   "src": 127,
-   "speed": 1.0,
+   "shot": "hands",
+   "src": 171,
+   "speed": 0.9166666666666666,
    "mirror": true,
    "zoom": [
     1.15,
@@ -178,7 +178,7 @@
    ],
    "punch": true,
    "status": "reconstruido",
-   "note": "bola de espejos -> luces del escenario, espejado"
+   "note": "bola de espejos -> destellos sobre la multitud (oscuro, como la bola), espejado"
   },
   {
    "out": [
@@ -243,16 +243,20 @@
     295,
     306
    ],
-   "shot": "hands",
-   "src": 171,
+   "shot": "stage",
+   "src": 128,
    "speed": 1.0,
    "mirror": true,
    "zoom": [
-    1.2,
-    1.26
+    1.25,
+    1.3
+   ],
+   "center": [
+    0.5,
+    0.66
    ],
    "status": "reconstruido",
-   "note": "panel de luces -> destellos de las manos con confeti"
+   "note": "panel de luces -> luces del escenario arriba, siluetas detrás de la fecha"
   },
   {
    "out": [

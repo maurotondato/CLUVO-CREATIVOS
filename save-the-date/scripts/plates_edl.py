@@ -69,8 +69,8 @@ SEGMENTS = [
     # Tramo 6 (Bloque B)
     dict(out=[210, 226], shot="neon", src=210, speed=9 / 16, status="reconstruido",
          note="neón: los 9 frames limpios estirados a 16"),
-    dict(out=[226, 238], shot="stage", src=127, speed=1.0, mirror=True, zoom=[1.15, 1.2], punch=True,
-         status="reconstruido", note="bola de espejos -> luces del escenario, espejado"),
+    dict(out=[226, 238], shot="hands", src=171, speed=11 / 12, mirror=True, zoom=[1.15, 1.2], punch=True,
+         status="reconstruido", note="bola de espejos -> destellos sobre la multitud (oscuro, como la bola), espejado"),
     dict(out=[238, 251], shot="flash", src=141, speed=1.0, mirror=True, zoom=[1.1, 1.14], status="reconstruido",
          note="panel LED que se quema -> flash que quema, espejado"),
     dict(out=[251, 264], shot="bokeh", src=159, speed=4 / 12, mirror=True, zoom=[1.3, 1.36], punch=True,
@@ -78,8 +78,8 @@ SEGMENTS = [
     dict(out=[264, 278], shot="black", status="reconstruido", note="doodles sobre negro (doodles recreados en Remotion)"),
     dict(out=[278, 295], shot="vhs", src=202, speed=8 / 17, mirror=True, zoom=[1.05, 1.1], status="reconstruido",
          note="collage VHS -> collage de 6,73 espejado a 0,47x"),
-    dict(out=[295, 306], shot="hands", src=171, speed=1.0, mirror=True, zoom=[1.2, 1.26], status="reconstruido",
-         note="panel de luces -> destellos de las manos con confeti"),
+    dict(out=[295, 306], shot="stage", src=128, speed=1.0, mirror=True, zoom=[1.25, 1.3], center=[0.5, 0.66],
+         status="reconstruido", note="panel de luces -> luces del escenario arriba, siluetas detrás de la fecha"),
     # Tramo 7: limpio, con fantasmas de MADERO TANGO a la izquierda desde 329
     dict(out=[306, 329], shot="orig", src=306, status="limpio"),
     dict(out=[329, 350], shot="orig", src=329, ghosts=True, status="limpio+fantasmas",

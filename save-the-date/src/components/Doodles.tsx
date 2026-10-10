@@ -23,6 +23,8 @@ const smooth = (pts: Pt[], closed = false) => {
 	return closed ? d + ' Z' : d;
 };
 
+const poly = (pts: Pt[]) => pts.map(([x, y], i) => `${i ? 'L' : 'M'} ${x.toFixed(1)} ${y.toFixed(1)}`).join(' ');
+
 const Stroke: React.FC<{d: string; w: number; fill?: boolean}> = ({d, w, fill}) => (
 	<path
 		d={d}
@@ -51,12 +53,12 @@ export const Doodles: React.FC = () => {
 		const h = 170;
 		content = (
 			<g>
-				<Stroke d={smooth(J([[150, CY - h], [55, CY], [150, CY + h]], 6, 'lt'))} w={44} />
-				<Stroke d={smooth(J([[930, CY - h], [1025, CY], [930, CY + h]], 6, 'gt'))} w={44} />
-				<Stroke d={smooth(J([[250, CY - h + 10], [370, CY], [490, CY + h - 10]], 6, 'x1a'))} w={48} />
-				<Stroke d={smooth(J([[490, CY - h + 10], [370, CY], [250, CY + h - 10]], 6, 'x1b'))} w={48} />
-				<Stroke d={smooth(J([[590, CY - h + 10], [710, CY], [830, CY + h - 10]], 6, 'x2a'))} w={48} />
-				<Stroke d={smooth(J([[830, CY - h + 10], [710, CY], [590, CY + h - 10]], 6, 'x2b'))} w={48} />
+				<Stroke d={poly(J([[185, CY - h - 20], [45, CY], [185, CY + h + 20]], 6, 'lt'))} w={54} />
+				<Stroke d={poly(J([[895, CY - h - 20], [1035, CY], [895, CY + h + 20]], 6, 'gt'))} w={54} />
+				<Stroke d={poly(J([[245, CY - h], [495, CY + h]], 6, 'x1a'))} w={56} />
+				<Stroke d={poly(J([[495, CY - h], [245, CY + h]], 6, 'x1b'))} w={56} />
+				<Stroke d={poly(J([[585, CY - h], [835, CY + h]], 6, 'x2a'))} w={56} />
+				<Stroke d={poly(J([[835, CY - h], [585, CY + h]], 6, 'x2b'))} w={56} />
 			</g>
 		);
 		rough = 12;
@@ -140,14 +142,14 @@ export const Doodles: React.FC = () => {
 	} else if (inR(d.scribble)) {
 		// garabato circular enorme que tapa la fecha
 		const pts: Pt[] = [];
-		const cx = 430;
-		for (let i = 0; i < 46; i++) {
-			const a = i * 0.62;
-			const rx = 300 + (random(`scr-rx-${i}`) - 0.5) * 120;
-			const ry = 190 + (random(`scr-ry-${i}`) - 0.5) * 90;
+		const cx = 400;
+		for (let i = 0; i < 52; i++) {
+			const a = i * 0.6;
+			const rx = 360 + (random(`scr-rx-${i}`) - 0.5) * 150;
+			const ry = 250 + (random(`scr-ry-${i}`) - 0.5) * 110;
 			pts.push([cx + Math.cos(a) * rx + (random(`scr-ox-${i}`) - 0.5) * 80, CY + Math.sin(a) * ry]);
 		}
-		content = <Stroke d={smooth(J(pts, 6, 'scr'))} w={26} />;
+		content = <Stroke d={smooth(J(pts, 6, 'scr'))} w={34} />;
 		rough = 8;
 	}
 	if (!content) return null;

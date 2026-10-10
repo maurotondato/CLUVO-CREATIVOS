@@ -21,10 +21,12 @@ fi
 .venv/bin/python scripts/plates_edl.py
 .venv/bin/python scripts/build_plates.py
 node scripts/fetch_fonts.mjs
+.venv/bin/python scripts/make_grain.py
 .venv/bin/python scripts/prepare_logo.py
 
 # 3. render de Remotion (textos, animaciones, efectos) y audio
-npx remotion render src/index.ts SaveTheDate output/render_master.mov --codec=prores --prores-profile=hq --concurrency=3
+rm -rf output/frames
+npx remotion render src/index.ts SaveTheDate --sequence --image-format=png output/frames --concurrency=4
 .venv/bin/python scripts/make_audio.py
 
 # 4. export y QA

@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "studio": "remotion studio src/index.ts",
-    "render": "remotion render src/index.ts SaveTheDate output/render_master.mov --codec=prores --prores-profile=4444 --pixel-format=yuva444p10le"
+    "render": "remotion render src/index.ts SaveTheDate --sequence --image-format=png output/frames --concurrency=4",
+    "build": "scripts/build_all.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.529",

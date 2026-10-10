@@ -80,7 +80,7 @@ export const BlockB: React.FC<{cfg: InvitationConfig}> = ({cfg}) => {
 								}
 							: {
 									color: '#fff',
-									filter: 'url(#outline-date) drop-shadow(0 0 2px rgba(0,0,0,0.9)) drop-shadow(0 2px 5px rgba(0,0,0,0.5))',
+									filter: 'url(#outline-date) drop-shadow(0 0 1.5px rgba(0,0,0,1)) drop-shadow(0 0 4px rgba(0,0,0,0.75))',
 								};
 						return (
 							<span

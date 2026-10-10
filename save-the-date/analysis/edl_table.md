@@ -11,12 +11,12 @@
 | 100-113 | 3,33–3,80 | reconstruido | chrysler (459-463) | 0.31x, zoom 1.05→1.22 | vista cenital -> Chrysler con push-in lento |
 | 114-209 | 3,80–7,00 | limpio | original 114-209 |  | DJ, multitud, flash, bokeh, manos, manuscritos, VHS |
 | 210-225 | 7,00–7,53 | reconstruido | neon (210-218) | 0.56x | neón: los 9 frames limpios estirados a 16 |
-| 226-237 | 7,53–7,93 | reconstruido | stage (127-138) | espejado, zoom 1.15→1.20, punch-in | bola de espejos -> luces del escenario, espejado |
+| 226-237 | 7,53–7,93 | reconstruido | hands (171-181) | espejado, 0.92x, zoom 1.15→1.20, punch-in | bola de espejos -> destellos sobre la multitud (oscuro, como la bola), espejado |
 | 238-250 | 7,93–8,37 | reconstruido | flash (141-153) | espejado, zoom 1.10→1.14 | panel LED que se quema -> flash que quema, espejado |
 | 251-263 | 8,37–8,80 | reconstruido | bokeh (159-163) | espejado, 0.33x, zoom 1.30→1.36, punch-in | bokeh con cartel -> bokeh espejado |
 | 264-277 | 8,80–9,27 | reconstruido | negro |  | doodles sobre negro (doodles recreados en Remotion) |
 | 278-294 | 9,27–9,83 | reconstruido | vhs (202-210) | espejado, 0.47x, zoom 1.05→1.10 | collage VHS -> collage de 6,73 espejado a 0,47x |
-| 295-305 | 9,83–10,20 | reconstruido | hands (171-181) | espejado, zoom 1.20→1.26 | panel de luces -> destellos de las manos con confeti |
+| 295-305 | 9,83–10,20 | reconstruido | stage (128-138) | espejado, zoom 1.25→1.30 | panel de luces -> luces del escenario arriba, siluetas detrás de la fecha |
 | 306-328 | 10,20–10,97 | limpio | original 306-328 |  |  |
 | 329-349 | 10,97–11,67 | limpio+fantasmas | original 329-349 | borrado de fantasmas | doodles originales; se rellenan los contornos tenues de MADERO TANGO |
 | 350-373 | 11,67–12,47 | reconstruido | flatiron (471-485) | 0.62x, zoom 1.30→1.45, punch-in | Grand Central con estelas -> estelas del Flatiron |
