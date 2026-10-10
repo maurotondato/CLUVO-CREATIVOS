@@ -1,0 +1,4972 @@
+{
+ "forbidden": [
+  "ONA",
+  "28",
+  "MADERO",
+  "TANGO",
+  "LOMBARDI",
+  "OL"
+ ],
+ "frames": [
+  {
+   "file": "s0000.png",
+   "t": 0.0,
+   "frame": 0,
+   "text": ". o~ SAVE THE DATE | . o~ SAVE THE DATE",
+   "hits": []
+  },
+  {
+   "file": "s0001.png",
+   "t": 0.033,
+   "frame": 1,
+   "text": "a Wy ee b. i e /I\\ p Ne | a vy ee b. i e /I\\ p Ne",
+   "hits": []
+  },
+  {
+   "file": "s0002.png",
+   "t": 0.067,
+   "frame": 2,
+   "text": "\\l \\ >, ws ~ Ne ¢ ™~™ > ee | '| » a | \\l x >, ws Ne Ne ¢ ™~™ > a | '| » i fe",
+   "hits": []
+  },
+  {
+   "file": "s0003.png",
+   "t": 0.1,
+   "frame": 3,
+   "text": "SX \\y / v wi b-y | ar ij, | NS \\ / Nv wi bey | a ij, <",
+   "hits": []
+  },
+  {
+   "file": "s0004.png",
+   "t": 0.133,
+   "frame": 4,
+   "text": "\\ ’ \\y 4 ‘\\ ” fey 4 | \\ ’ \\y 4 \\ a ofhy 4",
+   "hits": []
+  },
+  {
+   "file": "s0005.png",
+   "t": 0.167,
+   "frame": 5,
+   "text": "‘yy i p: Che / { is is) ¢ | ‘yy i p: % Cie / \\ i> is: mY",
+   "hits": []
+  },
+  {
+   "file": "s0006.png",
+   "t": 0.2,
+   "frame": 6,
+   "text": "L4 & 7 \\ mY Wy 4, (= @ ~\\ | Joe “Sa a 7k | L & 7 \\ mY Wy 4, (~= @ ~\\ | Joe “Sa S. 7k",
+   "hits": []
+  },
+  {
+   "file": "s0007.png",
+   "t": 0.233,
+   "frame": 7,
+   "text": "Ny *} a a! - @ / sg. '} | oN ‘» , a! ~ @ / sgs '}",
+   "hits": []
+  },
+  {
+   "file": "s0008.png",
+   "t": 0.267,
+   "frame": 8,
+   "text": "4. ( * ” air \\ ff ~ / Na, & / bn, Nags ‘ | /. ( * ™~ air \\ ff / Na, & / bx, oN gs ‘",
+   "hits": []
+  },
+  {
+   "file": "s0009.png",
+   "t": 0.3,
+   "frame": 9,
+   "text": "Py i aA Yh \" ‘= * ww ® | Py Wi <S %h \" ‘= * ws ®",
+   "hits": []
+  },
+  {
+   "file": "s0010.png",
+   "t": 0.333,
+   "frame": 10,
+   "text": "; Vig x = Y bp ; $ / ay ’ | ; Vg x = Y bp ; $ / ay ’",
+   "hits": []
+  },
+  {
+   "file": "s0011.png",
+   "t": 0.367,
+   "frame": 11,
+   "text": "x4? eS \\ Y a ~ = / = = “eA Le @ Dy | a4? eS \\ Y a ~ ££ / = “e/ } C Dy",
+   "hits": []
+  },
+  {
+   "file": "s0012.png",
+   "t": 0.4,
+   "frame": 12,
+   "text": "aN yi wy di 4 a, . | aN yi wy- di 4) a, y",
+   "hits": []
+  },
+  {
+   "file": "s0013.png",
+   "t": 0.433,
+   "frame": 13,
+   "text": "\\\" Y A, a . ) qi\" i. & ler | \\\" Y A, a . ) qi\" i. & ler",
+   "hits": []
+  },
+  {
+   "file": "s0014.png",
+   "t": 0.467,
+   "frame": 14,
+   "text": "a 64 A N 4 NE OY 7, af. / al | ly | a O64 A N 4 NE OY 7, af. / al | ly",
+   "hits": []
+  },
+  {
+   "file": "s0015.png",
+   "t": 0.5,
+   "frame": 15,
+   "text": "Qs ». > 4 1S y ¥ b> UW. “) | Soe ys > 4 1S y ¥ b> UW. “)",
+   "hits": []
+  },
+  {
+   "file": "s0016.png",
+   "t": 0.533,
+   "frame": 16,
+   "text": "XY. 4* ~ f / ye ma | XY. 4* ~ f / ye ma",
+   "hits": []
+  },
+  {
+   "file": "s0017.png",
+   "t": 0.567,
+   "frame": 17,
+   "text": "ne foyekabs. u | Colne fojetabs u",
+   "hits": []
+  },
+  {
+   "file": "s0018.png",
+   "t": 0.6,
+   "frame": 18,
+   "text": "feabe —s | es —s",
+   "hits": []
+  },
+  {
+   "file": "s0019.png",
+   "t": 0.633,
+   "frame": 19,
+   "text": "id [ofiabs ub a | =— | id [ofiabs ub a | =—s",
+   "hits": []
+  },
+  {
+   "file": "s0020.png",
+   "t": 0.667,
+   "frame": 20,
+   "text": "me |ojetobs ~ a) u oa | ee |ojetobs ~<) u“ a",
+   "hits": []
+  },
+  {
+   "file": "s0021.png",
+   "t": 0.7,
+   "frame": 21,
+   "text": "me lofbiabs ek he > 6 =—s + | me lofBiabs ed he 6 — tt",
+   "hits": []
+  },
+  {
+   "file": "s0022.png",
+   "t": 0.733,
+   "frame": 22,
+   "text": "—— es — m 46 — ~ — a 1 SS\" Bs aS ey : * » | —— es = m 6 — _ — a 1 SS\" Bs aS ey : . »",
+   "hits": []
+  },
+  {
+   "file": "s0023.png",
+   "t": 0.767,
+   "frame": 23,
+   "text": "+ - — - ~~ @\\\\ _— Ft ST _ a FT i . ai = “ | + | od - — - ~~ @©\\\\ _— Ft ST _ a FT i . a = “ | +",
+   "hits": []
+  },
+  {
+   "file": "s0024.png",
+   "t": 0.8,
+   "frame": 24,
+   "text": "SAVE TH ‘ DATE e cS € =— + | SAVE TH : DATE e =a € =—s +",
+   "hits": []
+  },
+  {
+   "file": "s0025.png",
+   "t": 0.833,
+   "frame": 25,
+   "text": "SAVE THE pare oD e& — + | SAVE THE pare oD e& —s +e",
+   "hits": []
+  },
+  {
+   "file": "s0026.png",
+   "t": 0.867,
+   "frame": 26,
+   "text": "SAVE THI E pare oe e& —- +e | SAVE THI E pare oe & —-— ee",
+   "hits": []
+  },
+  {
+   "file": "s0027.png",
+   "t": 0.9,
+   "frame": 27,
+   "text": "SAVE THE DATE eo £2) | SAVE THE DATE eo . 2)",
+   "hits": []
+  },
+  {
+   "file": "s0028.png",
+   "t": 0.933,
+   "frame": 28,
+   "text": "SAVE THE DATE & € —s + | SAVE THE DATE & € —s +",
+   "hits": []
+  },
+  {
+   "file": "s0029.png",
+   "t": 0.967,
+   "frame": 29,
+   "text": "SAVE THE DATE Ce @ =—s +e | SAVE THE DATE Ce @ _—s +z",
+   "hits": []
+  },
+  {
+   "file": "s0030.png",
+   "t": 1.0,
+   "frame": 30,
+   "text": "SAME DRA DATE & € —_—-s- +e | _ DRA DATE & e —- +t",
+   "hits": []
+  },
+  {
+   "file": "s0031.png",
+   "t": 1.033,
+   "frame": 31,
+   "text": "SAVE THE DATE _—-—_ + | SAVE THE DATE —-—_",
+   "hits": []
+  },
+  {
+   "file": "s0032.png",
+   "t": 1.067,
+   "frame": 32,
+   "text": "SAVE THE DATE oe & _—-_- fe | SAVE THE DATE Oo & —",
+   "hits": []
+  },
+  {
+   "file": "s0033.png",
+   "t": 1.1,
+   "frame": 33,
+   "text": "” ¥ =i a os' b= ~~ as as! a” = 9 ie as yer rt ~~. * ae = —i a om 4 == Ba » ee MW wail . “ ge? ast i 8 ae a Yay, <— 1 o@ ‘ as fea ge amt — ors . ‘7 * SAVE. THE DATE ee -' Sg PIA me »? Ex ™ « Ss ma! ™) au a 2 - + b ou 8 a’ ‘4 ope ee Ca ed es rt al = gst a 6! = “sy ws iM Ti z% ptf ¢ 3 =| Al oh Fa , pbb | ” ¥ =i a os' b= all as as! a” = 3 ex ars yer rt ~~. * <a = — a om 4 == Ba \\ ae MW wail . “ get ast ii 8 ae a Yay, <— 1 o@ ‘ as fea ge am ‘— ors . Se SAVE. THE DATE Fn Oe -' og PIA me »? ae ™ « Us em! ™) 3 a 2 %° + b ou 8 a’ ‘4 ope ee a hed es rt ol = gst a 8! = “sy we iM rid z* ptf cf 3 =| Al a ) a8 , pbb",
+   "hits": []
+  },
+  {
+   "file": "s0034.png",
+   "t": 1.133,
+   "frame": 34,
+   "text": "Pad o* | od aa! — ee 44 6 Ha Dd ay yar vt oe 7 oo “se ih qn i * <r Le [wea ev = MW \\) N = i! ~ i. ue o te Pt ‘ as we - ar 5 \"7 Maa ue = ce. + ser SAVE, THE DATE — nar < o) = — ol DIA. hi, er —« a? 4 . \"s 3u@ — ™) a ‘a eS b en? Te 4,* Tar ~ o@S rt oe” “=. e8 a * = “sy iM gs pe® a? cr) =| =) ep) ¥: | Pad Ps! a as’ — es 44 6 Ha Dee By yar et oe 7 oo “se —\"~. -e qn i * <S i [wed eau = MW i) N = i! ~ an use o te a= ‘ ius we - ar s \"7 Maa ue = . + ser SAVE, THE DATE a nan < -) = ol DIA. 4, er « a? 4 8 \"se 3u@ — ™) a ‘a Ss b enuf Te 4,* ar ~ @SB rt ‘er “=. e8 a? = “sy iM gs pe* a! r > =| =) ep) ?:",
+   "hits": []
+  },
+  {
+   "file": "s0035.png",
+   "t": 1.167,
+   "frame": 35,
+   "text": "ee a se wer 48 ss We he a” po Ee nd —— Lg pabe Pll er vi at —_— na a. 7 it <e 4 en , eo qn = our 4 ie oo ae\" _—— tse . , nisl Sse ast a 4! 8 Pm x . os an «ee bh ve ‘ 1 faa ’ ue a =. or’ 1? r ow 7 7 ver SA WE THE elk PIA. os kk tes ‘ —- ait —, \"Ss 3 1 +) my =? gi a — =— - hb 4‘ eu ® 4° iW oe rt Se a 4, e8 sf) - egy ath st 5 *' ot an ail | ep) | Bie a oe wer 48 ss\" M3 he a” Ee —— Lg pad? Pill (er vi at —_— na a. 7 a <4 oe, eo qn we” eur 4 ie oo ae\" _—— tse . 1 nial Sse ast a 4! 8 Pm x . a ae © bh) ve ‘ 1 faa ’ ue Pe =. ar ? r ow 7\" 5 ver SA WE THE elk PIA. re \\ tes ‘ —- ait —, \"ss 3 a ) \"a =? gi a — =o - h 4 eu ® 4° iW oe rt ie er 4, 28 sf) - egy ath st 5 #' ot an ail | ep)",
+   "hits": [
+    "28"
+   ]
+  },
+  {
+   "file": "s0036.png",
+   "t": 1.2,
+   "frame": 36,
+   "text": "LB we as Ly pabe ~—— Pe anil et . a Ae i\" > a. Pd v* ~ = oe 4 —\". se oe our 4 ties ae [4 ‘ 6 tee erm aN naif ) ae? 4! 2 ae . ie fescoad ) i ‘ as Hea svi ; ’ we Pb —s or\" r > oer SAVE. THEE LU -=* e a PIA. +, > a i aa us wi “ 3 i — . “s *\\ - - en * 4, of » ose a ‘ IT ge? = “sy His iM ri cr 3 ep) | oo “i as Ly pabe —— eo et . - Ae \" > a. ~ v* ~ = ee 4 —~ oe so oe our 4 a ee 4 ‘ 6 tae aru aN naif ) se? 4! a w ie\" fecal Q i ‘ (as Hea svi ; ’ we Pi is or\" r > oer SAVE. THEE Th -=* e? a PIA. +, > om aa us wi “ 36 i on. “s | - - en * 4, ot » ose a ‘ 4: ge? = “sy His iM ri cr 3 ep)",
+   "hits": []
+  },
+  {
+   "file": "s0037.png",
+   "t": 1.233,
+   "frame": 37,
+   "text": "} on = as = Yo ml i Al a ~e a qn a; a -F wen * « @ fw \\ Se nil — ‘ os 1,! os ™~ = set 1 ‘ (Us v8 . S— 1° o fea ee is = i , . ser SAVE THE DATE - PUA, +, Bs ae \\\" ons * 4 8 \"Ss 3B t my 3 .~ ” weet ~— in eu! ws whe » 08 of Nt rt s * i es ae 3 \"av yS ost * voy \\s'= opi | } on _—— as = Yo ml 4: Al ei ~e a qn -—; = - wen * « @ # wy 1 ee nul “ ‘ ns 1! 9 ™~ = set 1 ‘ (Us v8 . S— 1 o fea ee 7 = i a: . ser SAVE THE DATE - PUA, 4, Ph =a \\\" ont * 4 8 \"Ss 3 t my 3 .~ ” weet ~— h eu! ws whe » 08 of si rt s * i‘ es ut 3 \"av ys ost * vy \\s'= opi",
+   "hits": []
+  },
+  {
+   "file": "s0038.png",
+   "t": 1.267,
+   "frame": 38,
+   "text": "_~s or as ¥ hs eur a oT i =e = oar —“~. 2 a oori qe4 =” : ae [wed 0 tte € te\" ‘wnitil ‘ x * see oe ‘ % a Af a ‘5 , Mea ee fe 2 ser SAVE THE DATE a= ‘ee B)- + El slat. +, =a, onl v \"ss 3 ” <a I 2 — va | i. o a em! he » opt yas * - “sv “E. iM gs? ri us v ost —|\\ =! Ph) + | , a or as ¥ hs et ow a oT i =e he oar —~. 2 a oori qe4 = > ae [wed 0 tte € bas ‘wnitil ‘ x * see oe ‘4% a Af 0. ‘as , Mea ee ae 2 ser SAVE THE DATE a= ‘ee Bh - + al sPLAt. x Ae onl v \"Ss 3 ” eae ST! 2 — ve | = 3 m a en! he » opB ras * - “<v “E. hy gs? s us v ost aT = Ph) +",
+   "hits": []
+  },
+  {
+   "file": "s0039.png",
+   "t": 1.3,
+   "frame": 39,
+   "text": "- as =O OFF. 5) a (a vi “es —.a r = 4 — Be —_ =. MW nat EN 4 a a —_ 1,) ov a SS 9 ae. 1 o ‘ is Sea ae ee — ort e! ? Sf — . ser SAV AVE THE’ Bate a er “twas ,PIA. te, ‘ vas * \"Ss « 3 i * * <a \"y as 4, 4 aut yt » «BB rt ae 4, ss * 3 - “sv hy os ost * x. ogi _ | - as =O OFF. 5) » oe te vi “es —.a r = 4 — Be —_ =. MW nat EN Yay a a = 1,) ov a SS (i 1 oo ‘ ius Sea ae oe — ort e? ? se — * ser SAV AVE THE’ Bate a er \"twas ,PIA. te, ‘ ons * \"Ss « 5 i * ” <a y a 4, 4 aut Sy! » «BB rt as ‘i ss * 3 *® - “sv hy, os ost * x: epi i",
+   "hits": []
+  },
+  {
+   "file": "s0040.png",
+   "t": 1.333,
+   "frame": 40,
+   "text": "ver a8 — » — © oer ll se Al eT =. « £84 — wo a oe «~* e oe ae €¢ au ae nial ‘ ‘ing, oa ee ——_ ’ a , ae ee — ad Rea ae > 2 or ser SAVE THE BATE =\" » a oe — “ks ‘ oa * oe —, Ss =\" wi — l Me 38 =? \"e. ie eu! - was oe Vitae “=. * sv \\ Shes “is ‘Ze. he nee gi | ver a8 — » a & er a ell s: ee a =. « £84 — oo a oer ~* e oo ae € au ae nil ‘ ‘in, oa ee ——_ ‘oo a , ae ee _ ad Rea ee a> ‘Se. or ser SAVE THE BATE =\" s = ee ks ‘ “a * a —, s »\" wi —= l *y 3 =? ” nein Ds eu! - ws oe Vitae “=. * sv \\ She 8 “is ‘. he AZ gi",
+   "hits": []
+  },
+  {
+   "file": "s0041.png",
+   "t": 1.367,
+   "frame": 41,
+   "text": "yer ae a a € 2% 4 oe ‘Ag a ger om 4 ww i ae we su MW ‘ny, niall * ae ‘ ——_ ov a aee —_ ‘4° : Us faa ae ve ' —— vr ‘ 1 Ce\" $7 —= ser s Av s ao Fee 4 VE THE DAT at — PI mm? wo wai 4 ss my 3 ae i = 3 \" h hy 4, em! 4* oa » op® yas * “ez od “ev vad \\ fee ‘y gut * x. \\si= Poh) | yer ae a a € OFF ig eo ‘Ag a ger em 4 uw i | we su MW ‘my, niall * ve ‘ ——_ ov 0 BP ig aee —_ ‘4° oO : (Us faa ae a ' —. , aad ‘ 1 Ce\" $7 —= ser s Av s ao Fe 4 VE THE DAT at — PI hd “1 wai 4 \"s my 3 ae i = 3 \" h my 4, em! 4* te » op® yas * “ez — “ev Nad \\ gee ‘y gut * x: \\si= Poh",
+   "hits": []
+  },
+  {
+   "file": "s0042.png",
+   "t": 1.4,
+   "frame": 42,
+   "text": "rr GF te asl zo e¢« “oe ———. @ et 4 eo” . << ae 0 te © i“ wail ‘ ~*~, \"? ase ty i i ae i at or ry \" 2 be se oe SAV E THEt oe Pate ,PIA. 4, te wi pw \"s 5 ” <= ee oe —, t =! AN es s 6 ar, * ost re re as? 4 av Nah & 4 ages ® i% ri x: \\Z\\= ani ¢ | rr GF te or age a ee“ “ae ———., @ at 4 «* . << ae 0 Ge © i“ wail ‘ ~*~, \"? ase {ay —— a ae i at or ry \"’ ob = pt SAV E THEt ae pate ,PIA. 4, te wi phew \"s 5 a * <=. ee oe —, t =? AN es s 6 tat * ost re re es? 4 av yak & Y ages ® i“ ri x: Ele ei ¢",
+   "hits": []
+  },
+  {
+   "file": "s0043.png",
+   "t": 1.433,
+   "frame": 43,
+   "text": "eA er 3 —— ae or a em a « o8\"4 oo ——“ ., @ se eorK eo e <2, men ae MW nail we ‘ ‘s, an ase 6 hae a. ‘ (as 6 <— af oO . “é faa s ae Se 2 SAVE E THE: pate ao 8 a “PIA. om * Fl mem! “ \"Ss ™) 3 8 ss \"sea, — ~~ om =? 1h “ - a ‘Sy s uty + ope yas * ~- ce 3 * - Sey ahi’ : ge * is eS ae Ay bol | eA er 3 — ae £7 a em a « o8\"4 oo ———. @ se eorK oe” e <2, me ae MW 11am wee ‘ ‘ an ase 6 SE hae a. ‘ Us 6 _—— a oO . ‘’ faa s ae he + oe. SAVE E THE: pate a! Se ae “PIA. om * Fe mem! “ Ss ™) 3 8 _ \"san, — ~~ om = 1h “ - a ‘a s 8 uty + ope yas * a ce 3 * 7 Sey ahi’ : ge * is r 3 ae Ay >",
+   "hits": []
+  },
+  {
+   "file": "s0044.png",
+   "t": 1.467,
+   "frame": 44,
+   "text": "ie Ld . tu “= i ao oer s: (er vf eZ se “eo « 84 — s ae 5 oe . a B | aw =< ive “A “ty, n4ait ss sve ast val om. ‘Oe - 16 , 8 faa ae ‘a — vet ? * -¢7 « ser HE'DATE SAVE T Sin ae —f P i » N. | al uw? a us, Fal a ¥ 3 Bt « ” ea od he fe = ' sy _— hs +h s wat gee ry ree Ve s8 3? al “av us a* ‘y get * r3 » aAs'= at a | e 4 hd . ti “= al a 6 oer -: (or vf e@ se “eo « 84 — s ae 5 os . B | arn =< Site “N Sy, nial ss sve ast 1! Pr ‘Oe - 16 , 8 faa ae a — vet ia ® 7 « ser HE'DATE SAVE T Sie ae fs P (A » N. | al ue? a us, Fal a ¥ 3 Bt = ” ean = he . h = ' sy _— hs +h s #8 tat gee ry ree Ve s8 3? al “av us a* ‘y get * cr 3 » aAs'= at oe",
+   "hits": []
+  },
+  {
+   "file": "s0045.png",
+   "t": 1.5,
+   "frame": 45,
+   "text": "a \\ ‘ iq] SAVE T Pl EN < | a \\ . és] SAVE T PI /A\\ <",
+   "hits": []
+  },
+  {
+   "file": "s0046.png",
+   "t": 1.533,
+   "frame": 46,
+   "text": "# has Q f MS ~ oe SAVE r= Fen 52 sede | # has ‘\\ i Mi ~ oe SAVE > heen (3 pede",
+   "hits": []
+  },
+  {
+   "file": "s0047.png",
+   "t": 1.567,
+   "frame": 47,
+   "text": "ee | fy) #& SAVE Ti eo [PDAS | oe | fy) #& SAVE Ti eo [PAS",
+   "hits": []
+  },
+  {
+   "file": "s0048.png",
+   "t": 1.6,
+   "frame": 48,
+   "text": "=F) Cr : ret SAVE'TI a} i\\\\ Ht | <#) er : ret SAVE'TI ae H\\\\ Ht",
+   "hits": []
+  },
+  {
+   "file": "s0049.png",
+   "t": 1.633,
+   "frame": 49,
+   "text": "¥ “a igs at oF bl - onl wz SAVE - rp (LN a | ¥ “a ital at ras bd - onl wz SAVE - rp (LN a",
+   "hits": []
+  },
+  {
+   "file": "s0050.png",
+   "t": 1.667,
+   "frame": 50,
+   "text": "ad be ay | SAVE 'T en i | ad be ay | SAVE 'T at ee i",
+   "hits": []
+  },
+  {
+   "file": "s0051.png",
+   "t": 1.7,
+   "frame": 51,
+   "text": "or ae onl SAVE\" Tae i | or ae ant SAVE\" ae i",
+   "hits": []
+  },
+  {
+   "file": "s0052.png",
+   "t": 1.733,
+   "frame": 52,
+   "text": "er & pak) 9a ml SAVE 'T = 7 TEIY, = Pp | er & pak) aa nl SAVE 'T = 7 EIY, = Pp",
+   "hits": []
+  },
+  {
+   "file": "s0053.png",
+   "t": 1.767,
+   "frame": 53,
+   "text": "a 4 Poa? us x WEE SAVE —s Pp | x 4 Poa? us x WEE SAVE —s Pp",
+   "hits": []
+  },
+  {
+   "file": "s0054.png",
+   "t": 1.8,
+   "frame": 54,
+   "text": "' — 4 “a “AE we ott - = = SAVE'T or LN oe ~ P m | ' i 4 “a ey we ott = = 8 SAVE'T or LN oe i P ms",
+   "hits": []
+  },
+  {
+   "file": "s0055.png",
+   "t": 1.833,
+   "frame": 55,
+   "text": "Pay e ei 3g i inn 8 SAVE pire = iA LIN « oy | Py ee ei 3g i inne SAVE ers ==\" iA LIN « oy",
+   "hits": []
+  },
+  {
+   "file": "s0056.png",
+   "t": 1.867,
+   "frame": 56,
+   "text": "mi i mre SAVE ~ eX, ie Pail | mi i mre SAVE ~ > ¢ is Pail",
+   "hits": []
+  },
+  {
+   "file": "s0057.png",
+   "t": 1.9,
+   "frame": 57,
+   "text": "aY 7 SAVE om | aY ro SAVE om",
+   "hits": []
+  },
+  {
+   "file": "s0058.png",
+   "t": 1.933,
+   "frame": 58,
+   "text": "ee eee a x nw SAVE area w a. DA 4\" - | ve ee > ~ Ew SAVE aren w@ a. DIA 4\" -",
+   "hits": []
+  },
+  {
+   "file": "s0059.png",
+   "t": 1.967,
+   "frame": 59,
+   "text": "> a 3, on) ou ot, | a=, = SAVE ek i | > a 8, “\\ ou m, | a=, = SAVE eek i",
+   "hits": []
+  },
+  {
+   "file": "s0060.png",
+   "t": 2.0,
+   "frame": 60,
+   "text": "THE DAY PIA tt lags AE: os tw — Ae, — pli]! \"y eis mg iplic De fie. OSes | THE DAY PIA te lags AE: os tw — Ae, — Th \"y eis nig illic De foie. Oo S es",
+   "hits": []
+  },
+  {
+   "file": "s0061.png",
+   "t": 2.033,
+   "frame": 61,
+   "text": "THE DAT it PIA 4% i! a iS hi ( Mitek | THE DAT La PIA 4% i! a iS Ohi ( Mitek",
+   "hits": []
+  },
+  {
+   "file": "s0062.png",
+   "t": 2.067,
+   "frame": 62,
+   "text": "THE DAT PIA ft | on oa i! =] a! hh oad | THE DAT PIA ft - . Mw i! =] x hh cad",
+   "hits": []
+  },
+  {
+   "file": "s0063.png",
+   "t": 2.1,
+   "frame": 63,
+   "text": "THE DAT PIA tt * win Th oF es a. i h | THE DAT PIA tt hal 4 Th oF it a. \\ h",
+   "hits": []
+  },
+  {
+   "file": "s0064.png",
+   "t": 2.133,
+   "frame": 64,
+   "text": "4, THE DAT | Joe PIA ft * 6 Pons i! = Lies a 8 ae hh | 4% THE DAT | Joe PIA ft * 6 wa i! = Lies ee 8 ae hh",
+   "hits": []
+  },
+  {
+   "file": "s0065.png",
+   "t": 2.167,
+   "frame": 65,
+   "text": "e THE DAT PIA *. HH = es a ——— ee. f\\ hh | Ee THE DAT PIA *. HE = a 0 i ——— a i ih",
+   "hits": []
+  },
+  {
+   "file": "s0066.png",
+   "t": 2.2,
+   "frame": 66,
+   "text": ": THE DATE PIA tt * fas af Sie NR 2) | : THE DATE PIA tt * fas Hi Sie RRR 2)",
+   "hits": []
+  },
+  {
+   "file": "s0067.png",
+   "t": 2.233,
+   "frame": 67,
+   "text": "THE DATE PIA t Tr -. ! ~—- i SZ Hi 7 — | THE DATE PIA tl : ieee -. 3 ~—- SZ Hi 7 —",
+   "hits": []
+  },
+  {
+   "file": "s0068.png",
+   "t": 2.267,
+   "frame": 68,
+   "text": "‘THE DATE PIA a ft C~ ~—- 7! os. 3 N af! 7 ¢ halos AU oe) —— en | ‘THE DATE PIA a fi Co ~—- 7! os. 3 N if! 7 ¢ hares rp oe) en",
+   "hits": []
+  },
+  {
+   "file": "s0069.png",
+   "t": 2.3,
+   "frame": 69,
+   "text": "THE DATE IN it ~? | re ar iil m; By! 2 rif ae yes i 0 ee eam BIA a | THE DATE PIA it ~? | re ar iit e; By! 2 rif - Jes i 0 ee am BIA a",
+   "hits": []
+  },
+  {
+   "file": "s0070.png",
+   "t": 2.333,
+   "frame": 70,
+   "text": "ag THE DATE PIA i a a a ay ie. at a ae it erate | eS THE DATE PIA it aA a SF ay ie. at a ae it erat s",
+   "hits": []
+  },
+  {
+   "file": "s0071.png",
+   "t": 2.367,
+   "frame": 71,
+   "text": ": THE DATE PIA 1 Gent —_ = ge [Pe | : THE DATE PIA 1 framed —-~ = ge [PP",
+   "hits": []
+  },
+  {
+   "file": "s0072.png",
+   "t": 2.4,
+   "frame": 72,
+   "text": "“THE DATE PIA it + Ra , —e | “THE DATE PIA it 2. Na , —e",
+   "hits": []
+  },
+  {
+   "file": "s0073.png",
+   "t": 2.433,
+   "frame": 73,
+   "text": "THE DATE ~ PIA \\ + i L Me | THE DATE ~ PIA \\ ‘i + L Me",
+   "hits": []
+  },
+  {
+   "file": "s0074.png",
+   "t": 2.467,
+   "frame": 74,
+   "text": "ann 4 ay w@ya PVA b= a € ge 1 as | 7 THh4 Y ny i) | Hath awe | | | ann 4 ny m@wya PAs! b= a € gs 1 a | 7 Tha Y ny ‘ | Hath wwe | |",
+   "hits": []
+  },
+  {
+   "file": "s0075.png",
+   "t": 2.5,
+   "frame": 75,
+   "text": "¢ + a ie SAVE 1E PIA rl |) Hatt a wy | ¢ + ne We SAVE 1E PIA rl |) Hatt .\"s wy",
+   "hits": []
+  },
+  {
+   "file": "s0076.png",
+   "t": 2.533,
+   "frame": 76,
+   "text": "a SAVE THE TE PIA Cl. Mri yt {Ht —_— - | yy SAVE THE TE PIA Cll. irl ut {Ht — -",
+   "hits": []
+  },
+  {
+   "file": "s0077.png",
+   "t": 2.567,
+   "frame": 77,
+   "text": "ys SAVE THE, TE PIA a Cle aule nV Hat | ny SAVE THE, TE PIA a Clg aule nV Hat",
+   "hits": []
+  },
+  {
+   "file": "s0078.png",
+   "t": 2.6,
+   "frame": 78,
+   "text": "@\\\\* SAVE THE TE PIA rik: Ml, Hat awe | 4 | @\\\\* SAVE THE TE PIA rik: Ml, Hat awe | d",
+   "hits": []
+  },
+  {
+   "file": "s0079.png",
+   "t": 2.633,
+   "frame": 79,
+   "text": "@\\\\* SAVE THE TE PIA € x ae yt Hatt Se | @\\< SAVE THE TE PIA € x ae yt Hat Se",
+   "hits": []
+  },
+  {
+   "file": "s0080.png",
+   "t": 2.667,
+   "frame": 80,
+   "text": "Wy SAVE THE TE PIA Ly 1) Cc]. ipl, a jn ie | | Wy SAVE THE TE PIA Ly 1) Cc]. ipl, a ja Me",
+   "hits": []
+  },
+  {
+   "file": "s0081.png",
+   "t": 2.7,
+   "frame": 81,
+   "text": "Ny’ SAVE THE TE PIA aie wn fhe ws | Ny’ SAVE THE TE PIA aie wn fhe ws",
+   "hits": []
+  },
+  {
+   "file": "s0082.png",
+   "t": 2.733,
+   "frame": 82,
+   "text": "ny’ SAVE THE TE PIA ef € rl, i | ny’ SAVE THE TE PIA of € ale a",
+   "hits": []
+  },
+  {
+   "file": "s0083.png",
+   "t": 2.767,
+   "frame": 83,
+   "text": "ny BN ‘ SAVE THE TE PIA € of Tt ut fi ae | \\ | ny BN ‘ SAVE THE TE PIA € of TH ut fi ae | \\",
+   "hits": []
+  },
+  {
+   "file": "s0084.png",
+   "t": 2.8,
+   "frame": 84,
+   "text": "ny E THE TE PIA Pt C/| . Mri, yt i ae | i | ny E THE TE PIA gt C/| . Mri, yt ae | i",
+   "hits": []
+  },
+  {
+   "file": "s0085.png",
+   "t": 2.833,
+   "frame": 85,
+   "text": "N*\\ E THE TE PIA $ ily i jal! , | | N* \\ E THE TE PIA $ ily wt jal! , |",
+   "hits": []
+  },
+  {
+   "file": "s0086.png",
+   "t": 2.867,
+   "frame": 86,
+   "text": "Ny E THE TE oa slp he ‘a | Ny E THE TE oa ale he ‘a",
+   "hits": []
+  },
+  {
+   "file": "s0087.png",
+   "t": 2.9,
+   "frame": 87,
+   "text": "ny’ E THE TE N j AVN Pia Y a | Hnul | | nig E THE TE N j PIA of Y a Hal |",
+   "hits": []
+  },
+  {
+   "file": "s0088.png",
+   "t": 2.933,
+   "frame": 88,
+   "text": "SAVE THE DATE | SAVE THE DATE",
+   "hits": []
+  },
+  {
+   "file": "s0089.png",
+   "t": 2.967,
+   "frame": 89,
+   "text": "gg @ @* 4 E Me DATE | gg @ @* 4 E Me DATE",
+   "hits": []
+  },
+  {
+   "file": "s0090.png",
+   "t": 3.0,
+   "frame": 90,
+   "text": "© AVE THE are | © AVE THE _",
+   "hits": []
+  },
+  {
+   "file": "s0091.png",
+   "t": 3.033,
+   "frame": 91,
+   "text": "e* AVE THE DATE | e* AVE THE DATE",
+   "hits": []
+  },
+  {
+   "file": "s0092.png",
+   "t": 3.067,
+   "frame": 92,
+   "text": "SAVE THE DATE | SAVE THE DATE",
+   "hits": []
+  },
+  {
+   "file": "s0093.png",
+   "t": 3.1,
+   "frame": 93,
+   "text": "<a Hy mt | DATE EN MG 4 | <i Vy mt | DATE EN Me vo",
+   "hits": []
+  },
+  {
+   "file": "s0094.png",
+   "t": 3.133,
+   "frame": 94,
+   "text": "“% -oF Pegi To “g = DATE VAN a. * my, | “% oF rel Ta “6 = i DATE VAN eo ¥ hy,",
+   "hits": []
+  },
+  {
+   "file": "s0095.png",
+   "t": 3.167,
+   "frame": 95,
+   "text": "SA THE DATE PIA | SA THE DATE PIA",
+   "hits": []
+  },
+  {
+   "file": "s0096.png",
+   "t": 3.2,
+   "frame": 96,
+   "text": "SAVE THE DATE | SAVE THE DATE",
+   "hits": []
+  },
+  {
+   "file": "s0097.png",
+   "t": 3.233,
+   "frame": 97,
+   "text": "¢ ¢ Eos SAVE THE DATE | ¢ ¢ Es SAVE THE DATE",
+   "hits": []
+  },
+  {
+   "file": "s0098.png",
+   "t": 3.267,
+   "frame": 98,
+   "text": "e SAVE THE DATE cal 2 | e SAVE THE DATE cal 2",
+   "hits": []
+  },
+  {
+   "file": "s0099.png",
+   "t": 3.3,
+   "frame": 99,
+   "text": "+ ¢ SAVE THE DATE | ¢ e SAVE THE DATE",
+   "hits": []
+  },
+  {
+   "file": "s0100.png",
+   "t": 3.333,
+   "frame": 100,
+   "text": "rt _—- SPAMS, The PIA = BM « tise 5,\\ enn a Pa ir ~ Sb, Se a if ‘ Lt- t] >. ’ | rt —- SRAM, The PIA. = BM « tose Le a tu me ~ Sb, Se a if ‘ L_- t] >on ’",
+   "hits": []
+  },
+  {
+   "file": "s0101.png",
+   "t": 3.367,
+   "frame": 101,
+   "text": "—- _-_ _ SAVE TH ARE a - ai 2 en « - Ysa ee | 1 f -- gE. uw : mt we ' ala eee dea <i) Wh oe Ed Om as. i] ‘ & 7-1. : i | —- _-_ _ SAGE TH FARE a - ai 2 en « - use ee | if -- gE. uw : mt Pe ' ala eee dea <i) Wh oe Om ae i] ‘ & ~~. : ie",
+   "hits": []
+  },
+  {
+   "file": "s0102.png",
+   "t": 3.4,
+   "frame": 102,
+   "text": "a) a slew _ SAVE THE PIA 1. “a - e a oem « yaa -=- S| e086 if | im a {es a om - T .. a ae | a) a slew _ SAVE THE PIA 1. “ - “ a oem « yaa -=- S| en8 if EL im a {es a om a - | a ae",
+   "hits": []
+  },
+  {
+   "file": "s0103.png",
+   "t": 3.433,
+   "frame": 103,
+   "text": "* ~ SAVE THE PIA ane “i fy ia) ae a | Woy ae Ee Gay | * ~ SAVE THE PIA ane “i : ia) 1 stad | Woy ae Ee Gay",
+   "hits": []
+  },
+  {
+   "file": "s0104.png",
+   "t": 3.467,
+   "frame": 104,
+   "text": "A o~ a , & ~~ - SAVE THE “ PIA fd di oa « 2a -- | en 6 a Dd (ad aoe a, — —<— -— | A] eo a , © ~~ - SAVE THE “ PIA a di es a « 2a - = | en 6 jF Dd (ad ae a — — Oo",
+   "hits": []
+  },
+  {
+   "file": "s0105.png",
+   "t": 3.5,
+   "frame": 105,
+   "text": "SAVE THE PIA | an i ‘3 tee af (a) | SAVE THE PIA | an i ‘3 tee af (at",
+   "hits": []
+  },
+  {
+   "file": "s0106.png",
+   "t": 3.533,
+   "frame": 106,
+   "text": "£ _ SAVE THE PIA | “| | £ _ SAVE THE PIA | “t",
+   "hits": []
+  },
+  {
+   "file": "s0107.png",
+   "t": 3.567,
+   "frame": 107,
+   "text": "SAVE THE PIA i t tes | SAVE THE PIA 1 t a)",
+   "hits": []
+  },
+  {
+   "file": "s0108.png",
+   "t": 3.6,
+   "frame": 108,
+   "text": "4] _-. at Ye SAVE THE - ” PIA i SH « — a; an 8 r a (al | 4] _- =. Ye, SAVE THE - a) PIA i SH « — a; ann r us (al",
+   "hits": []
+  },
+  {
+   "file": "s0109.png",
+   "t": 3.633,
+   "frame": 109,
+   "text": "SAVE THE PIA s - 4 | SAVE THE PIA s 4 4",
+   "hits": []
+  },
+  {
+   "file": "s0110.png",
+   "t": 3.667,
+   "frame": 110,
+   "text": "ina _-_ | he. a stm SAVE THE PIA tT = BSH « - =- ee ’ &: tos | ina _ -_ | he. a stm SAVE THE PIA iT = SBM « - =- ee ’ &: tes",
+   "hits": []
+  },
+  {
+   "file": "s0111.png",
+   "t": 3.7,
+   "frame": 111,
+   "text": "SAVE THE PIA - | SAVE THE PIA -",
+   "hits": []
+  },
+  {
+   "file": "s0112.png",
+   "t": 3.733,
+   "frame": 112,
+   "text": "\" bs a a, _- +. + = SAVE THE =\" “ PIA 2 @ eH « - = in te | Le tea po | a bs a a, _- -_ + = SAVE THE \" “ PIA 1) @ eH « - = in te | teu po",
+   "hits": []
+  },
+  {
+   "file": "s0113.png",
+   "t": 3.767,
+   "frame": 113,
+   "text": "> i > = +t me SAVE THE — “~~ o PIA fy se en S| an 8 a » tts | > i > = +t me SAVE THE -- ~~ o PIA ny s en S|; ann a » tts",
+   "hits": []
+  },
+  {
+   "file": "s0114.png",
+   "t": 3.8,
+   "frame": 114,
+   "text": "Pe ‘6 Dr toad & | Pee ‘6 Da &",
+   "hits": []
+  },
+  {
+   "file": "s0115.png",
+   "t": 3.833,
+   "frame": 115,
+   "text": "‘0 2. he &e Can | ‘0 2. ie & Can",
+   "hits": []
+  },
+  {
+   "file": "s0116.png",
+   "t": 3.867,
+   "frame": 116,
+   "text": "‘ 0 Bin i, Beni | ‘ 0 Bin tli, Com",
+   "hits": []
+  },
+  {
+   "file": "s0117.png",
+   "t": 3.9,
+   "frame": 117,
+   "text": "* * 0 Cea | * * 0 Csi",
+   "hits": []
+  },
+  {
+   "file": "s0118.png",
+   "t": 3.933,
+   "frame": 118,
+   "text": "an) a # on - Sf Can | ‘0 x # on - Sf Can",
+   "hits": []
+  },
+  {
+   "file": "s0119.png",
+   "t": 3.967,
+   "frame": 119,
+   "text": "* 0 >» coy, > - = Rani | * 0 > os > - = Rani",
+   "hits": []
+  },
+  {
+   "file": "s0120.png",
+   "t": 4.0,
+   "frame": 120,
+   "text": "* ‘0. * sie ly, - a= (& | * ¢ 0 * si ly, - a= (&",
+   "hits": []
+  },
+  {
+   "file": "s0121.png",
+   "t": 4.033,
+   "frame": 121,
+   "text": "‘0 a 1 ty — 3 a <pm Cs | ¢ 0 a 1 tg <_< a <pm (&",
+   "hits": []
+  },
+  {
+   "file": "s0122.png",
+   "t": 4.067,
+   "frame": 122,
+   "text": "an) »- a Mil TT <m Cs | ‘°0 >». aN y i —T <m (&",
+   "hits": []
+  },
+  {
+   "file": "s0123.png",
+   "t": 4.1,
+   "frame": 123,
+   "text": "* * 0 ofl, aT <m | > ¢ 0 ofl, aT <gm",
+   "hits": []
+  },
+  {
+   "file": "s0124.png",
+   "t": 4.133,
+   "frame": 124,
+   "text": "RF an) od Cs | . -* ‘0 od (&",
+   "hits": []
+  },
+  {
+   "file": "s0125.png",
+   "t": 4.167,
+   "frame": 125,
+   "text": "‘0 sa 1 sil, ys (& | ¢ 0 s* 1 sil, ys (&",
+   "hits": []
+  },
+  {
+   "file": "s0126.png",
+   "t": 4.2,
+   "frame": 126,
+   "text": "¢ 0 . Yo oh, ¥ a * — (& | ¢ 0 3 Yo oh, ¥ a * — (&",
+   "hits": []
+  },
+  {
+   "file": "s0127.png",
+   "t": 4.233,
+   "frame": 127,
+   "text": "wed | med",
+   "hits": []
+  },
+  {
+   "file": "s0128.png",
+   "t": 4.267,
+   "frame": 128,
+   "text": "fe 8) | fe 8)",
+   "hits": []
+  },
+  {
+   "file": "s0129.png",
+   "t": 4.3,
+   "frame": 129,
+   "text": "fe 0) | fe 0)",
+   "hits": []
+  },
+  {
+   "file": "s0130.png",
+   "t": 4.333,
+   "frame": 130,
+   "text": "fe 8) | fe 0)",
+   "hits": []
+  },
+  {
+   "file": "s0131.png",
+   "t": 4.367,
+   "frame": 131,
+   "text": "reef | reef",
+   "hits": []
+  },
+  {
+   "file": "s0132.png",
+   "t": 4.4,
+   "frame": 132,
+   "text": "be 8] - e | | wre - * |",
+   "hits": []
+  },
+  {
+   "file": "s0133.png",
+   "t": 4.433,
+   "frame": 133,
+   "text": "Pe 8] | Pe 8)",
+   "hits": []
+  },
+  {
+   "file": "s0134.png",
+   "t": 4.467,
+   "frame": 134,
+   "text": "fee} | fee)",
+   "hits": []
+  },
+  {
+   "file": "s0135.png",
+   "t": 4.5,
+   "frame": 135,
+   "text": " | ",
+   "hits": []
+  },
+  {
+   "file": "s0136.png",
+   "t": 4.533,
+   "frame": 136,
+   "text": " | ",
+   "hits": []
+  },
+  {
+   "file": "s0137.png",
+   "t": 4.567,
+   "frame": 137,
+   "text": "i/ | i/",
+   "hits": []
+  },
+  {
+   "file": "s0138.png",
+   "t": 4.6,
+   "frame": 138,
+   "text": " | ",
+   "hits": []
+  },
+  {
+   "file": "s0139.png",
+   "t": 4.633,
+   "frame": 139,
+   "text": "— Res | = 3 wees",
+   "hits": []
+  },
+  {
+   "file": "s0140.png",
+   "t": 4.667,
+   "frame": 140,
+   "text": "way | way",
+   "hits": []
+  },
+  {
+   "file": "s0141.png",
+   "t": 4.7,
+   "frame": 141,
+   "text": "Sor. $i? ay ae pat 7- hy ys a eg ie Ete =» px of i} 7% iF be, i> tA iy eT aE, = ta | Sor oa? ay ae pase st7- hy ys 5 eg i Ete =» px of i} 7% oe be, i tA iy eT aE, = oe",
+   "hits": []
+  },
+  {
+   "file": "s0142.png",
+   "t": 4.733,
+   "frame": 142,
+   "text": "Pore ree sai a i wy <3 F is. ae “ 4%, ae i Se g yt 7 7 ry as o> a7 ay Ry Ma? aa Bots = ae Blige | Pore ree bain Zs a wy <3 F ts. ae “ 4%, a i Se g yt 7 7 a as i a Sg Ry Aa? aa Bs =r pies iia",
+   "hits": []
+  },
+  {
+   "file": "s0143.png",
+   "t": 4.767,
+   "frame": 143,
+   "text": "os iss KS rae ee eS oat faeettz a na By eh uae mi ee | os iss KS rae ee eS ee Baeett7 a el By ee NaS “ tw",
+   "hits": []
+  },
+  {
+   "file": "s0144.png",
+   "t": 4.8,
+   "frame": 144,
+   "text": "ah, t2 Verne aot ae he 5 << pat eS) 7 ns a eS Bm «3 ve a 1 S) he: ny ey Re “ai ve sid ey a | 0%, +2 Verne Pte shew 5 ae, pet es ~ nS m as Bm «3 ve a 7 I Ph: va ey Re ais ve aid ey. ae",
+   "hits": []
+  },
+  {
+   "file": "s0145.png",
+   "t": 4.833,
+   "frame": 145,
+   "text": "ne a, Pat ae to Be J aye, ba ot wre y te i s ros AS Ss: vt < Ps 4 r 6 7 4 | n28 a, Pat ee fe Rs mye, ba of. wre ~ rt % s rox Ae “yy ryt < Ps 4 1B 6 “ 7 ¢",
+   "hits": []
+  },
+  {
+   "file": "s0146.png",
+   "t": 4.867,
+   "frame": 146,
+   "text": "~ ae Seles: its 2 Aa a ss arte) 3 it Re ps ae by nee NOS, i a Be 4 r, A, yy -é & ore * <u fay rx: ik ft es. | we ae Seles: i ai Ae a ts Pe as 3 pt Re ps ae or nee wD a re. Be 4 p, A, y -é oe rr * <u bay rx: i ft es.",
+   "hits": []
+  },
+  {
+   "file": "s0147.png",
+   "t": 4.9,
+   "frame": 147,
+   "text": "wih = See, ay 32 oa BF rhe x eg) re FS, te fs, CF Ne we ao Cf is aa an ay. re te iy ” 4 ey oA sid | wih ze Se, ay +3 oa BF rae x wp) re FS tc fs, UF Ne we a <2 ais AG a Oe ia Buc i sn 4 ey oA sid",
+   "hits": []
+  },
+  {
+   "file": "s0148.png",
+   "t": 4.933,
+   "frame": 148,
+   "text": "ia swe te erat ite eS 7. _ Wr. 34 pak is oP be ‘x 4 “th Be ae “5 Te. 24 me ae et ctat oars i | ia swe te Hon ite ee SS 7. _ Wee. 34 pak is P be ‘x he “th Boy ae “5 Tes 24 my ae et cet cays 4",
+   "hits": []
+  },
+  {
+   "file": "s0149.png",
+   "t": 4.967,
+   "frame": 149,
+   "text": "re ACS S = oe ee * ec heey rs: are se os vy Be M4 “t ny = Be ats oe ay ai - ay | re Ane S =i oe ee * eevee phy ay Ss rs: are ee oy * Be ™ “2 MY par Oy aifs — ay ai - ay",
+   "hits": []
+  },
+  {
+   "file": "s0150.png",
+   "t": 5.0,
+   "frame": 150,
+   "text": "we =a Ps ors eae ne AF ni + » ge a 44 ad me rg py 4 | we =a Ps oe we ne AF n3 + > ae a 4a af mes ag py 4",
+   "hits": []
+  },
+  {
+   "file": "s0151.png",
+   "t": 5.033,
+   "frame": 151,
+   "text": "s »™ te, 5 a be hey is pe £39 oe oe Lipe® o) a. ae a> 5 are, x eS wes re ee Les ay phi | s »™ wo “5 oy be hey is Hr: > 1 £%9 = Sis, iat Lipe® ) a. ie ~? soe ere, > ‘ wes re ee Lov ae phi",
+   "hits": []
+  },
+  {
+   "file": "s0152.png",
+   "t": 5.067,
+   "frame": 152,
+   "text": "2 ~ Bab Cy ae. ee ~— Telco bs 745 ag ~ ee et 7% ve Bais wr ae % ae. ot 7 ae 5 Sara ey B a aa ae va iy At hes ‘oe a2 Riss” se he | 32 ~ Bab Cy aD. Rs er Teale bs 745 pte < ee et 1h ve Tee re ae % ae. ot 7 fs x Some ey B <a as ae va iy ct tes oe a2 Riss m he",
+   "hits": []
+  },
+  {
+   "file": "s0153.png",
+   "t": 5.1,
+   "frame": 153,
+   "text": "ak fy + a, sé ra “uo 4 x, Pry ie cae A a ey ay Fa i Bi tA 34 Py. 2 if oy tre vs | ak pa + a, +6 vs ws 4 x Pry ie cae NG wa ay ss Fa Bh oa tA ei Py. 2\" if oy ae es",
+   "hits": []
+  },
+  {
+   "file": "s0154.png",
+   "t": 5.133,
+   "frame": 154,
+   "text": "ro oy RS > vs rg we ces soity 'y a Wa 4 Pe Zt me eI] es “a Ks ot +h ae a Bet Nk fr Ret nen ~ igs 7, ae? 3, Ce si ~4 ~ | o* ay Ps me s reat © we ve iy 'y a Was a Pe 4 ae ot] as a Ke ud +h oe a oa] Tk fr Ret nen ey. pe ay 3, Ce sie ~4 ~",
+   "hits": []
+  },
+  {
+   "file": "s0155.png",
+   "t": 5.167,
+   "frame": 155,
+   "text": "oe —- 25, ta <-y 9. ore A ee es S 7 heen. és $, 2 a a . aoe =: seid a aha Se rm 5 sep BSE ag “ Rony ~ a Par ri a a Cots wt | * = 2, 25, ta =) 9. wre “A Bee = S 3 oheee és £, thas io ae. aoe =: seid aa aha ets fm es sop ee az “g Rony ~ a oar i he = Cots wt",
+   "hits": []
+  },
+  {
+   "file": "s0156.png",
+   "t": 5.2,
+   "frame": 156,
+   "text": "oa Ty Bn ore BS € ‘-. he y fea? «e a, »« | oa Ty Bn ore * € “=. he 4s tea? ri _, »«",
+   "hits": []
+  },
+  {
+   "file": "s0157.png",
+   "t": 5.233,
+   "frame": 157,
+   "text": "4 7 | . & | 4 7 | *- a",
+   "hits": []
+  },
+  {
+   "file": "s0158.png",
+   "t": 5.267,
+   "frame": 158,
+   "text": "oR a | aR",
+   "hits": []
+  },
+  {
+   "file": "s0159.png",
+   "t": 5.3,
+   "frame": 159,
+   "text": "» er A | » er",
+   "hits": []
+  },
+  {
+   "file": "s0160.png",
+   "t": 5.333,
+   "frame": 160,
+   "text": "fe A | Jf e",
+   "hits": []
+  },
+  {
+   "file": "s0161.png",
+   "t": 5.367,
+   "frame": 161,
+   "text": "y an | or",
+   "hits": []
+  },
+  {
+   "file": "s0162.png",
+   "t": 5.4,
+   "frame": 162,
+   "text": "i! ope ey A AS Co Me Sx fg as 4 7 ned | i! pat ey A st CF Me Se fg ws 4 am Oy",
+   "hits": []
+  },
+  {
+   "file": "s0163.png",
+   "t": 5.433,
+   "frame": 163,
+   "text": "ho SS oN a Page ta ons ~ | ho SS oN os Page a ons _",
+   "hits": []
+  },
+  {
+   "file": "s0164.png",
+   "t": 5.467,
+   "frame": 164,
+   "text": "wt 4 | A =",
+   "hits": []
+  },
+  {
+   "file": "s0165.png",
+   "t": 5.5,
+   "frame": 165,
+   "text": "ee eo &«& “@ | ee eo && “@",
+   "hits": []
+  },
+  {
+   "file": "s0166.png",
+   "t": 5.533,
+   "frame": 166,
+   "text": "e es e ¢ “@ | ee e ¢ *“@",
+   "hits": []
+  },
+  {
+   "file": "s0167.png",
+   "t": 5.567,
+   "frame": 167,
+   "text": " | ",
+   "hits": []
+  },
+  {
+   "file": "s0168.png",
+   "t": 5.6,
+   "frame": 168,
+   "text": "fo] tee | io ee",
+   "hits": []
+  },
+  {
+   "file": "s0169.png",
+   "t": 5.633,
+   "frame": 169,
+   "text": "» | »",
+   "hits": []
+  },
+  {
+   "file": "s0170.png",
+   "t": 5.667,
+   "frame": 170,
+   "text": "= # a | ae ® * % = # | = @ '§ | ae m * | =. #",
+   "hits": []
+  },
+  {
+   "file": "s0171.png",
+   "t": 5.7,
+   "frame": 171,
+   "text": "% a * *, ene 7 4 (oa -_ »% | ” a ca *, ete ‘ 4 (oa -_ »%",
+   "hits": []
+  },
+  {
+   "file": "s0172.png",
+   "t": 5.733,
+   "frame": 172,
+   "text": "= By / a | ¥ By /",
+   "hits": []
+  },
+  {
+   "file": "s0173.png",
+   "t": 5.767,
+   "frame": 173,
+   "text": "— *) “= a . ‘a is | — #) **s a . ‘ is",
+   "hits": []
+  },
+  {
+   "file": "s0174.png",
+   "t": 5.8,
+   "frame": 174,
+   "text": "—P . ia if ee % Pal wad as, ; Nay Y RG | —s = = if ee % Pal vad a, : ass M RG",
+   "hits": []
+  },
+  {
+   "file": "s0175.png",
+   "t": 5.833,
+   "frame": 175,
+   "text": "= pce Ses a te in i i = a »'2 28 & ‘2, Sh \"3 ee bs ‘> | x Pace ies ge te Bin i ro = a a2 +38 ‘& ‘2, oo \"4 ee bf “>",
+   "hits": [
+    "28"
+   ]
+  },
+  {
+   "file": "s0176.png",
+   "t": 5.867,
+   "frame": 176,
+   "text": "> = > % ee a é ae ae “> | > = > % txts 2 a 4 we a “>",
+   "hits": []
+  },
+  {
+   "file": "s0177.png",
+   "t": 5.9,
+   "frame": 177,
+   "text": "— aa ‘ | — aa L",
+   "hits": []
+  },
+  {
+   "file": "s0178.png",
+   "t": 5.933,
+   "frame": 178,
+   "text": "‘~ #. “« He | ‘~ #~ “A Hes",
+   "hits": []
+  },
+  {
+   "file": "s0179.png",
+   "t": 5.967,
+   "frame": 179,
+   "text": ": ‘- ~ | : | . ‘-- ~ | :",
+   "hits": []
+  },
+  {
+   "file": "s0180.png",
+   "t": 6.0,
+   "frame": 180,
+   "text": "t<~ o i (* | ~~ «= a i",
+   "hits": []
+  },
+  {
+   "file": "s0181.png",
+   "t": 6.033,
+   "frame": 181,
+   "text": "=< - A. | >< « - B",
+   "hits": []
+  },
+  {
+   "file": "s0182.png",
+   "t": 6.067,
+   "frame": 182,
+   "text": "4 3 | 4 +e",
+   "hits": []
+  },
+  {
+   "file": "s0183.png",
+   "t": 6.1,
+   "frame": 183,
+   "text": "wp qe, ‘Dp <a eS S-, a fa < y | Th) qe, ‘Dp =~, Ss, a fa < y",
+   "hits": []
+  },
+  {
+   "file": "s0184.png",
+   "t": 6.133,
+   "frame": 184,
+   "text": ") @, ‘Dp <a i a | b ———— < y | ) qe, ‘Dp ~, ™ i. a | b es < y",
+   "hits": []
+  },
+  {
+   "file": "s0185.png",
+   "t": 6.167,
+   "frame": 185,
+   "text": "re We 7 | re We 7",
+   "hits": []
+  },
+  {
+   "file": "s0186.png",
+   "t": 6.2,
+   "frame": 186,
+   "text": "re We 7 | re We 7",
+   "hits": []
+  },
+  {
+   "file": "s0187.png",
+   "t": 6.233,
+   "frame": 187,
+   "text": "Some Kens PD | Jomke Kens PD",
+   "hits": []
+  },
+  {
+   "file": "s0188.png",
+   "t": 6.267,
+   "frame": 188,
+   "text": "Some Kens PD | Jomke Kens PD",
+   "hits": []
+  },
+  {
+   "file": "s0189.png",
+   "t": 6.3,
+   "frame": 189,
+   "text": "Jomke Kens PD | Jory Kens PD",
+   "hits": []
+  },
+  {
+   "file": "s0190.png",
+   "t": 6.333,
+   "frame": 190,
+   "text": "Joke Kens PD | Jove Kens PD",
+   "hits": []
+  },
+  {
+   "file": "s0191.png",
+   "t": 6.367,
+   "frame": 191,
+   "text": "wee No (A, / | A No A, /",
+   "hits": []
+  },
+  {
+   "file": "s0192.png",
+   "t": 6.4,
+   "frame": 192,
+   "text": "wae No (A, / | wee No (A, /",
+   "hits": []
+  },
+  {
+   "file": "s0193.png",
+   "t": 6.433,
+   "frame": 193,
+   "text": "Vw is (A, G7 | Va is (A, G7",
+   "hits": []
+  },
+  {
+   "file": "s0194.png",
+   "t": 6.467,
+   "frame": 194,
+   "text": "\\ wv \\ No LA, / | \\ wv \\ No LA, /",
+   "hits": []
+  },
+  {
+   "file": "s0195.png",
+   "t": 6.5,
+   "frame": 195,
+   "text": "SH 1) S (a ‘i & sao \\ ac os ~~ = s sraert « nt ee ‘ie pat i i 5 ee By te how Pome ee | SOF t S (a f & sae \\ “Th os ~~ = s sraert « nt ee uy pa _ i 5 ee By te 1 i ee",
+   "hits": []
+  },
+  {
+   "file": "s0196.png",
+   "t": 6.533,
+   "frame": 196,
+   "text": "- 7s eS te we |—| iss | - = eS te we |—| is",
+   "hits": []
+  },
+  {
+   "file": "s0197.png",
+   "t": 6.567,
+   "frame": 197,
+   "text": "til My fe Hy 7; of oF i) ras eh Sa is a oat 32 |_ —s mah bows Tt eae PE. ny Lis at tS} iad eT \\ | ith Ny fe ¥ 07; of oF Ver reid ors Sa is a oat 32 |_ —s mah hous Tt eae bia ny Lis at tes} iad eT \\",
+   "hits": []
+  },
+  {
+   "file": "s0198.png",
+   "t": 6.6,
+   "frame": 198,
+   "text": "BN Cr) R DO if ri ll f Y D | ‘a i) RC DO if gi l f Y D",
+   "hits": []
+  },
+  {
+   "file": "s0199.png",
+   "t": 6.633,
+   "frame": 199,
+   "text": "Sh Nt\" as Yat ft. ) > \\ | Sh Sia oem VR ALS j | I Ly df | Sr Vial 14 Ye ae ) ts \\ | Sh S Gis oem VR ALS j | I Ly df",
+   "hits": []
+  },
+  {
+   "file": "s0200.png",
+   "t": 6.667,
+   "frame": 200,
+   "text": "iy \\ ae “Sp S Ge NR I af | iy \\ ae “Sp S Ge NR H I af",
+   "hits": []
+  },
+  {
+   "file": "s0201.png",
+   "t": 6.7,
+   "frame": 201,
+   "text": "iy i) ig Ws = > op. \\ mA | | | iy ) 2 = ss ? op | \\ EG | |",
+   "hits": []
+  },
+  {
+   "file": "s0202.png",
+   "t": 6.733,
+   "frame": 202,
+   "text": "diy: S f ad ed 4 Se | = De oT |_ ie =] i ao il ue | diy: S f ja ne 4 Se | = Dy { |_ ih =] ai a | il ue",
+   "hits": []
+  },
+  {
+   "file": "s0203.png",
+   "t": 6.767,
+   "frame": 203,
+   "text": "Nos ~ We ad ter ~*~, va | u — . ie \\y | No ~ We ad ter ~*~, a j Ty — . ie \\y",
+   "hits": []
+  },
+  {
+   "file": "s0204.png",
+   "t": 6.8,
+   "frame": 204,
+   "text": "be a, ia vr | \"Oo ) gi KZ \\ || ‘ eee | | be a, ia or \"Oo ) gi Mw uy || ‘| ee |",
+   "hits": []
+  },
+  {
+   "file": "s0205.png",
+   "t": 6.833,
+   "frame": 205,
+   "text": "<a Ke) eo bk x \\ js | my | <a Ke) eo Mh x \\ js | ae |",
+   "hits": []
+  },
+  {
+   "file": "s0206.png",
+   "t": 6.867,
+   "frame": 206,
+   "text": "r ae be <a@ ae a” i me = | x L1 XD <a@ a> a” ie ei =",
+   "hits": []
+  },
+  {
+   "file": "s0207.png",
+   "t": 6.9,
+   "frame": 207,
+   "text": "i } Ko > > IU SD {0 Tali Th | ‘* } \"Oo “ ‘Se IU SD {0 Tali Th",
+   "hits": []
+  },
+  {
+   "file": "s0208.png",
+   "t": 6.933,
+   "frame": 208,
+   "text": "i *< PN >> lO i/ VA A phil hp ~~ [: | i os *< PN > IO i/ TA A 7 ee ah > [:",
+   "hits": []
+  },
+  {
+   "file": "s0209.png",
+   "t": 6.967,
+   "frame": 209,
+   "text": "7~E é,| <a@ ae he -@ = {0 bh 1! if iv ler | el Teall 2 atid) \\ | ~~ é,| <a@ ae Ri -@ = {0 be 1! |) iv ler | Hh | as ld 2 atid) \\",
+   "hits": []
+  },
+  {
+   "file": "s0210.png",
+   "t": 7.0,
+   "frame": 210,
+   "text": "—WAZ >< SDT re me RES | —WAZ >< STRSTR re eee ELLY",
+   "hits": []
+  },
+  {
+   "file": "s0211.png",
+   "t": 7.033,
+   "frame": 211,
+   "text": ">< Os | >< anne",
+   "hits": []
+  },
+  {
+   "file": "s0212.png",
+   "t": 7.067,
+   "frame": 212,
+   "text": ">< Fre nettle SEE | >= re nettle SE",
+   "hits": []
+  },
+  {
+   "file": "s0213.png",
+   "t": 7.1,
+   "frame": 213,
+   "text": "EOL LLL | ELL EDL ATE",
+   "hits": []
+  },
+  {
+   "file": "s0214.png",
+   "t": 7.133,
+   "frame": 214,
+   "text": ">< nl | >< nl",
+   "hits": []
+  },
+  {
+   "file": "s0215.png",
+   "t": 7.167,
+   "frame": 215,
+   "text": ">= ees | >= ees",
+   "hits": []
+  },
+  {
+   "file": "s0216.png",
+   "t": 7.2,
+   "frame": 216,
+   "text": "— —\\MZL ——— | — —\\MZL ><",
+   "hits": []
+  },
+  {
+   "file": "s0217.png",
+   "t": 7.233,
+   "frame": 217,
+   "text": "—\\WZL ——— RRA EL TT LEST AA | —\\WZL ———— RRA ELE NNT LEST HA:",
+   "hits": []
+  },
+  {
+   "file": "s0218.png",
+   "t": 7.267,
+   "frame": 218,
+   "text": " | ",
+   "hits": []
+  },
+  {
+   "file": "s0219.png",
+   "t": 7.3,
+   "frame": 219,
+   "text": "ACL = TACs toe a | INA = ATC eto ie Ck",
+   "hits": []
+  },
+  {
+   "file": "s0220.png",
+   "t": 7.333,
+   "frame": 220,
+   "text": "ee ae eA EAI EATEN NE TEI OY NS | [aa Tae RAEI I EATEN NE BEIT OY NS",
+   "hits": []
+  },
+  {
+   "file": "s0221.png",
+   "t": 7.367,
+   "frame": 221,
+   "text": "— 6 = me ns | —_ 6 = Row ns",
+   "hits": []
+  },
+  {
+   "file": "s0222.png",
+   "t": 7.4,
+   "frame": 222,
+   "text": "a wale eS , R _ aE ans - | me wale eS , R _ EO as -",
+   "hits": []
+  },
+  {
+   "file": "s0223.png",
+   "t": 7.433,
+   "frame": 223,
+   "text": "a Sake * spat = eee | a ake * wpa = eee",
+   "hits": []
+  },
+  {
+   "file": "s0224.png",
+   "t": 7.467,
+   "frame": 224,
+   "text": "a” A a. ee Me. - aan | a A ra ae We. - a eae",
+   "hits": []
+  },
+  {
+   "file": "s0225.png",
+   "t": 7.5,
+   "frame": 225,
+   "text": "+3 a Oy A ae iy = eal | ri a > & ae iy = eal",
+   "hits": []
+  },
+  {
+   "file": "s0226.png",
+   "t": 7.533,
+   "frame": 226,
+   "text": "ED mn >: *% y al @e 3 (e | ED oma >: * y al @e 3 ,%",
+   "hits": []
+  },
+  {
+   "file": "s0227.png",
+   "t": 7.567,
+   "frame": 227,
+   "text": ".) 4 ie 4 och 03 | .) ra ie 4 och 03",
+   "hits": []
+  },
+  {
+   "file": "s0228.png",
+   "t": 7.6,
+   "frame": 228,
+   "text": "ae So Of Of i@ aoe O an yO ll Ye | ae So Of Of i@ aoe O at yO ll he",
+   "hits": []
+  },
+  {
+   "file": "s0229.png",
+   "t": 7.633,
+   "frame": 229,
+   "text": "& mI et 4 (O G Rar 6 fe a4 | Bs = et 4 (O GC Key U Cc a4",
+   "hits": []
+  },
+  {
+   "file": "s0230.png",
+   "t": 7.667,
+   "frame": 230,
+   "text": "“ = boty I Me —~ ls a 7 4 Y D> Be in Tf As | “ = boty a Me —~ hy ‘ot 74 Y > Be in fA As",
+   "hits": []
+  },
+  {
+   "file": "s0231.png",
+   "t": 7.7,
+   "frame": 231,
+   "text": "+o ied - oy er ty Ey a 4 C4 hg | +o ied pe oy oa! hy Ey a 4 C4 hg",
+   "hits": []
+  },
+  {
+   "file": "s0232.png",
+   "t": 7.733,
+   "frame": 232,
+   "text": "a p< if ea yy sa Xx xg ZL Re! ~~! fag 1 \\Ses ae | vs p< if ia ay say Xx Be ZL ae ~~! a4 1 \\Ses ae",
+   "hits": []
+  },
+  {
+   "file": "s0233.png",
+   "t": 7.767,
+   "frame": 233,
+   "text": "‘’ * @ 06 C OG OS | ‘ * @ 06 C OG OS",
+   "hits": []
+  },
+  {
+   "file": "s0234.png",
+   "t": 7.8,
+   "frame": 234,
+   "text": "~ O6. 3.24 06 03. OG | ~ O6. 3.24 06 03. O6",
+   "hits": []
+  },
+  {
+   "file": "s0235.png",
+   "t": 7.833,
+   "frame": 235,
+   "text": "a ,O O6. 3.27 06 03 06 OF | a ,O O6,. 3.27 06 03 06 OF",
+   "hits": []
+  },
+  {
+   "file": "s0236.png",
+   "t": 7.867,
+   "frame": 236,
+   "text": "FF: 06.03.27 06.03.2 OG OS | a 06.03.27 06.03.2 OG OS",
+   "hits": []
+  },
+  {
+   "file": "s0237.png",
+   "t": 7.9,
+   "frame": 237,
+   "text": "5 Fr 06.05.27 06.03.27 O6.035.4 | 5 Fr O6.05.27 06.03.27 06.03.24",
+   "hits": []
+  },
+  {
+   "file": "s0238.png",
+   "t": 7.933,
+   "frame": 238,
+   "text": " | ",
+   "hits": []
+  },
+  {
+   "file": "s0239.png",
+   "t": 7.967,
+   "frame": 239,
+   "text": "a 43 aH 3 ae 25) ns if ee ~ VO ay ee 7M Zi no be ~~ a O6.05.27 - Le iS eer Pia) | a AS aH 3 ae 45) on if ee is a VGH ar ee 7M Zi be i hw ~ O6.05.27 - Le By Lee Pia)",
+   "hits": []
+  },
+  {
+   "file": "s0240.png",
+   "t": 8.0,
+   "frame": 240,
+   "text": "ream get <s xe 4s oh ae iP i a See #2 va Byes cS aS ; Fy 5 Zz O6.05.27 = a! at | ream eet cS xe 4 on axe iP i a ce 42 ve pees cS a ; Fy 5 Zz O6.O05.27 = —_ at",
+   "hits": []
+  },
+  {
+   "file": "s0241.png",
+   "t": 8.033,
+   "frame": 241,
+   "text": "x Visser be tg oy - 2 ag en Be a Pa sh Ste. OS oo 4: Teer e OG.05.2 -_ xy “if Ss | x Vite be te oy - 2 ag en Ze a pes se Ste. OS oS 4: Weer e O6G.05.2 -_ ey ~ Ss",
+   "hits": []
+  },
+  {
+   "file": "s0242.png",
+   "t": 8.067,
+   "frame": 242,
+   "text": "= Se) <a ae ey e a 6.05.27 | ee Se) <r ve e e a 6.05.27",
+   "hits": []
+  },
+  {
+   "file": "s0243.png",
+   "t": 8.1,
+   "frame": 243,
+   "text": "<3, 5 aun ss in Poy Bes A iet she a a eo. hs -~ OG.OS oO ZV % - —_ == = my = wa “ay io oe 2 | <3, 5 rs ss ‘K yey ies it she sn Sit eo. os -~ O6G.OS oO ZV % - —_ ==! = ty = va “ay = pis ee",
+   "hits": []
+  },
+  {
+   "file": "s0244.png",
+   "t": 8.133,
+   "frame": 244,
+   "text": "-s ie oe 535 wre at ae Oy i. O6G.05.27 - oa | -s tea ai 555 wre at we Ow in OG.05.27 - ae",
+   "hits": []
+  },
+  {
+   "file": "s0245.png",
+   "t": 8.167,
+   "frame": 245,
+   "text": "Pe abe pre ©6.03.27 a f y é a bs == 3S P | Ps aha pres ©6.03.27 a y Z b a bs == 7 P",
+   "hits": []
+  },
+  {
+   "file": "s0246.png",
+   "t": 8.2,
+   "frame": 246,
+   "text": "Pate. a ‘% 7¥ re Soe ne < idee i Via wy » O©.05.27 | Pate. ai % 7¥ Fn Soe ne < thd y VN wy » O©.05.27",
+   "hits": []
+  },
+  {
+   "file": "s0247.png",
+   "t": 8.233,
+   "frame": 247,
+   "text": "oe Bb eae i Sik Moe Ree Shins a sos ‘7 Boas O6.05.27 ¥ = he = a we fe > Aig ‘a pens | TR Bb tae i ait or Ree Shin Pi os “7 Boas O6.05.27 Ee = hs = a we fe nd aie ‘ag pas",
+   "hits": []
+  },
+  {
+   "file": "s0248.png",
+   "t": 8.267,
+   "frame": 248,
+   "text": "pod, renee <2e* iv ee re eI zat fo as ae e aa pi Tae aod ZA 7\\ wy OG O5.27 1 : SF au) bit ae rs oe | pod, ete <2e*x iy, ee re 7 zat noe as F ~ rs aa Bis 7a aoa ZA 7~\\ VY OG O5.27 ‘ : SF au) bit ae rs ae",
+   "hits": []
+  },
+  {
+   "file": "s0249.png",
+   "t": 8.3,
+   "frame": 249,
+   "text": "~% = os edt iT) 33 ye Bit ‘es oY ih J¢ * ain > Ae tn ny O6G.05.27 Nel ae at | ~ 4 = edith i, 33 ee Bit ‘as oY i ¢ * aie > AS tn y O6G.O05.27 Nel ed at",
+   "hits": []
+  },
+  {
+   "file": "s0250.png",
+   "t": 8.333,
+   "frame": 250,
+   "text": "a Es Diet ci =~ ae: sy ‘eeu BR ey oh os si “f a a “e 1S \\ a ) [2 ww : O6.05.27 i) - a doe! Se =e Se | ee Diet ci =~ ee: ay ‘egal p> F oh os si “f hs BA “e iS \\ r ) [2 we : O6.05.27 7) - m doe! ty =e Se",
+   "hits": []
+  },
+  {
+   "file": "s0251.png",
+   "t": 8.367,
+   "frame": 251,
+   "text": "be 06.03.27 ‘ 06.05.27 | be 06.03.27 ‘ 06.05.27",
+   "hits": []
+  },
+  {
+   "file": "s0252.png",
+   "t": 8.4,
+   "frame": 252,
+   "text": "3 06.0 7 06.03.27 q 06.05.27 | 3 06.0 7 06.03.27 q 06.05.27",
+   "hits": []
+  },
+  {
+   "file": "s0253.png",
+   "t": 8.433,
+   "frame": 253,
+   "text": "Te O60 rt b 06.03.27 06.05.27 | w@ O60 rt b 06.03.27 06.05.27",
+   "hits": []
+  },
+  {
+   "file": "s0254.png",
+   "t": 8.467,
+   "frame": 254,
+   "text": "08, MP7 06.03.27 06.03.27 | 08,7 06.03.27 06.05.27",
+   "hits": []
+  },
+  {
+   "file": "s0255.png",
+   "t": 8.5,
+   "frame": 255,
+   "text": "> oa ——— 06.03.27 — YO oWVY & 06.05.27 | > a ——— 06.03.27 — YO WY Zi 06.05.27",
+   "hits": []
+  },
+  {
+   "file": "s0256.png",
+   "t": 8.533,
+   "frame": 256,
+   "text": "06.0827 06.03.27 06.05.27 | 06.087 06.03.27 06.03.27",
+   "hits": []
+  },
+  {
+   "file": "s0257.png",
+   "t": 8.567,
+   "frame": 257,
+   "text": "06.0827 06.03.27 06.05.27 | 06.0827 06.03.27 06.05.27",
+   "hits": []
+  },
+  {
+   "file": "s0258.png",
+   "t": 8.6,
+   "frame": 258,
+   "text": "ie Ne bat O6. @) oa SS Sam 06.03.2 06.05.27 at | iis Ne be O6. @) Do Seam 06.03.2 06.05.27 a",
+   "hits": []
+  },
+  {
+   "file": "s0259.png",
+   "t": 8.633,
+   "frame": 259,
+   "text": "<e “tA be O63 VOog af “833 — 2» O6.035.27 at ee | <e “tA be OG og if “33 — 2» 06.03.27 at es)",
+   "hits": []
+  },
+  {
+   "file": "s0260.png",
+   "t": 8.667,
+   "frame": 260,
+   "text": "SS Wg 3 te bon wee O6 Ke ~y “y 06. WL - bay te 06.03.2 Wi 0, : | SS sg 03 te bon Mee O6 c)O ~y “y 06. 7 ho bah te 06.03.2 Wi 0, :",
+   "hits": []
+  },
+  {
+   "file": "s0261.png",
+   "t": 8.7,
+   "frame": 261,
+   "text": "Ne J Ar MG od We ae -) +e. Se O06. \\e/ 2» O6.035. oy | Ne J AA MO od Ws ae ) +e. va O06. we 2» O6.035. 24",
+   "hits": []
+  },
+  {
+   "file": "s0262.png",
+   "t": 8.733,
+   "frame": 262,
+   "text": "ee O63 es 06. 0S. ad O6.05.274 | ee O63 es 06. 0S. i O6.05.274",
+   "hits": []
+  },
+  {
+   "file": "s0263.png",
+   "t": 8.767,
+   "frame": 263,
+   "text": "OG: es 0g aS 06.¢ = © Ba OG. OS. 27 ait ee | OG: e's on aS 06.¢ = © \"beg S OG. OS. 27 ait ee",
+   "hits": []
+  },
+  {
+   "file": "s0264.png",
+   "t": 8.8,
+   "frame": 264,
+   "text": "Low G G59 x» | Low G F5.% x»",
+   "hits": []
+  },
+  {
+   "file": "s0265.png",
+   "t": 8.833,
+   "frame": 265,
+   "text": "< J ¢ Ca | < J ¢ Ca",
+   "hits": []
+  },
+  {
+   "file": "s0266.png",
+   "t": 8.867,
+   "frame": 266,
+   "text": "(0 FS .¥ | (0 FS .¥",
+   "hits": []
+  },
+  {
+   "file": "s0267.png",
+   "t": 8.9,
+   "frame": 267,
+   "text": "OIG 02 U 06. al | O6.GS.27 | O6, 02 U 06. 27 O6.GS.27",
+   "hits": []
+  },
+  {
+   "file": "s0268.png",
+   "t": 8.933,
+   "frame": 268,
+   "text": "O6,. 02 U 06. 27 O6.GS.27 | O6, 02 U 06. 27 O6.GS.27",
+   "hits": []
+  },
+  {
+   "file": "s0269.png",
+   "t": 8.967,
+   "frame": 269,
+   "text": "O6.08.27 O06. 27 O6.G5.27 | O6.08.27 O06. 27 O6.G5.27",
+   "hits": []
+  },
+  {
+   "file": "s0270.png",
+   "t": 9.0,
+   "frame": 270,
+   "text": "06.08.27 O06. 27 O6.GS.27 | 06.08.27 O06. 27 O6.GS.27",
+   "hits": []
+  },
+  {
+   "file": "s0271.png",
+   "t": 9.033,
+   "frame": 271,
+   "text": "06.03.27 06.03.27 O6.03.27 | O6.035.27 06.03.27 O6.035.27",
+   "hits": []
+  },
+  {
+   "file": "s0272.png",
+   "t": 9.067,
+   "frame": 272,
+   "text": "06.05.27 06.03.27 06.63.27 | 06.05.27 06.03.27 06.63.27",
+   "hits": []
+  },
+  {
+   "file": "s0273.png",
+   "t": 9.1,
+   "frame": 273,
+   "text": "06.05.27 06.03.27 06.63.27 | 06.05.27 06.03.27 06.63.27",
+   "hits": []
+  },
+  {
+   "file": "s0274.png",
+   "t": 9.133,
+   "frame": 274,
+   "text": "06.05.27 06.46.27 06.03.27 | 06.05.27 06.46.27 06.03.27",
+   "hits": []
+  },
+  {
+   "file": "s0275.png",
+   "t": 9.167,
+   "frame": 275,
+   "text": "06.05.27 06.46.27 06.03.27 | 06.05.27 06.46.27 06.03.27",
+   "hits": []
+  },
+  {
+   "file": "s0276.png",
+   "t": 9.2,
+   "frame": 276,
+   "text": "06.05.27 06.48.27 06.03.27 | 06.05.27 06.48.27 06.03.27",
+   "hits": []
+  },
+  {
+   "file": "s0277.png",
+   "t": 9.233,
+   "frame": 277,
+   "text": "= v, os lp 706.035.27 AS (0) | = a oT lp 706.035.27 AS (0)",
+   "hits": []
+  },
+  {
+   "file": "s0278.png",
+   "t": 9.267,
+   "frame": 278,
+   "text": "s oe) Cg 27 06:05. a7 ere iE mM oF l;! |__| (pit i! ti it — b 4 a] | “3 oe) Sg 27 06-05. a7 or iE ms 6. l;! |__| [pit i! ti it — b 4 a]",
+   "hits": []
+  },
+  {
+   "file": "s0279.png",
+   "t": 9.3,
+   "frame": 279,
+   "text": "> 7k 6.03. 57 em i // 40)6. ih _| rat ert A! | 1 | lw] | > 7k 6.03. 57 em i // #0)6. tii _| rat doh A! a 1 | lg]",
+   "hits": []
+  },
+  {
+   "file": "s0280.png",
+   "t": 9.333,
+   "frame": 280,
+   "text": "ial a awa <<” —— 2 a | ; 6.03.27 2 yw e7 * | (ii iW | ial al a awa <<” —— a) aa | ; 6.03.27 2 yw e7 * | (ii iW",
+   "hits": []
+  },
+  {
+   "file": "s0281.png",
+   "t": 9.367,
+   "frame": 281,
+   "text": "he a’ Micon. 03. 27 F 06.05.27 | ry a ’ | | he a’ Moots 03. 27 F 06.05.27 | ry a ’",
+   "hits": []
+  },
+  {
+   "file": "s0282.png",
+   "t": 9.4,
+   "frame": 282,
+   "text": "e 0 ie i. Ke. 03. ay | ent , io \\ elias | es OC ae io. Ke. 03. oy | ent , lo \\ ella",
+   "hits": []
+  },
+  {
+   "file": "s0283.png",
+   "t": 9.433,
+   "frame": 283,
+   "text": "ee i” 2 uv Oo i Ke. 03. ob ; _- : on } ; \\ ieeliad | ee i 2 uv ‘OC i. Ke. 03. 34 ; oon : hon i ; \\ eel",
+   "hits": []
+  },
+  {
+   "file": "s0284.png",
+   "t": 9.467,
+   "frame": 284,
+   "text": "ee | ae OC ae 0 ar ha | Dy i \\ ieee | ee ee OC ae 0 a7 ha | i) i \\ ied",
+   "hits": []
+  },
+  {
+   "file": "s0285.png",
+   "t": 9.5,
+   "frame": 285,
+   "text": "wid oO x ) 6. 6.03. of D mG. @ 2. | ' x oe | Tt a \\ | wid oO x Ul 6. 6.03. a D mG. @ Z./ | ' x oe | Tt il \\",
+   "hits": []
+  },
+  {
+   "file": "s0286.png",
+   "t": 9.533,
+   "frame": 286,
+   "text": "bk ite a Rg ae => 0 6-Otie2 7 6.03.27 0) 6.Q227 | ae] i! i | bk it al Ng a => 0 6-Otig2 7 6.03.27 0) 6.Q2.27 hel i! i",
+   "hits": []
+  },
+  {
+   "file": "s0287.png",
+   "t": 9.567,
+   "frame": 287,
+   "text": "ae ‘e Be — vo 6.0% 24 6.03.27 a m06.0527 | i LS if | ae ‘e Be — vo 6.0%&24 6.03.27 a m06.0597 | [ LO if",
+   "hits": []
+  },
+  {
+   "file": "s0288.png",
+   "t": 9.6,
+   "frame": 288,
+   "text": "we i (oy ” MS us, 6.0%27 — 06.03. 7 6) Oler ‘Ht th Ht a i i | fe i (oy * us, 6.0%27 = 66.03. 7 6) Or ‘Ht tH it a Hi i",
+   "hits": []
+  },
+  {
+   "file": "s0289.png",
+   "t": 9.633,
+   "frame": 289,
+   "text": "a * di -pé.0%, 6.03. y/ - “ ), ge! Ai\\| | a] \\ | a * di p03, 6.03. 7 7 “ ), ge! Ai\\| | a] \\",
+   "hits": []
+  },
+  {
+   "file": "s0290.png",
+   "t": 9.667,
+   "frame": 290,
+   "text": "f _ —_ Le = as Ba oO6. ig // 19 bite ball {t | f _ —_ ®. = as Be e106. ea // 19 bite ball {t",
+   "hits": []
+  },
+  {
+   "file": "s0291.png",
+   "t": 9.7,
+   "frame": 291,
+   "text": "sad 7\" | > 7 mas 555 o1 OG. 03.27 } —+ ‘L tL | sad 7\" | > 7 mes 555 o1 OG. 03-27 } —+ ih {I",
+   "hits": []
+  },
+  {
+   "file": "s0292.png",
+   "t": 9.733,
+   "frame": 292,
+   "text": "wie Py pe: 6? 6.03 0,06. ORS D7 ee a | I ia a — i] | wie Py a: 6a? 6.03 o}06. ORK D7 ee ri I ia a — i]",
+   "hits": []
+  },
+  {
+   "file": "s0293.png",
+   "t": 9.767,
+   "frame": 293,
+   "text": "“ S$ 8 06. = ‘mal ne ——— a H | “ S$ ae p06. = ‘mal ne —— a H",
+   "hits": []
+  },
+  {
+   "file": "s0294.png",
+   "t": 9.8,
+   "frame": 294,
+   "text": "BA Be St $ i = 0) 6. O-- 7% oy wv XX O| O52 7 BAD vit) if ey th | po ae St $ = = —=_ 0) 6. O--7% oy vw XX O| OS—2 7 + 1h vi if se th",
+   "hits": []
+  },
+  {
+   "file": "s0295.png",
+   "t": 9.833,
+   "frame": 295,
+   "text": "©6.0 | ©6.0",
+   "hits": []
+  },
+  {
+   "file": "s0296.png",
+   "t": 9.867,
+   "frame": 296,
+   "text": "66.0 | 66.0",
+   "hits": []
+  },
+  {
+   "file": "s0297.png",
+   "t": 9.9,
+   "frame": 297,
+   "text": "f W V6.0 06.0 ry | f A / 96.0 O6.O ry",
+   "hits": []
+  },
+  {
+   "file": "s0298.png",
+   "t": 9.933,
+   "frame": 298,
+   "text": "96.0 06.0 / | 96.0 06.0 /",
+   "hits": []
+  },
+  {
+   "file": "s0299.png",
+   "t": 9.967,
+   "frame": 299,
+   "text": "PION 96.0 Q6.O) / | eJON 96.0 Q6.O) /",
+   "hits": []
+  },
+  {
+   "file": "s0300.png",
+   "t": 10.0,
+   "frame": 300,
+   "text": "eyo. y/ 96.0 Qo6.Q yy | weG by 96.0 Qo6.Q yy",
+   "hits": []
+  },
+  {
+   "file": "s0301.png",
+   "t": 10.033,
+   "frame": 301,
+   "text": "0 7 96.0 Qo.Q py/ | Oo 7 96.0 Qo.Q a",
+   "hits": []
+  },
+  {
+   "file": "s0302.png",
+   "t": 10.067,
+   "frame": 302,
+   "text": "oO bY // 06.0 Qo6.Q v7 | Ors EN / 06.0 Qe6.Q v7",
+   "hits": []
+  },
+  {
+   "file": "s0303.png",
+   "t": 10.1,
+   "frame": 303,
+   "text": "© yd 06.0 27 06.0 y/ | © Wi 06.0 27 06.0 Wy",
+   "hits": []
+  },
+  {
+   "file": "s0304.png",
+   "t": 10.133,
+   "frame": 304,
+   "text": "706.0 ” 06.0 | 706.0 ” 06.0",
+   "hits": []
+  },
+  {
+   "file": "s0305.png",
+   "t": 10.167,
+   "frame": 305,
+   "text": "06 fore | 06 fore",
+   "hits": []
+  },
+  {
+   "file": "s0306.png",
+   "t": 10.2,
+   "frame": 306,
+   "text": "ill as . ' =~ ie ars | ill as . ' es pt}",
+   "hits": []
+  },
+  {
+   "file": "s0307.png",
+   "t": 10.233,
+   "frame": 307,
+   "text": "ill re ame a ig pas. Jets * 1- | ill vr ny) a iG pas. ise * 1",
+   "hits": []
+  },
+  {
+   "file": "s0308.png",
+   "t": 10.267,
+   "frame": 308,
+   "text": ". thi t » | (** 3 pa . “ | . hi t » | (** : pa . “",
+   "hits": []
+  },
+  {
+   "file": "s0309.png",
+   "t": 10.3,
+   "frame": 309,
+   "text": "ill | some r we Ns es 2 OR Pall rs Pike i ® | ill | some . A Ns teas 2 OR ral rs Pi i ®",
+   "hits": []
+  },
+  {
+   "file": "s0310.png",
+   "t": 10.333,
+   "frame": 310,
+   "text": "ill { Rieeioes im es > & is ey bal 1* | ill i |e 1h we, os Ss) & iS pass bal )*",
+   "hits": []
+  },
+  {
+   "file": "s0311.png",
+   "t": 10.367,
+   "frame": 311,
+   "text": "ill S ebe | toa 4 an ae wa ba: a a a i ve | ill sabe | tae 4 an ae we a me 7 55 i i",
+   "hits": []
+  },
+  {
+   "file": "s0312.png",
+   "t": 10.4,
+   "frame": 312,
+   "text": "ill Ma bs 5° i se »3, a ! i | ill Ma bs 5- i see x9, a ! i *",
+   "hits": []
+  },
+  {
+   "file": "s0313.png",
+   "t": 10.433,
+   "frame": 313,
+   "text": "ill ae co & ‘ \\) # is te i f 4 +o ~o a | = | ill ar co “ ‘ \\) 4 is ted i f 4 +o ~f a | =",
+   "hits": []
+  },
+  {
+   "file": "s0314.png",
+   "t": 10.467,
+   "frame": 314,
+   "text": "il WP i Le) oe ‘tad bal mr ean | il whi 38 oe ‘tad A mr ean",
+   "hits": []
+  },
+  {
+   "file": "s0315.png",
+   "t": 10.5,
+   "frame": 315,
+   "text": "i ill ep tot > ~ ip on ib \\ \\@ | | ili i tot. > ~ iy <3 oe ib \\ \\@",
+   "hits": []
+  },
+  {
+   "file": "s0316.png",
+   "t": 10.533,
+   "frame": 316,
+   "text": "ill, hey pa = he Ne Le | ill, hey a {= be 2 r",
+   "hits": []
+  },
+  {
+   "file": "s0317.png",
+   "t": 10.567,
+   "frame": 317,
+   "text": "ll is ah ‘ies so => —) A ie 7d e | lb is ah ‘ea so => —)| a he 7d Pal",
+   "hits": []
+  },
+  {
+   "file": "s0318.png",
+   "t": 10.6,
+   "frame": 318,
+   "text": "ill if a a Tea = yy ot \\y it — | ill if = a Teeut = an ot \\y it —",
+   "hits": []
+  },
+  {
+   "file": "s0319.png",
+   "t": 10.633,
+   "frame": 319,
+   "text": "cand oa ag ese rent Se 4 | cad a ag ress rent Se 4",
+   "hits": []
+  },
+  {
+   "file": "s0320.png",
+   "t": 10.667,
+   "frame": 320,
+   "text": "Se. we e She. en (0, Ki y+ ot oe ae ia oe * . x * | Sie. we 3 Sie i (0, Ki ye ot oe ae re oe k* . x *",
+   "hits": []
+  },
+  {
+   "file": "s0321.png",
+   "t": 10.7,
+   "frame": 321,
+   "text": "ioe = ct aN on ia * | oe ct aN on Ba *",
+   "hits": []
+  },
+  {
+   "file": "s0322.png",
+   "t": 10.733,
+   "frame": 322,
+   "text": "4a ss a r ey 4 te iY % Ys, or & es oa 4 tay Dee vs “a ty | 4a ss ie r ey pr te 7¥ % Ys, bd & es 1 4 {ay Dee vs “a ty",
+   "hits": []
+  },
+  {
+   "file": "s0323.png",
+   "t": 10.767,
+   "frame": 323,
+   "text": "Pe has a & vig i v9 & ‘ss aa, — | sia a be vig i oe & ‘es a ——",
+   "hits": []
+  },
+  {
+   "file": "s0324.png",
+   "t": 10.8,
+   "frame": 324,
+   "text": "%e a5 . \\ Ss as ——. Ss = g | %y a5 . \\ Ss bias _—. = g",
+   "hits": []
+  },
+  {
+   "file": "s0325.png",
+   "t": 10.833,
+   "frame": 325,
+   "text": "Li Lt iy we Sere 2 _— oe at Bry a —a, See e | Li Fs iy we ae mu _— e3 at Bry a —a, oe rs",
+   "hits": []
+  },
+  {
+   "file": "s0326.png",
+   "t": 10.867,
+   "frame": 326,
+   "text": "#: Nias te. 4h as = 4 pad am oe = st —_~ — — | #: Nias t¢. 4h as s. 4 ped gi oe = st —_~ — —_—",
+   "hits": []
+  },
+  {
+   "file": "s0327.png",
+   "t": 10.9,
+   "frame": 327,
+   "text": "i Sere Ge aaa iy wD, Ter? SU sar — _—_~ ae - | EM _ —— : 2 -— == a — — § | i Sart Ge E>, Bh ay, Tear? ae tae — = _—_~ ae - | EM _ — -3 : 2 —— a — — §",
+   "hits": []
+  },
+  {
+   "file": "s0328.png",
+   "t": 10.933,
+   "frame": 328,
+   "text": "hi “x rite ™) x nes > ® — a ———S .— — is _— = - = —— = i“ — - A i | hi “ mike ™) x nes ome ® — —_e- -——S .— — is ,_— = - = a — in — - A a",
+   "hits": []
+  },
+  {
+   "file": "s0329.png",
+   "t": 10.967,
+   "frame": 329,
+   "text": "+5, ay &@ ts fy te a oy Bt Ae ae Py 74 R iS = *, oat ae Wee i —_ he | +5, Pee th f) te a wt a Ae ae Py v4 R % => *, oat ee Wee : —_ en",
+   "hits": []
+  },
+  {
+   "file": "s0330.png",
+   "t": 11.0,
+   "frame": 330,
+   "text": "4 ial pe Me ~ - ~*% ~ - # | 4 rial ae Me ~ - ~*% ~ - #",
+   "hits": []
+  },
+  {
+   "file": "s0331.png",
+   "t": 11.033,
+   "frame": 331,
+   "text": "y _ oY AL AY ‘% | y .\" oY AL is",
+   "hits": []
+  },
+  {
+   "file": "s0332.png",
+   "t": 11.067,
+   "frame": 332,
+   "text": "q aie l SS 09\" \\WiMt 4 | + | PTAs l SS 09\" \\WiMt' 4",
+   "hits": []
+  },
+  {
+   "file": "s0333.png",
+   "t": 11.1,
+   "frame": 333,
+   "text": "N Dist Ot | iy ay) 09. \\ | N Sey 7 | iy wy) 09\" Wi!",
+   "hits": []
+  },
+  {
+   "file": "s0334.png",
+   "t": 11.133,
+   "frame": 334,
+   "text": "xd y! y Ei Be | <d y! y wa Be",
+   "hits": []
+  },
+  {
+   "file": "s0335.png",
+   "t": 11.167,
+   "frame": 335,
+   "text": "DF ae a os a — + | 8 OF ae a os yy ae.",
+   "hits": []
+  },
+  {
+   "file": "s0336.png",
+   "t": 11.2,
+   "frame": 336,
+   "text": "+. 7 > 2a | +. .7 > a",
+   "hits": []
+  },
+  {
+   "file": "s0337.png",
+   "t": 11.233,
+   "frame": 337,
+   "text": "a | a",
+   "hits": []
+  },
+  {
+   "file": "s0338.png",
+   "t": 11.267,
+   "frame": 338,
+   "text": "A = — — — — —— = ==% fh... ie —— ~~ ee i ia | A =. _-——— — — —— = ==% ae ial ——\" _ = ee a Tr",
+   "hits": []
+  },
+  {
+   "file": "s0339.png",
+   "t": 11.3,
+   "frame": 339,
+   "text": "=... —— ————E—— vee i es — —— rime, —— —— —_s =<, ~~ | =. oo — ———————— vee i es — —— rime, a —— —_s =<, _—",
+   "hits": []
+  },
+  {
+   "file": "s0340.png",
+   "t": 11.333,
+   "frame": 340,
+   "text": "PYF re ous = he EE Pes — ere SS eee —— — - $$ ——a— $$ @-@§ —__.. | ey F re ous = EE Pes — eer SS rr eee — —.- - $$ —a— $$ —@_—___..",
+   "hits": []
+  },
+  {
+   "file": "s0341.png",
+   "t": 11.367,
+   "frame": 341,
+   "text": "— - a ES i a > wa hale st ee i? a re ee, ceneesangiitas ania ~ om , ai - Xe ~ — —— Rateind ~ Weg — ~ » - --> - — — . aux i -———— i ~ _, | * — ee LT Eh ST ey — ee Se | — - tT r om > wa hale hie ee =? a re ee, aeneesamgniitais ivan ~ om , OS a ” Xe ~ — a ao ~ Weg — ~ » - --> - — — . o“~ a -———— i ~ _, | oo — ee LT a Ty — a Se Se",
+   "hits": []
+  },
+  {
+   "file": "s0342.png",
+   "t": 11.4,
+   "frame": 342,
+   "text": "a — — « «= aggre | aa — — = «=—s egg",
+   "hits": []
+  },
+  {
+   "file": "s0343.png",
+   "t": 11.433,
+   "frame": 343,
+   "text": "—_— a = gg | —_— <a al",
+   "hits": []
+  },
+  {
+   "file": "s0344.png",
+   "t": 11.467,
+   "frame": 344,
+   "text": ": - > aad | : - > «gee",
+   "hits": []
+  },
+  {
+   "file": "s0345.png",
+   "t": 11.5,
+   "frame": 345,
+   "text": "“45 a <. ———— | “45 a <. —_ wu —_",
+   "hits": []
+  },
+  {
+   "file": "s0346.png",
+   "t": 11.533,
+   "frame": 346,
+   "text": "ate >. ri st Ly a. Ki A ey) bation oe = ~ ~ —— | site >. ne st Cy 4m Ki oie ee Py} bation re = ~ ms ——",
+   "hits": []
+  },
+  {
+   "file": "s0347.png",
+   "t": 11.567,
+   "frame": 347,
+   "text": "_ ~ ~— - te erek oo fy | _ ~ = ~— - de AY oo fy",
+   "hits": []
+  },
+  {
+   "file": "s0348.png",
+   "t": 11.6,
+   "frame": 348,
+   "text": "AF if. *) Ba Misy \\ | | gti I Varn s/\\ | Ar if, *) Ba Misy \\ | | ghie } Varn s/\\",
+   "hits": []
+  },
+  {
+   "file": "s0349.png",
+   "t": 11.633,
+   "frame": 349,
+   "text": "(| . = wn ati mV \\Xt lf U7 ™ 71 y/ WW _ | (| . = wane ati eV \\Xe i 7 ™ Ug | y/ WW _",
+   "hits": []
+  },
+  {
+   "file": "s0350.png",
+   "t": 11.667,
+   "frame": 350,
+   "text": "% 4 iu oN ™ ems, ay “s —\" a7 \\ Bs. Gn Wrenn, a we toe a . 3 “we fee se eek | % 4 | oN ™ wm, “ay “s —\" Po \\ Bs. an Hel iS a, wt we toe a Re. 2 “we fee = ee",
+   "hits": []
+  },
+  {
+   "file": "s0351.png",
+   "t": 11.7,
+   "frame": 351,
+   "text": "oy. {3 1 1] ny A by I +) - ah | a - } a as Fie nace ary ot hae ee. cays. AF eRe ac Ace | oy. {3 1] a by I + -~ nh | a - } a as Fie sacl Lary ot hae e& cys. AF ete ac Aca",
+   "hits": []
+  },
+  {
+   "file": "s0352.png",
+   "t": 11.733,
+   "frame": 352,
+   "text": "Bw iy it c —_ wi * | =} » aot 7! | Bw iy it c —_ si * | =} » aot 7!",
+   "hits": []
+  },
+  {
+   "file": "s0353.png",
+   "t": 11.767,
+   "frame": 353,
+   "text": "“%, t$ it ae oe wa # ——~ is | “%, t$ it ae oe wa # ——s is",
+   "hits": []
+  },
+  {
+   "file": "s0354.png",
+   "t": 11.8,
+   "frame": 354,
+   "text": "3 1% ’ ' tr. a aed ¢ if a—_ As e | ee 3 it ’ 1 tr. a ad ¢ is a— As e",
+   "hits": []
+  },
+  {
+   "file": "s0355.png",
+   "t": 11.833,
+   "frame": 355,
+   "text": "Bs ay 4 , =. “hs —. a As | Bs a4 4 , =. = “hs —. a A",
+   "hits": []
+  },
+  {
+   "file": "s0356.png",
+   "t": 11.867,
+   "frame": 356,
+   "text": "ut ay » ti sb | ied * roe | it i » a sb | ied * ei",
+   "hits": []
+  },
+  {
+   "file": "s0357.png",
+   "t": 11.9,
+   "frame": 357,
+   "text": "a) | L; ? =. eh | alt me. eee ~~ a — | s) | L; * =. rk | alt m. eae ~~ a —",
+   "hits": []
+  },
+  {
+   "file": "s0358.png",
+   "t": 11.933,
+   "frame": 358,
+   "text": "ay ® 4 Tmo | ay ® 4 rol",
+   "hits": []
+  },
+  {
+   "file": "s0359.png",
+   "t": 11.967,
+   "frame": 359,
+   "text": "aN - Bs ~ y ‘ ihe é 27 . = af a4 es o ot a bat a er: ve A oe | aN - bs ow ~ 9 ‘ ‘ihe é 77 . = at a4 ies o 4 ae a a per: ve LA oe",
+   "hits": []
+  },
+  {
+   "file": "s0360.png",
+   "t": 12.0,
+   "frame": 360,
+   "text": "oy A Sot bie tas eS “he, & 2% ° Vd Ay =_— ato Be ih. * cho a yy $6 | oy rat Sot bie ex eS “Te, * ° t Ay =_— ato Bee i. i 7 a Sk $6",
+   "hits": []
+  },
+  {
+   "file": "s0361.png",
+   "t": 12.033,
+   "frame": 361,
+   "text": "ae» 7% Nts} sat Len w' a ~— mad “7? » _ = ‘a — Sar ea ons ORES eh on feng oe % oe ~ ot ene | ae» Nts} sat en w' ae — 109) “7? » _ = 7 ——— Sar re ons ORES et a feng oe % os a ot *",
+   "hits": []
+  },
+  {
+   "file": "s0362.png",
+   "t": 12.067,
+   "frame": 362,
+   "text": "mY, a RS OB ( H' ne She + ee io) ot a ee TF eg 4. 't BD weiPh ws he te See & * a «=~ — <i | oe a? RS OB ( H' me Ste + ee io) oe a ha TF eg a. ‘ft BD wee hi) te te ae & * “+ «=~ — se",
+   "hits": []
+  },
+  {
+   "file": "s0363.png",
+   "t": 12.1,
+   "frame": 363,
+   "text": "aa, va mae. Va Cosi Lé * a | ANERA tt\" us Tt ly aa Pi oa! ™~ °F oat, i ‘i eT cl «> & | aa, ‘e men. Wa Cosi Lé * a | ANERA tt\" us Tt Ly a Pi oa! ™~ °F eel, i ‘il eT ll «> &",
+   "hits": []
+  },
+  {
+   "file": "s0364.png",
+   "t": 12.133,
+   "frame": 364,
+   "text": "wes a2 > ve — Bi i = it AD JANOS ANERA It! mi £\\% ats Oo >| a’.% et oa fe ‘a li. sate. {ad . - a ——— A ae AST. | es a? >» ve — 3 i | a ie 4 OY JANCs ANERA It! Bi £\\% ats >| a*.¥ et von cS ‘a Ii. sate {a . - i aI. ——— A rae AS.",
+   "hits": []
+  },
+  {
+   "file": "s0365.png",
+   "t": 12.167,
+   "frame": 365,
+   "text": "ae hs IRNOS = JANOS COST. ANERA II\" pal a Le e ™ maé#-¥ ove) aT) ¢| bag 4 é» my — et Ge Sp ed | ae = IANOS =e JANOS COST ANERA II\" pal a LN a ™ a*®3 ave) aT) ¢| | 4 é» a my — et Ga Se seg",
+   "hits": []
+  },
+  {
+   "file": "s0366.png",
+   "t": 12.2,
+   "frame": 366,
+   "text": "ESE —, ut: JANES COST. “OSTANERA It lee yt om We ix5 ti *>»¥ '_-_ Pea! lig — is | SESE a, ut: JANES COST. “OSTANERA II a yt om We ix} ti *»¥ _- Pe! lig — is",
+   "hits": []
+  },
+  {
+   "file": "s0367.png",
+   "t": 12.233,
+   "frame": 367,
+   "text": "[AR ay /AN i ‘ JANOS COST. SOSTANERA I — yA ie ie Nf a agg . ied ix ee | NY ay i ‘ JANOS COST. -OSTANERA I re yA ie IE Nf a iaagy . ed ix ee",
+   "hits": []
+  },
+  {
+   "file": "s0368.png",
+   "t": 12.267,
+   "frame": 368,
+   "text": "aqnos cost 05 ae ANERA Mt a or uv 5 | cb ca | 3ANOS COST 05 ae An a or uv , | ih pe",
+   "hits": []
+  },
+  {
+   "file": "s0369.png",
+   "t": 12.3,
+   "frame": 369,
+   "text": "JANOS a EX une JANOS COSTANER — uw Neogene ae bo | JANOS Sl EX uF JANOS COSTANER = u Meogne ae. eT",
+   "hits": []
+  },
+  {
+   "file": "s0370.png",
+   "t": 12.333,
+   "frame": 370,
+   "text": "JANOS COSTA JANOS COSTAN C= ANERA Il NOS aap I> | halite ae agg ns | JANOS COSTA JANOS COSTAN (y= ANERA Il NOS eae I> | ie ae ates ns",
+   "hits": []
+  },
+  {
+   "file": "s0371.png",
+   "t": 12.367,
+   "frame": 371,
+   "text": "JANOS COSTA a R ENalil JANOS COSTANE ANERA Il ANE Ny, ) fo 9 s.c “tet baie S creel Be % S3) em. £7 ¥ | JANOS COSTA - R ENalil JANOS COSTANE ANERA Il ANE Ny ) fo 9 s.c “text FAS S Creel ae % S23) em. F9% ¥",
+   "hits": []
+  },
+  {
+   "file": "s0372.png",
+   "t": 12.4,
+   "frame": 372,
+   "text": "JANOS COSTA’ JAN LOS cosTANER tae h WW : JANOS AN ; ANN NS [NIN E Fit 4 7 ¥ | JANOS COSTA’ RAN LOS cosTANER ls h WW : JANOS AN ; ANN NS NIN E Fit 4 ; ¥",
+   "hits": []
+  },
+  {
+   "file": "s0373.png",
+   "t": 12.433,
+   "frame": 373,
+   "text": "neal Vigil 4OS COSTA ul insim NOS) COSTANIE AN WW JA ; WE =~ ANN QS ©) >) ra NIE <a - | 7a olf | os. Vigil 4OS COSTA UL insin JANOS COSTANE AN WW JA ; WE =~ ANN Q5 ©) >) ra NIE <a ~ 7a olf",
+   "hits": []
+  },
+  {
+   "file": "s0374.png",
+   "t": 12.467,
+   "frame": 374,
+   "text": "a8 COSTANERA Il Nos COSTANERA Il “J md P SICOSTTANIER AML S COSTANERA II JA KO) SICOSTANIER AG! [RUAN 2 Stig a | eas COSTANERA Il Nos COSTANERA Il “J mL ‘oS COSTANERA Ill S COSTANERA II JA KO) S COSTANERA lil [RUAN PR BS ay a",
+   "hits": []
+  },
+  {
+   "file": "s0375.png",
+   "t": 12.5,
+   "frame": 375,
+   "text": "~ ‘ ’ sANOS COSTANERA It ? % NOS COSTANERA Il SICOSTANER AI a oS COSTANERA Il [NRKO) COSTANERAT a 2 Bi So | ~ ‘ ’ sANOS COSTANERA It ? % NOS COSTANERA Il HS COSTANERA lll a OS COSTANERA Il [ARKO COSTANERA I Hy 2 Si a Ss lp",
+   "hits": []
+  },
+  {
+   "file": "s0376.png",
+   "t": 12.533,
+   "frame": 376,
+   "text": "* % t JANOS COSTANERA ll OS COSTANERA II ihe LX. (X - SACOSTANIER AMI Lh S COSTANERA Il RYAN A, | OSRCOSTANIERANL i 2 i Sg a | * % t JANOS COSTANERA ll OS COSTANERA II ‘Ue LX. (X - S COSTANERA Ill Lh S COSTANERA Il RUAN WRMOS COSTANERA Il a 2 it Si a",
+   "hits": []
+  },
+  {
+   "file": "s0377.png",
+   "t": 12.567,
+   "frame": 377,
+   "text": "* & . , JANOS COSTANER Aa NOS COSTANERA II JENNA YACOSTANER AMI JANOS COSTANERA Il RYAN 9 A\\,. 1 OSECOSIPANIEIRVA 0 A oi > 4 | * & . , JANOS COSTANERA Il NOS COSTANERA II JENNA DS COSTANERA Ill JANOS COSTANERA Il RYAN WMRIOS COSTANERA 0 Ay oi > 4",
+   "hits": []
+  },
+  {
+   "file": "s0378.png",
+   "t": 12.6,
+   "frame": 378,
+   "text": "* s t |, ANOS COSTANERA 0 OS COSTANERA It aN JACOSTANER alll Js AY A S COSTANERA Il Py ORCOSWANER NII le ih a: 5 | * s t , ANOS COSTANERA 0 oS COSTANERA It aN bs GCOSTANERA Il Js ¥ A S COSTANERA Il {MOS COSTANERA Ill le \\ BY a: 5 tr",
+   "hits": []
+  },
+  {
+   "file": "s0379.png",
+   "t": 12.633,
+   "frame": 379,
+   "text": "* ~ & P JAN os COSTANERA Il \\ YACOSTANIER Aull Y DS COSTANERA II OSCOSTANIERIMII } 88 ay wig | » ~ & ; JAN os COSTANERA Il \\ 58 GOSTANERA Il Y DS COSTANERA II OS COSTANERA Il F 88 ay wig",
+   "hits": []
+  },
+  {
+   "file": "s0380.png",
+   "t": 12.667,
+   "frame": 380,
+   "text": "~ % & OS COSTANERA Il pa 5S COSTANERA Il! A. ¥ DS COSTANERA I Ik OSICOSTANIERAYI DS COSTANERA I! Sy 1 id | ~ % & OS COSTANERA Ill p aie 5S COSTANERA Il A. Y DS COSTANERA Il IANOS COSTANERA DS COSTANERA I! Sy 1 id",
+   "hits": []
+  },
+  {
+   "file": "s0381.png",
+   "t": 12.7,
+   "frame": 381,
+   "text": "% / JANOS COSTANERA Il a} oS COSTANERA Il » Nhs COSTANERA Il OS COSTANERA Il 4 iiss COST ANIERYNI! Se IT 5 | % JANOS COSTANERA Il ,'4 oS COSTANERA Il » Nhs COSTANERA Il (OS COSTANERA Il 4 iss COSTANERAY Se IT 5",
+   "hits": []
+  },
+  {
+   "file": "s0382.png",
+   "t": 12.733,
+   "frame": 382,
+   "text": "J JANOS COSTANERA I >S COSTANERA Il h (0) CICOSTANIER alll 3OS COSTANERA II OSICOSTANIERA!\" f j 2 Sa ig iT wil’ | / JANOS COSTANERA I >S COSTANERA Il h (0) S COSTANERA Il 4OS COSTANERA Il OS COSTANERA YW f j 2 Sa ig iT wil’",
+   "hits": []
+  },
+  {
+   "file": "s0383.png",
+   "t": 12.767,
+   "frame": 383,
+   "text": "4 JANOS COSTANERA Il ) 4 2S COSTANERA Il \\OACOSTANIER ANI! iOS COSTANERA Il SICOSTANERE > 2 Xa gy ? | J JANOS COSTANERA Il ) 4 2S COSTANERA II HOS COSTANERA Il iOS COSTANERA Il S COSTANERA 5 2 Sa gy ?",
+   "hits": []
+  },
+  {
+   "file": "s0384.png",
+   "t": 12.8,
+   "frame": 384,
+   "text": "/ ANOS COSTANERA ¥ 5S COSTANERA Il r ps COSTANERA Il oS COSTANERA N COSTANIERE! iJ ‘| Be ie ? - | / ANOS COSTANERA © 5S COSTANERA Il r ips COSTANERA Il oS COSTANERA N COSTANER AY iJ ‘| SS ie ? e",
+   "hits": []
+  },
+  {
+   "file": "s0385.png",
+   "t": 12.833,
+   "frame": 385,
+   "text": "’ JANOS COSTANERA Ill ys COSTANERA Il K DACOSTANER Aull 4os COSTANERA It y) NOSICOSTIANIERIAT jt ied eg | ’ JANOS COSTANERA Ill ys COSTANERA Il K 5S COSTANERA Ill Jos COSTANERA It y) INOS COSTANERA\\ jt Sieg",
+   "hits": []
+  },
+  {
+   "file": "s0386.png",
+   "t": 12.867,
+   "frame": 386,
+   "text": "ANOS COSTANERA Ill 7S COSTANERA It A108 COSTANERA Il Nos COSTANERA I! p) N OCOSWANERAT | I> 88 ty es . | JANOS COSTANERA Ill yS5 COSTANERA II Ao COSTANERA Il Nos COSTANERA I! J MN OS COSTANERA I> 8a te oe...",
+   "hits": []
+  },
+  {
+   "file": "s0387.png",
+   "t": 12.9,
+   "frame": 387,
+   "text": "Ww JANOS COSTANERA ) ERA Ul ANOSEEO x JANOS CO ERA Il Si NEIRIAN il ANOS) JANOS STANERA Il 2 ~. ”* ms m\\\\ | Ww JANOS COSTANERA LN) ERA Ul JANOS CQ x JANOS CO ERA Il Sil NEIRIAN il JANOS JANOS STANERA Il 2 ~. 7” ms \\",
+   "hits": []
+  },
+  {
+   "file": "s0388.png",
+   "t": 12.933,
+   "frame": 388,
+   "text": "Ws v JANOS COSTANERA LW WANNIOS EQS —, ERA Il JANOS CO ERA Il RAN WANOSEC@SII \\ ERA I JANOS ostA ERA Il & - . 4 ~< all @' \\* “«h \\ |! | W v JANOS COSTANERA i JANOS EQs —, ERA Il JANOS CO ERA Il RAN JANOS COS! \\ ERA I JANOS ostA ERA Il & - . 4 ~< all a) \\* “«h \\ |!",
+   "hits": []
+  },
+  {
+   "file": "s0389.png",
+   "t": 12.967,
+   "frame": 389,
+   "text": "v 'G y/@ 4 JANOS COSTANERA Il AN OSTEO: NERA tll JANOS C ERA Il [RVA il ANNO SKE) JANOS MERA It a x 4 Li \\* | vw ' GZ y 4 JANOS COSTANERA II JANOS CO NERA Ill JANOS C ERA Il [RVA il JANOS CO JANOS MERA I a x 4 Li \\*",
+   "hits": []
+  },
+  {
+   "file": "s0390.png",
+   "t": 13.0,
+   "frame": 390,
+   "text": "°° rl JANOS COSTANERA It JANOS COSTANERA Il ERA Il JANOS © ANOSKEO) ERAN [RUAN JANOS CO RA Il ‘es ‘¢. 4 , i | °° rl JANOS COSTANERA It JANOS COSTANERA Il ERA Il JANOS © JANOS CO ERA Ill [RUAN JANOS CO RA Il ee ¢. 4 i",
+   "hits": []
+  },
+  {
+   "file": "s0391.png",
+   "t": 13.033,
+   "frame": 391,
+   "text": "Ge V/ JANOS COSTANERA \" JANOS COSTANERA Il ERA Il JANOS,C@ > ANOS ERA Ill JANOS CO pal Mo # az 4 2 | 7 / JANOS COSTANERA i) JANOS COSTANERA Il ERA Il JANOS,C@ > JANOS ERA Ill JANOS CO pal Mo # A , a",
+   "hits": []
+  },
+  {
+   "file": "s0392.png",
+   "t": 13.067,
+   "frame": 392,
+   "text": "& sd yi ‘ - f / JANOS COSTANERA LN) ERYANIII JANOS GOSTAN ERA ll JANOS C i HANOSKCO) co il A -) ® Il “@ \\ a% | & ” vi ‘ - f / JANOS COSTANERA W ERA Ill JANOS GOSTAN ERA ll JANOS ¢ i JANOS CO) co il A -) Il “@ | a%",
+   "hits": []
+  },
+  {
+   "file": "s0393.png",
+   "t": 13.1,
+   "frame": 393,
+   "text": "an A , JANOS COSTANERA I! WANNIOS) COSIANIER Ag RA Il JANOS ANOS RA fl RA Il € | al’ | fs A , a JANOS COSTANERA I! JANOS COSTANERA Ill RA Il JANOS JANOS RA fl RA Il € | a’",
+   "hits": []
+  },
+  {
+   "file": "s0394.png",
+   "t": 13.133,
+   "frame": 394,
+   "text": "J fs JANOS COSTANERA it JANOS GOSTANERA Ul JANOS COSIANERA Il ANOS ERA Il JANOS ce wy > ..7, | J pe JANOS COSTANERA it JANOS GOSTANERA Ul JANOS COSIANERA Il JANOS ERA Il JANOS ee ay > 1.07%;",
+   "hits": []
+  },
+  {
+   "file": "s0395.png",
+   "t": 13.167,
+   "frame": 395,
+   "text": "iy : 7 ‘ @ \\ , 7 JANOS cOSTANERA au JANOS COSTANERA lt JANOS COSTANERA II ANOS ERA Ill JAN W | BM a py an | iy : 7 ‘ a \\ , 7 JANOS cOSTANERA ul JANOS COSTANERA lt JANOS COSTANERA II JANOS ERA Ill JAN W | BM a any",
+   "hits": []
+  },
+  {
+   "file": "s0396.png",
+   "t": 13.2,
+   "frame": 396,
+   "text": "oe % °F ” JANOS COSTANERA W PANOSICOSTANER AL JANOS COSTANERA Il OGmANIERVA Ill JANOS JAN e RA Il 4 \\ \\e FD. sal | oe % °F .” JANOS COSTANERA W JANOS COSTANERA Ill JANOS COSTANERA Il LO GmANIERVA Ill JANOS JAN ® RA Il 4 \\ \\2 FD sal",
+   "hits": []
+  },
+  {
+   "file": "s0397.png",
+   "t": 13.233,
+   "frame": 397,
+   "text": "Via ‘ 5 1 , ; | G AN v JANOS COSTANERA \" MANOSCOSTANER AU JANOS COSTANERA It ANOS O) ERA Ill \\ JA RA Il \\ 2 vw | Via ‘ 1 | ; | G A a JANOS COSTANERA W JANOS COSTANERA lll JANOS COSTANERA It JANOS GO ERA Ill \\ JA RA Il \\ 2 4 vw",
+   "hits": []
+  },
+  {
+   "file": "s0398.png",
+   "t": 13.267,
+   "frame": 398,
+   "text": "@ \\ /¢ a JANOS COSTANERA i BAN OSICOSTIANIER TS ni JANOS COSTANERA Il ANOS C@s ANERA Il JANO ne: ~ we a \\ <6 Cw | @ \\ /¢ NO JANOS COSTANERA it JANOS COSTANERA ny JANOS COSTANERA Il JANOS COS ANERA tl JANO = ~ we a \\ <6 Cw",
+   "hits": []
+  },
+  {
+   "file": "s0399.png",
+   "t": 13.3,
+   "frame": 399,
+   "text": "’ A ‘ ‘ « - ¢ Mh , B JANOS COSTANERA i JANOS COSTANERA It JANOS COSTANERA Il COSKANERA Il JANOS JA Ue we f, A | ” 4 ‘ ‘ _ - Mh , B JANOS COSTANERA ul JANOS COSTANERA Il JANOS COSTANERA Il COSKANERA Ul JANOS JA Ge “@ f, A",
+   "hits": []
+  },
+  {
+   "file": "s0400.png",
+   "t": 13.333,
+   "frame": 400,
+   "text": "ey ia * » i = G \\ JANOS COSTANERA JANOS COSTANERA Il JANOS COSTANERA II DANOSICOSWANER AIL il JA OMRORTANRRA \\ ye “y ‘A | ery i * » a = G \\ JANOS COSTANERA i JANOS COSTANERA Ill JANOS COSTANERA II JANOS COGIANERA lll il JA OMRORTANRRA \\ 3 “y Ne",
+   "hits": []
+  },
+  {
+   "file": "s0401.png",
+   "t": 13.367,
+   "frame": 401,
+   "text": "i \\ AF JANOS CO NERA ut BNO SCOSTIANER ASL JANOS COSTANERA It ANOSICOSIANER AMI 3 COSTANERA il * Ay if | \\ A JANOS CO NERA ut JANOS COSTANERA Ill JANOS COSTANERA II JANOS GCOSTANERA Il % COSTANERA il ‘ Ay if",
+   "hits": []
+  },
+  {
+   "file": "s0402.png",
+   "t": 13.4,
+   "frame": 402,
+   "text": "JANOS COSTANERA Il | JANOS COSTANERA II Nt ERVA Il ANOSKCOSIA JANOS COSTANERA Il oD JANOS COSTANERA il Qo z 2 e | JANOS COSTANERA Il | JANOS COSTANERA Il INt ERVA Il JANOS COSA JANOS COSTANERA Il a 2 JANOS COSTANERA il oQ z 2 e",
+   "hits": []
+  },
+  {
+   "file": "s0403.png",
+   "t": 13.433,
+   "frame": 403,
+   "text": "JANOS GOSTANERA Il | JANOS COSTANERA It a BVA Ul NNOSTCOSIAN JANOS COSTANERA It . TANOSTCOSVANERY. AI oa s Zz x | JANOS GOSTANERA Il | JANOS COSTANERA It a BVA Ul JANOS COSTAN JANOS COSTANERA It > JANOS COSTANERA I oa s Zz x",
+   "hits": []
+  },
+  {
+   "file": "s0404.png",
+   "t": 13.467,
+   "frame": 404,
+   "text": "JANOS COSTANERA Ill | JANOS COSTANERA II AX (ih JANOS COSTANER JANOS COSTANERA Il eo JANOS COSTANER i e 2 | JANOS COSTANERA Ill | JANOS COSTANERA Il AX (ih JANOS COSTANER JANOS COSTANERA Il oa JANOS COSTANER, i e 2",
+   "hits": []
+  },
+  {
+   "file": "s0405.png",
+   "t": 13.5,
+   "frame": 405,
+   "text": "JANOS COSTANERA Il JANOS COSTANERA Il JANOS COSTANERA Ill JANOS COSTANERA I! i) VANONCO e@ STANERS i e 2 | JANOS COSTANERA Il JANOS COSTANERA Il JANOS COSTANERA Ill JANOS COSTANERA I! i) JANOS CO @ STANER i e a",
+   "hits": []
+  },
+  {
+   "file": "s0406.png",
+   "t": 13.533,
+   "frame": 406,
+   "text": "INNOS COSTANERA Il | JANOS COSTANE RAIL tt aT Y NANI AN OSICOSIAD JANOS COSTANERA W. WANS oe COSTANESS i a | JANOS COSTANERA Il | JANOS COSTANE RAIL aves aT Y NANI JANOS COSTA JANOS COSTANERA Wl. JANOS oe COSTANE i 2",
+   "hits": []
+  },
+  {
+   "file": "s0407.png",
+   "t": 13.567,
+   "frame": 407,
+   "text": "JANOS COSTANERA Ul JANOS COSTANE RA Il = AS ANOSICOS ~ JANOS COSTANERA Il > ANOSKEO) eo STANER i a | JANOS COSTANERA Ul JANOS COSTANE RA Il fP AS JANOS: GOS ~ JANOS COSTANERA Il Ld JANOS CO eo STANEE i =z",
+   "hits": []
+  },
+  {
+   "file": "s0408.png",
+   "t": 13.6,
+   "frame": 408,
+   "text": "JANOS COSTANERA a | JANOS COSTANERA It e O) Sate Nie AD) /2\\ — JANGS, JANOS COSTANERA Il ANOS) @ COSTANE SN a | JANOS COSTANERA a | JANOS COSTANERA It e ©) SEA Ni AD) /2\\ — JANGS, JANOS COSTANERA Il JANOS @ COsTANE SN a",
+   "hits": []
+  },
+  {
+   "file": "s0409.png",
+   "t": 13.633,
+   "frame": 409,
+   "text": "JANOS GOSTANERA Il | JANOS COSTANERA II ! NIN ios 1h) sa ANI JANOS COSTANERA II. IANNOS) os COSTANER i d | JANOS GOSTANERA Il | JANOS COSTANERA II ! [\\\\N3 coh 1h) =F ANI JANOS COSTANERA II. JANOS 9s COSTANER il =z",
+   "hits": []
+  },
+  {
+   "file": "s0410.png",
+   "t": 13.667,
+   "frame": 410,
+   "text": "JANOS COSTANERA Il | JANOS COSTANERA It NERA Il JANOS:-COSIA JANOS COSTANERA I! oo ANOS e STARE? nt 2 | JANOS COSTANERA Il | JANOS COSTANERA It MERA Ill JANOS:-COSIA JANOS COSTANERA I! @ JANOS CO a STARE i 2",
+   "hits": []
+  },
+  {
+   "file": "s0411.png",
+   "t": 13.7,
+   "frame": 411,
+   "text": "JANOS COSTANERA Ill | JANOS COSTANERA It WANOSICOSII K a Types = RVA\\ Ill JANOS COSTANERA II. VANOSICO oo @ STANES il a | JANOS COSTANERA Ill | JANOS COSTANERA Il JANOS'COST K XJ qT PES = ANI JANOS COSTANERA II. JANOS CO oo @ STANES il a",
+   "hits": []
+  },
+  {
+   "file": "s0412.png",
+   "t": 13.733,
+   "frame": 412,
+   "text": "JANOS COSTANERA Ll | JANOS COSTANERA It RYAN (ll WANOSKCOSIA JANOS COSTANERA II. JANOS COSTANERS i 2 | JANOS COSTANERA Il | JANOS COSTANERA II ANI JANOS COSTAN JANOS COSTANERA It. JANOS COSTANERS i 2",
+   "hits": []
+  },
+  {
+   "file": "s0413.png",
+   "t": 13.767,
+   "frame": 413,
+   "text": "JANOS COSTANERA Il At JANOS COSTANERA II Ne SRA (I ANOSICOSIA JANOS COSTANERA It WANOSKCOSTMANIER: Mill a Se 2a | JANOS COSTANERA Il At JANOS COSTANERA II Ne SRA (I JANOS COSTAN JANOS COSTANERA It JANOS COSTANERA Il a a — -",
+   "hits": []
+  },
+  {
+   "file": "s0414.png",
+   "t": 13.8,
+   "frame": 414,
+   "text": "JANOS cOSTANERA Ul | JANOS COSTANERA It RANI DANOSICOSIANE JANOS COSTANERA Il JANOS COST ANERS il 2 | JANOS cOSTANERA Ul | JANOS COSTANERA It RANI JANOS COSTANE JANOS COSTANERA Il Cienie east ANERS i 2",
+   "hits": []
+  },
+  {
+   "file": "s0415.png",
+   "t": 13.833,
+   "frame": 415,
+   "text": "ANOS: COSTANERA I | JANOS COSTANERA II DANII ANOSTCOSIAN JANOS COSTANERA Il JANOS COSTANERS il x | JANOS COSTANERA | JANOS COSTANERA II DANII JANOS COSTAN JANOS COSTANERA II JEROG costaANese il x",
+   "hits": []
+  },
+  {
+   "file": "s0416.png",
+   "t": 13.867,
+   "frame": 416,
+   "text": "JANOS COSTANERA i | JANOS COSTANERA It rst — A ill WANOSTCOSIAS JANOS COSTANERA II JANOS COSTANERA il 2 | JANOS COSTANERA 0 | JANOS COSTANERA I rst — A Ill JANOS COSTAN JANOS COSTANERA II TANCE EOSTANER® il 2",
+   "hits": []
+  },
+  {
+   "file": "s0417.png",
+   "t": 13.9,
+   "frame": 417,
+   "text": "= at ie \\ ee 9: is a na os bes hag ed ae las ae, Mia <= Pa aay pecs % = <a) res a en 5, +e a yy Ee. oy wa rk mm ¥ a4 A435 wal: ae ry» - in hy a “te we Ree s ai sy ty xs eae wh \"oe ao aa) 3) PAE > ae re he ve re | a aH ie Me ee 9: iy < a nx os bes tag ed wc la e, Mia” <= ‘e ai pies 4 = <a) en a ren 5, + a ox Ee. my i rk ‘ vs st, 743 ma: au oe oe on a = “te ve pee s he Sy ty xe eae Bas \"hone et ea) 3) PASE > ae re the ve <?",
+   "hits": []
+  },
+  {
+   "file": "s0418.png",
+   "t": 13.933,
+   "frame": 418,
+   "text": "i Hy Nl I\\' By fs ae, y\") \\ 4 Ss Fy laa: — | i i Nl Iy' By fs ae \") \\ | va Fay cali: —",
+   "hits": []
+  },
+  {
+   "file": "s0419.png",
+   "t": 13.967,
+   "frame": 419,
+   "text": "! | Rh IN “A q tbe Bs — = | ! | Rh It Py 4 She Bs — =",
+   "hits": []
+  },
+  {
+   "file": "s0420.png",
+   "t": 14.0,
+   "frame": 420,
+   "text": "| h I |! I) ‘) a eee 1G * | oe i =~ | | | h I |! I) ‘\\) a ee 1G oT oe i =~",
+   "hits": []
+  },
+  {
+   "file": "s0421.png",
+   "t": 14.033,
+   "frame": 421,
+   "text": "\\ | Il; Nii I) Ps <3 Se tb = dat — | | \\ | Il; Ni I) Ps Pe Sie wy = dat | —",
+   "hits": []
+  },
+  {
+   "file": "s0422.png",
+   "t": 14.067,
+   "frame": 422,
+   "text": "1 | | | I ‘aI i. ee} —* | 1 | | | II ‘aI i. 83 —*",
+   "hits": []
+  },
+  {
+   "file": "s0423.png",
+   "t": 14.1,
+   "frame": 423,
+   "text": "oe Il; I) hi > SR — | oe Il; I) hi > Ss —",
+   "hits": []
+  },
+  {
+   "file": "s0424.png",
+   "t": 14.133,
+   "frame": 424,
+   "text": "f I \\! I) Ph] jh Se ~~ | yf | I \\! I) rk] jh NS ~~",
+   "hits": []
+  },
+  {
+   "file": "s0425.png",
+   "t": 14.167,
+   "frame": 425,
+   "text": "h \\! I Py ¢ if | | a | \\! I Py ¢ if",
+   "hits": []
+  },
+  {
+   "file": "s0426.png",
+   "t": 14.2,
+   "frame": 426,
+   "text": "| Nh I) a ty c oo =) — a} af | | Nh Iy' a ty a oo =) — a} af",
+   "hits": []
+  },
+  {
+   "file": "s0427.png",
+   "t": 14.233,
+   "frame": 427,
+   "text": "\\ \\\\ oe Nh \\ bY Iy' ee a | \\\\ er Nh \\ bY Iy' ale ae",
+   "hits": []
+  },
+  {
+   "file": "s0428.png",
+   "t": 14.267,
+   "frame": 428,
+   "text": "Le Nokes i ee I t - ins de oe: mre Me = ~ nad - | | Le Nie | ee Iy' oe -, ins de me mre x = ~ ‘nad -",
+   "hits": []
+  },
+  {
+   "file": "s0429.png",
+   "t": 14.3,
+   "frame": 429,
+   "text": "A \\¢ ‘\\ : ge £ 'e at \\ | A \\¢ ‘\\ : ge Be 'e at \\",
+   "hits": []
+  },
+  {
+   "file": "s0430.png",
+   "t": 14.333,
+   "frame": 430,
+   "text": "é eA I 4 7 4 \\7 R\\..*. “| Pi .* le ae [ \\ | é eA I 4 7 4 \\4 R\\..*. ‘| Pi .* le ut [ |",
+   "hits": []
+  },
+  {
+   "file": "s0431.png",
+   "t": 14.367,
+   "frame": 431,
+   "text": "NF ays ‘| q PL eg“ . a fates | XN F ays ‘| q Py eg“ i. a fatbhs",
+   "hits": []
+  },
+  {
+   "file": "s0432.png",
+   "t": 14.4,
+   "frame": 432,
+   "text": "é 7 7 4 \\27 ys 7 € gf Pe 1 ye i i | é 7 7 4 \\74 ys \\¥ € gf Pe 1 ye if i",
+   "hits": []
+  },
+  {
+   "file": "s0433.png",
+   "t": 14.433,
+   "frame": 433,
+   "text": "\\Z4 yy a Pi 2° ye pail | | \\Z4 wy a Pi 2° we pail |",
+   "hits": []
+  },
+  {
+   "file": "s0434.png",
+   "t": 14.467,
+   "frame": 434,
+   "text": "é \\7 \\ wy 7 Pi af at | | 6 \\7 \\ wy | Pi af at |",
+   "hits": []
+  },
+  {
+   "file": "s0435.png",
+   "t": 14.5,
+   "frame": 435,
+   "text": "4 \\7 PL ie le 1 . Te Ha | — a £ | 4 \\7 PL ie le 1 . yt a | —— oe fF",
+   "hits": []
+  },
+  {
+   "file": "s0436.png",
+   "t": 14.533,
+   "frame": 436,
+   "text": "é 7 \\Z7 ny q € Py —* E. le we Hut ee —— i | é 7 \\Z7 ny q € Py 1 E. le we Hut i —_— i",
+   "hits": []
+  },
+  {
+   "file": "s0437.png",
+   "t": 14.567,
+   "frame": 437,
+   "text": "4 7 7 \\Z7 \\ wy Pi y//- we Hat | » ws Oo oe | 4 7 7 \\7 \\ Wy Pi y//- we Hat | » we oo oe",
+   "hits": []
+  },
+  {
+   "file": "s0438.png",
+   "t": 14.6,
+   "frame": 438,
+   "text": "4 7 Ri \\ ys q gt ie i if we pat 2s =, _ | 4 7 RF \\ Wy q PL ie at if we pat s 2s =, _",
+   "hits": []
+  },
+  {
+   "file": "s0439.png",
+   "t": 14.633,
+   "frame": 439,
+   "text": "7 7 7 Ea \\ ny S : ys s' 1 . ve fat = = — | 7 7 7 <P \\ ny : yh -' 1 . ve Hat === = LS —",
+   "hits": []
+  },
+  {
+   "file": "s0440.png",
+   "t": 14.667,
+   "frame": 440,
+   "text": "ys Pi “. we Hat sal — = = —___—“S~mng _— =: =, —— | A Pi ‘“. we Hat sal — ee “Sng _— = =, ——",
+   "hits": []
+  },
+  {
+   "file": "s0441.png",
+   "t": 14.7,
+   "frame": 441,
+   "text": "ney 4) | Ci pe 1) -- 1 « ml | Habs — il a > | ny S 4) | Ci pe 1) -- 1 « 4 | Habs — il a E>",
+   "hits": []
+  },
+  {
+   "file": "s0442.png",
+   "t": 14.733,
+   "frame": 442,
+   "text": "| REAR TE phew sm ; t ELLER A Te oe ad Age o- aR = | | RAAT shoo sm ? - ELLER A Te oe ad Ngee. AR",
+   "hits": []
+  },
+  {
+   "file": "s0443.png",
+   "t": 14.767,
+   "frame": 443,
+   "text": "CARAS ye - SS SNES core 5 AIF aie wali ng ONLI a | CARAS ye | Se SNES core 5 AIF aie oli ng IML a",
+   "hits": []
+  },
+  {
+   "file": "s0444.png",
+   "t": 14.8,
+   "frame": 444,
+   "text": "~ree a POA OT RE, aes ees Arent wht mings & meeanies meee, Com rT Fy, ead coed aa Bee Bi aa ve Se e See: ate Bi ae 2 — | ~ rte ER PERE OT RE, aes ees en ee wht mgs & rms moe, Com yr Fax, ead coed aa Ree Ba aa vg Se % aca ate A 1A —_",
+   "hits": []
+  },
+  {
+   "file": "s0445.png",
+   "t": 14.833,
+   "frame": 445,
+   "text": "lll on ET ee ~ eer ns ee =] a = can NS — a RIB: MO we sere 3S Thy a RAT abel as res sas kn «a wee * ae Pr Coa Yau ba i ed ma Lae | Se = ET ee ~ eer ny NE =] ar res can NN — AS RSE: M0 we tree es 3S Thy nh RAT abet as ares sage «@ wea * Pr Coa rn! ba S ed 7 ia",
+   "hits": []
+  },
+  {
+   "file": "s0446.png",
+   "t": 14.867,
+   "frame": 446,
+   "text": "=. hare oe = an ee adem —_ Be il... | = are oe = an er adem —_ Be ill.",
+   "hits": []
+  },
+  {
+   "file": "s0447.png",
+   "t": 14.9,
+   "frame": 447,
+   "text": "——— Te ee a iene ae al ee ed Ste ne r | , — ge z ~~ i. lia = | ———— —e a a iene ae ia FT pomaeemeenae ed Ste ll r | , — FP 2 ~~ Fe ili =",
+   "hits": []
+  },
+  {
+   "file": "s0448.png",
+   "t": 14.933,
+   "frame": 448,
+   "text": "— Se = er 90 a \\ iM ~ -, ee ee oo | — Se ee ee ee 90 a \\ iM ~ i, ee ee oo",
+   "hits": []
+  },
+  {
+   "file": "s0449.png",
+   "t": 14.967,
+   "frame": 449,
+   "text": "os = ee —— == — | 0 w | NM * i, Zz tem | os = me —— = ——e | 0 w | NM * i, Zz tem",
+   "hits": []
+  },
+  {
+   "file": "s0450.png",
+   "t": 15.0,
+   "frame": 450,
+   "text": "— =- ee — -— a _—— — ;= i ll _ “ wy “ee ‘a Page 4 09 af oa ff sf if a | — i oe —— -_— a _— a £ ll _ “ 7 “Be ‘A Page —_ 09 af J a ff st if a",
+   "hits": []
+  },
+  {
+   "file": "s0451.png",
+   "t": 15.033,
+   "frame": 451,
+   "text": "= . -_— — —— =—_ ———— me a ear. os: / — — 4 a : < Oa 7 a if = \"- Z Ce ed ee =F aS —_ me eg | = . -_— — —— =—_ ——— ee a na oss / — — 4 a : < Sa 7 a if = “- 4 # fh J ee =F aS —_ res",
+   "hits": []
+  },
+  {
+   "file": "s0452.png",
+   "t": 15.067,
+   "frame": 452,
+   "text": "-— = ee — ge — — —- aa ed — — — “_——— a / Swe “« —_- a a AAS a . “- iP ff a Pi), ** 42 oa 7. -, . A hg i A ee Pe | = ee — ge — —— —- aa ed <= “——— aa Swe “- —- a a AAS a oa “- iP of, Va Pi), ** “2 oa 7. -, . A hg ms oem sf",
+   "hits": []
+  },
+  {
+   "file": "s0453.png",
+   "t": 15.1,
+   "frame": 453,
+   "text": "2s Ss -—- me ad woe = —~ —— ” — =. ere ar * se. , 4 - ZOAS GY “~ 4 “. *. oe, 2 \"tae, 7 42 \"4 te ~— y, f, : ae ‘hms! te | 2s SZ -—-_ a —-s ome - = —— a ” — =. ewe ar * se. a — DAL “~ 4 “. *. ~ , 2 “Seas, 7 42 \"4 te ce y, #, : ae “hms! te",
+   "hits": []
+  },
+  {
+   "file": "s0454.png",
+   "t": 15.133,
+   "frame": 454,
+   "text": "= = > om, ™ —— 2 —— ——— ‘wo a —— ome -* ‘4 ae —— a —— o- g a -oun’ “eee St, FZ *- wee , 4 ip. ~F 4 <—~ co / °. gy te “* oP i za?P LA te “ 7 , “ us’ , Fm yl ee | = = > om, ™ —— a —< —— ‘wo tl — ome -* ‘4 ae —— a ——— - g i ou’ “eee tm, FZ *- wee , 4 ip. ~F uv <~ co / °. gy te “* oP 7], LA te \" 7 , “i ws , Fm yl ee",
+   "hits": []
+  },
+  {
+   "file": "s0455.png",
+   "t": 15.167,
+   "frame": 455,
+   "text": "rg Ce — ee =e 2 — a — ——— ~, a = — SS ee ome <a - a « = ane a t =e J fe < al tA, —— = ——- we oe. “a” we eke, fh ” ~ a a eer “ 4 \". — “* A \"tee \" Ca. ———— = As ‘es Vf a — es! r@ iG “\" se oa m te ™ “ «7 ‘wf as - Wy ™eyf jis - | rg —~C—>0—————————_— =e SS — an — ——— ~, = — SS ee wee x. - = « = ae —— ” =. J f < al tA, —— = ——- we oe “a” we ae, fh ~ oo a ae eer “ fY \". —_ “* A \"tee \" Ca. ——-= As ‘es vf a es, es! r@ iG “\" su = m te ™ “ «7 fa | as - Wy ™eyf jis -",
+   "hits": []
+  },
+  {
+   "file": "s0456.png",
+   "t": 15.2,
+   "frame": 456,
+   "text": "=). oS | “> Sy it > in . ————— sa s@ aehca aie SSS ven Cd (et + eo Bot 8 BE oma as > oF aL ee | =). <— ——— SS L a “> Sey it > in T =—o sa s@ aehsa aie SSS von Cd (et + ee a as > on aL ee",
+   "hits": []
+  },
+  {
+   "file": "s0457.png",
+   "t": 15.233,
+   "frame": 457,
+   "text": "=) -M DE) | r Leg Lj in” a at aehsa Bane SS tne mer at (al ‘+ —z S Bim oe ERE om as 7. My A | =) -M in’ | y beg i in” @a at aes Baie SSS tne mer at (al ‘+ 2 Si) Bim oe ERE om as 7. My a",
+   "hits": []
+  },
+  {
+   "file": "s0458.png",
+   "t": 15.267,
+   "frame": 458,
+   "text": "— Oe —a _ -- LE TT Pe) Pa res Oar b | od ee q a a ie aa —=— + ee eee o-? Se i ee EE a4 @ man « cr rts eohse O,|en8 - ee el ee Ee - tas mos oe a ee eae J oa fa bd ae, a Po To a ee ee Si Oy Se Ee Oey as a 4 7. ‘ — —_, WANIN — . | — Oe — _ -- LL wd Sa eS Or b | —— ea ‘ a a nl ee ee ie aa —=— + ee ee os Se he i EE aa @ mam « Cr ts eons S| an8 ree eae es Ee - tte mes e+ ge a aes J as fa bd 9 a vo Oo a ee eee Si Woy Se Ee Oey as a 4 7. ‘ — —_, ANIM) — .",
+   "hits": []
+  },
+  {
+   "file": "s0459.png",
+   "t": 15.3,
+   "frame": 459,
+   "text": "-H sie as —s -. ‘ i. aa “a Pd an ania aeyse Te all | ge a =) ate mes ae id . a we (at . af v7 SO) Woy oe FRE Oy as an Aa 7-2. ta = Ta tun) . | -H sie as —s - q a. ta a Pa an ania aeyse ann alle | Le BS ae a) ate mes + 8 . a we fat . a 4 v S) Woy oe RRS Oey as an Aa 7-2. ta = Ta mn) .",
+   "hits": []
+  },
+  {
+   "file": "s0460.png",
+   "t": 15.333,
+   "frame": 460,
+   "text": "i \" om - a . 1. aa ft) ‘2 - te , = a ean « eonse ne a “1 rl | 24 * -* tas tee Per ae we J 1 gla | “ot ae ? 4 ’ we Si) Wt 0 Ot as at ue t > : ia _ = = ‘thy a * | i \" oo - ar . 1. aa ft) ‘ee - te , = a eae aonse one a oe | rl Ge * ~* ote tee Peer ae we J 1 gla | “ot aT ? 4 we Si) Wt 0 Oy as ut is t > : ia -_ =e = ‘thy a .",
+   "hits": []
+  },
+  {
+   "file": "s0461.png",
+   "t": 15.367,
+   "frame": 461,
+   "text": "-- seme ~~ E - 1. oa ) - a een « conse Le it , -E be * iu sae es Dd (al at a 4 “2 ‘wt we as S) Diy oe Ce Oy a ' 4 > i. ‘ ta — i 1 | WANN) oe ‘ | -- see ~~ E - 1. oa i - a een « conse Le it , “E be * iu tae tes wo (at at a 4 \"2 ‘wt we ae SB) Oly oe Ce Oy a ' 4 > i. ‘ a — i 1 | WANN) od .",
+   "hits": []
+  },
+  {
+   "file": "s0462.png",
+   "t": 15.4,
+   "frame": 462,
+   "text": "- La i ee see ~~ - } a. ta “ - : « Agi a an <onse a,en8 a i ae Ke a tan tes © wey (et a “yr = al “I hig) i Sl iy oe Ce Oy ae m 7-1. ts a aT) tty s | - Lad ms a seme ~~ - } a. ta “” - : « Bibi a an <onse a,en8 “mt r * os Ke a sat tes a wey (at ai “yr - ot “ hig) S| iy oe Ce Oy ae m 7 1. ts a aT) ty s",
+   "hits": []
+  },
+  {
+   "file": "s0463.png",
+   "t": 15.433,
+   "frame": 463,
+   "text": "i e~ ita - ~~ - 4. ta od 7! - ta ] a - een a «Shoe -; S| ann “nie we tat tes 4 (8 ae tal sp wey * a 2) Wis oe Ce Oty as ot] my 7 i] baal | Sy ney a | i e~ eit - ~~ - 4. ta a! - ta ] a - een a «Shs -; ee | “nie we tat tes 48 ae tal sp wey * 2) Wis oe Ce Oty as a my 7 to baal | ney s",
+   "hits": []
+  },
+  {
+   "file": "s0464.png",
+   "t": 15.467,
+   "frame": 464,
+   "text": "- e~ sama) irr = ~~ we “ ‘a ” iou™ a SH «a tsa 5) it i oe rs al he er psy as al |) Inu) a | - e~ sama) irr = ~~ we ~ ‘a ” ieu™ a SH «a tsa 5) it iw ae rs al he er psy ae al | ) in) a",
+   "hits": []
+  },
+  {
+   "file": "s0465.png",
+   "t": 15.5,
+   "frame": 465,
+   "text": "1 te rt se man i) eas me al yj ‘we Bs \\u > <) Bia oi te mt a 7 18 ALT “umn if a | ‘1 te rt se man ) eas a al i ‘wt Bs \\u > <) Bia oi te mt a 7 18 ALT “umn 1/\\ a",
+   "hits": []
+  },
+  {
+   "file": "s0466.png",
+   "t": 15.533,
+   "frame": 466,
+   "text": "4y +> aie 2, Ft 2 TT] N at = SU « (ense it - = ap ial we oe i alt! <i) ia =i (ms ae» 1 ' i ° on ‘ rt) 2 1 s | yy {> ai 2h, Pd 2 TT] \\ at = 80 « (ense rt - = ap ial we oe i alt! <) im =e (ms ae ' i ° on ‘ rt) 4 1 s",
+   "hits": []
+  },
+  {
+   "file": "s0467.png",
+   "t": 15.567,
+   "frame": 467,
+   "text": "rs sae 1 ais, \\ wy, se * Ty “” Pid AN at sua iensa oc = Bo) ane re ed ‘gle! ~ “HEE | L =) Big oS Ee (my a» 7-1 a “um 7) | rs sae 1 ais, i} wy, ae a Ty ” Pt \\ at Sui iensa co - B)ane re ed ‘gle t id “HET: | L =) Bim oom Ee fms a» 7-1 a “um 7)",
+   "hits": []
+  },
+  {
+   "file": "s0468.png",
+   "t": 15.6,
+   "frame": 468,
+   "text": "ns o@es | =* --« 3 sf? -- “me Ty - te ad <,* €# en « S| an8 a: vat tee 2 a bale ste 8 tr ‘we orl. uw 2) Bin oe Oe Oy a. am ua ~~ is is bee | aa uy . | I o@es | aiigr* 3 sf? -- me Ty = - te ad soe € en « S| an8 i = tae toe 2 a bale ste 8 tr ‘we ane w S) Bin oe a Oty a. am ua ~~ in is bee | aa an) .",
+   "hits": []
+  },
+  {
+   "file": "s0469.png",
+   "t": 15.633,
+   "frame": 469,
+   "text": "aM men o- _- je -- “me * oe TT - at ane ~ahca S| ana a ‘ | a tt 2 - rf ala ‘wt a) w ) Wie om Roms ae Ll Wn aa | mM me - _- je -- “me * oe - at ane ~athsa S,|ane a ‘ | a tt 2 - rf ala wt s/ w ) Wie om Noms ae Ll Wn aa",
+   "hits": []
+  },
+  {
+   "file": "s0470.png",
+   "t": 15.667,
+   "frame": 470,
+   "text": "me eto - uu ‘ ‘ ad * - a «= Ba « ‘ —y oo a, a0.8 * ¥ ' jet rt ty 4 foo oe Pee cy j au ' | me eof - ue ‘ s ad * - a = Ba « ‘ —y : a ace * ¥ ' Jet rt ‘| 4 rn. Ao j “ '",
+   "hits": []
+  },
+  {
+   "file": "s0471.png",
+   "t": 15.7,
+   "frame": 471,
+   "text": "at a iy hn SS Sf, Wit ant 4. 4 ia AME Tage. S38 Be oi, | at a my ™n —~ Sf, iit» bi 4. 4 ia AME Te. S38 by a)",
+   "hits": []
+  },
+  {
+   "file": "s0472.png",
+   "t": 15.733,
+   "frame": 472,
+   "text": "2 _ we <4 au &. aS A: ise &é st] it | Vy | ~A n =) we Xs, by, +. ne ae Mee a watery i ee Ez | 2 ’ we By | at &. aS A: ise &é | it a ty | ~ A A al we Xs, by, =. me ae Me a watery Rin oe Ez",
+   "hits": []
+  },
+  {
+   "file": "s0473.png",
+   "t": 15.767,
+   "frame": 473,
+   "text": "a TT oe me - . ibe a Nt 4 AT is a! 1) ae ™ % | a TT oe me | ibe a Nt | eS of is a! 1) ae ™ %",
+   "hits": []
+  },
+  {
+   "file": "s0474.png",
+   "t": 15.8,
+   "frame": 474,
+   "text": "~— ae M4 ii} 4 ® V4. ties a — ¥ Nt 9] « AES 4 bis 4! i | ~— © M4 itp . &® IA. ties = — ¥. Nt 9] « AES 4 | 4! i",
+   "hits": []
+  },
+  {
+   "file": "s0475.png",
+   "t": 15.833,
+   "frame": 475,
+   "text": "sg SS uy . ® Ch mm | wets Foie = \\ e Nt wed ro are ety | ; ql ‘i | sg SS iy . R Ch mm | wets Foie = \\t! e Nt wed ro re ty | ; ql i",
+   "hits": []
+  },
+  {
+   "file": "s0476.png",
+   "t": 15.867,
+   "frame": 476,
+   "text": "& ity R &® Li 14, nt . iis | > i | | |} \\ \\ 1 aude —— aw ay y s) Pa, | & ity R &® Li 14, nt _ . ‘gi | a > a | | ‘t \\ \\ 1 ue ——— aw ay y s) Pay,",
+   "hits": []
+  },
+  {
+   "file": "s0477.png",
+   "t": 15.9,
+   "frame": 477,
+   "text": "4 iu Ah (fi * Wr, 4 ROTI ry ith i i & =—\" x, ren a | , 4 iu Ah (fh * WM, 4 RO II ry ia i Y & =_—\" Saad ren a",
+   "hits": []
+  },
+  {
+   "file": "s0478.png",
+   "t": 15.933,
+   "frame": 478,
+   "text": "~~ yee it va _ ks in ce ‘a r t — it -—— Teh | — tik ‘a! — a —— a eng — aS ut he, 52 Tere, | ~~ yee it ve _ ks in te ‘a r t — it -—— Teh | — tlh ‘a! — a —— a eng — a ut he, 92 tery,",
+   "hits": []
+  },
+  {
+   "file": "s0479.png",
+   "t": 15.967,
+   "frame": 479,
+   "text": "~~ Je oy ™™; nay) sae _f in the i*.* ht ry i eal ta \\¢ J _ ae 1 ! Wt >i wd he dl «el V9 sie ee | ~~ Je oye ™™ nay) sae _f in the i a ht ry fit vay th \\¢ i J . ae i 1 WT >i wk he de «el V9 sie ee",
+   "hits": []
+  },
+  {
+   "file": "s0480.png",
+   "t": 16.0,
+   "frame": 480,
+   "text": "i yee ial ih ib _ al iy Gh A . 5 \" att. be 4 \" it & | \\i i at | hh wi hy i Ret | a yee ia ib ib _ a i ih eee . ) 5 i att. be 4 \" it & | Vi i at ‘i Ah wi hy ei it",
+   "hits": []
+  },
+  {
+   "file": "s0481.png",
+   "t": 16.033,
+   "frame": 481,
+   "text": "“SN é avy in ir OY + Ly] wat => ‘I neat a \\t! Pe. Pry bk hy iit Et oe ts | SN é adie Y ia} iv OY] + Ly] wat => ‘I meee a \\t! Pe. Pry bh) hy Lint sx aN ts",
+   "hits": []
+  },
+  {
+   "file": "s0482.png",
+   "t": 16.067,
+   "frame": 482,
+   "text": "~X y _ my iE toy be = i” aoe =a hal ~— 1% eo kick ~ \\hs ~ . BY cs A! fas 3 | ~—X y = my iE toy be = i” aoe =a hal ~— es ——e— vet ~ hs ~ . ui cs % fas 3",
+   "hits": []
+  },
+  {
+   "file": "s0483.png",
+   "t": 16.1,
+   "frame": 483,
+   "text": "—~ ‘dali 4 : a in Gh US * 4 7 ~ at _— S| ey Tin ~~ ay i< e's -_ Nad alg ee a -_ is oie me coy Sif ae ye ayes ay te | ~~ ‘sii 4 : a in Gh US * 4 7 at — S| ey Tiwi aN ay i< ves —-_ Nad alg ee a - * (to Phe coy Sif a ye ayes ay te",
+   "hits": []
+  },
+  {
+   "file": "s0484.png",
+   "t": 16.133,
+   "frame": 484,
+   "text": "2 = 2 — € «' .* Ee. ii # ps Ag, “* as * 3 723 aN | 2 = 2 — € «' .* ee. ii #8 pas Ag, “* as * 3 723 aN i",
+   "hits": []
+  },
+  {
+   "file": "s0485.png",
+   "t": 16.167,
+   "frame": 485,
+   "text": "$ = - 4 _ a™* i? t 4 él , = 4 7a a ay os ” <4 ye Un 3 2% si ease a Ye Ne Sie anes eke | $ = = JS _ a i? L 4 a , = 4 7a ia a] os ” <4 Pee Un 3% si eae a Ye Ne Se anes he",
+   "hits": []
+  },
+  {
+   "file": "s0486.png",
+   "t": 16.2,
+   "frame": 486,
+   "text": "@- &I =< 9 Ee a, ae = et Fon a> \"t P| Re 5+ me Pee 3 t= ‘6 et = oe ~ =. s= - 24 ‘eu ir 2 ot, © ‘eae 2 a? ” —L a Bt, a ure ia <* ca ont at | \"Lew any @ Tin “ J: Eas © hep + Zo “at rr ene we ete a 2 7 2°8r ws. oO: ava! ha ra mt = va pote - ed aat- i ‘i= ‘ons, gua 7 ae Sa, Vee 7 oy or ™ - Pad pe = tay re Pe pana” \" | i 2 i] 2 eat ay ase iv fere Vogt as - 8 aa0 i sen = we en ae aan a4 (te ne ide i” 18 2, — (aay! he a rf ae | U af > } ei i “a oy ine-- | LB al —_— | \"8 an ' Gur) | @~ &1 ust © Ee a ae = ett ow, a> \"t pe | Re 5+ me Pee 3 t= kel aad = oe ~ =. ‘= - 24 ‘eu -_ : 7, © ‘ee 2 a? ” —L a Bt, a wre im <s ca ont mig \"hen any @ Tin “ i: Eas © hep © Zo “i= ors ene we ete ——— 2 7 28m ws. oO ava! ha ra mt == ra pote - ed aati i ‘i= ‘ons, ava 1 ie Sa, Vee 7 oy on ™ - Od pe = tay re Pe ras \" | i a i] 2 eat Lay ase iv eewe Vogt as - 8 aa0 ays sen = we en ao aan a4 (te wt idi- i” 18 S&, - (aay! he ici «ay lly aa | U af > } ei i “a oy ine-- | LB al = \"8 an ' Gur)",
+   "hits": []
+  },
+  {
+   "file": "s0487.png",
+   "t": 16.233,
+   "frame": 487,
+   "text": "La -! ~ s¢ TY e-~ «i E: Fou =? -<e x “t when > “k =e iad “3 =~ or) = 4 te Be — ise ne A —, | pt tas Lid ash) -. 2 {oor — 7 a A + 4 a =) awy cae or hoy s— Tin ES. “ats i oon cue me Dn) —— + wh arte ws. © § a re os == stag re or 7.2 a am t= aaa — mw =. ™ ws. « = ave 7 bey Pd Leet | =r 7 = * tay te i _ pony hae omen” ? i —— age ¢ ty _* as ry iv fenwe “Seas “ oo 8 age as — a ant we \"9 6 aay wv? tae hh idi- as < (By Sem, ‘as ae \\' a! > — Sy ty ais \"a oy el ‘u- i = = tr —=— Lie |] bry. Gur) | La se ~ s* TY e-~ <i E: Fou =? =< 3 “t whe ct “k =: + “3 =~ or) = 4 te Be —_ isu .S oe —, | pa tes Lid ash) -. oa {oor — 7 a A + 4 a ss awy cae mer ry \"Lol Tin ES “ats i oon cue mee Dn) —— + wh arte wi. © $ a re al == satay re - 7“. a aml t= aaa — aw =. ™ wc. « = ave 7 bey Pd Leet | —a 7 = = tay te i pan pony hae omen” ? ‘ — age ¢ ' _=_* as ry ov fenwe “Beane “ oo 8 age as — a att we \"9 6 aay wv? tae “ idi- of < (By em, ‘ag ae \\' a! > — Ty ty LEY \"soy ‘u- i = = tr =. sa oe T] bry. Gur)",
+   "hits": []
+  },
+  {
+   "file": "s0488.png",
+   "t": 16.267,
+   "frame": 488,
+   "text": "e* | ay ae VM\" or £4 = eo — ~% nu vu 2 “- =“: S- La) “t ots tae == » = | ae zat oe = + 7. oe ~ =. = . : Ss] — aie i hed af hd) a ate ——i alll nS ~ a ee @ ol prim bas i _ bd Ten Ene ~ 5: oes ue “ —_—e org —— # wie am) Es 7 \"fee rl po. os Baca] step va 742 ant ¢ 5 ~— ag: 8 are “an & ava 7 a Pe a, —=- =» - - ve Dad = ~ 4 « = bay rs omen” i yam ? J es eat rye ase oe Pewe aa -“@8 aa ae — a we “~ as of Vie (Ry Sem, x ‘ag! We os a mally aa \\' i wy! a *\" oy ee im Pa wT — Set URan a Gur) | ad | ys af MN a £1 a eo ee ~% nu vu i “- =: S= “Senn “t ots tse == » “% | ae at = = + 7. oe ~ =. - . : Ss] — ae : —™ af {O'urjy ad ate —— we a ee @ ss prim hy \"hed bd Tin nae of oon ue “ es org —— F ai ' Es 7 ufEee a po. os Baca] step va 7.7 ant ¢ 5 ~— oy: ae “cy & ava 7 i a, = = ws ™ - ve Dad = ~ 4 @ = tay rs omen” i yas ? J ea eat rye ase ae Pewe aa - 8 ga ae a we “~ ¥ < Vie (Ry Sem, 4 ‘ag! ve os a aly aa \\' i wa! dl = oy ee im a Led) = URan a Gur)",
+   "hits": []
+  },
+  {
+   "file": "s0489.png",
+   "t": 16.3,
+   "frame": 489,
+   "text": "se ve TY 2-4} ‘, =? = ory —- te -- ; —* ofits ay ce ak te ss =~ = - - on tou = —e os =B “ i | ne 1ooouary LS 4 oh ow RB, se oad Sahel or hy _— Sn y 43 Thin ‘ mat i oes ue me Ma —— + ai © } Es 7 Ever ava wt se Cl == step va 7+? a ened r= ean 2. ws, «= = ava 7 oe 84, Pad bp —- —*~ 7,‘ ~~. stay re Pe omen” aac —— ry oe ay Pene *“ Beas * nds wen Se a on 29 6 os a ws J = \") ‘tae tue ht oY of iy 2, jug! oe ayy ly aa \\! a? > — i wa! \"ay ihe- mL ma tl — Sh \"Ras a tur) | se ees TY 2-4} , =e 3 ord —p te -- ; —* ats ay ce ed cae 3 ss =~ == = - ” tou = ar) oe = “ i ae ne 1oosuary LS oh ow ty se oad ate or ** ry _— Sa 33 Tin ‘ aati i oon cue me Ma —— + ai © } E 7 ErEre ava wt se Cal == step va es tone Sr? r= age ¢ 2. ws, = = ava 7 S45 Pd bp = _*s , '- ~~. slay re Pe omen” aac \"er ry ce ay fPene *“ Beas * ds wen Se a on 29 6 os a ws J = \") ‘a8 te “ oY of iy 2, jug! Se yy ly ae \\! a? > — i wal! \"ay ihe- mL = tl — Soh \"Ras a tur)",
+   "hits": []
+  },
+  {
+   "file": "s0490.png",
+   "t": 16.333,
+   "frame": 490,
+   "text": "Ld cher TY v ‘ H est Ss on =\" “= ard 2 ~e -- tse == -@ av «at 3 » —~eo Fr Ss ate tse a a Sie Vea! ‘=| ——. ames i | jv) ~ 7) ow Ladd — were e “es, oa ca » bles | Titi “ i oon on 4 —— 4 wh afer avs w ee a 3) pe al === “ a —t putap 7.7? a, comm = oat a “cn @ —- = sve 7 ey Pd sa Sweet se a = = - ~~. stay ee { ~ Pa mu” eae ase ry a ae vy Pewee a “Saas “ or ao 8 ag ase A . we ~ go Bea one 90 oop a ‘BB aw mt ¥ of 1s “Se, ‘ide? 7 dy aa \" af’ aye on Ee 'f “3 gy ea in=- = ery —— son@ e2 an tue) | Ld cher TY uv H West Ss on =? “= me 2 ~e —- tse == -# pay «at 3 » — eo Fr Ss at tse a a Sis Vea! ‘| ——. ames i | v) ~ 7) ow Ladd —- were e “=, on ca ~ bles | Thin “ i oon on 4 — 7 wh. afer avs w ee a 3) pe Ca == “Fa —, puter 7.7? a, comm = oaz a “cn @ —\" = sve 7 ey Pd Fail | Sweet se a = = - ~~. stay ee { ~ Pa ome” pac ase ry a ap vy Pewee a “Saas “ er a> 8 aps ass a 7 we ~ go? ea one 90 eae a ‘BB a me as of 12s “Se, ‘ide? 7 ay aly aa \" af aye on Ee i s “\" gy ea in-- = er —— son@ tan tur)",
+   "hits": []
+  },
+  {
+   "file": "s0491.png",
+   "t": 16.367,
+   "frame": 491,
+   "text": "@~ 4G = om ow, se =? 1 ue Ce) . Si ~ + iss qay ize +t a —— i- 6 = = 2 -- = $F - 1] - 3. s= f i as Lag | —* ) ra {o'r aie Pa ae a 4 — oat eam er \"vee wong .- Thin “ Pkg Prd rf oon cue 4 eu —— = yy wie o. —h * aver a se os == “ Fa Wid pastep —- 7.2 —, ea: =. l= sve on 2 = ‘< oa oS. madl | ae? 2 « foe = - 2° nad ~~. = uy = re ve a gha, sae ra ase ee ee tad Pawe ba ao «- as — aa ae ~ (09 0 aug ve Ld) idi oY < Ly Sem, m4 ‘aa’ (! — my ey aa a? 3 wal! fu “\" ty tl in-- » eel ~~ ae > = e8an tur | @~ 4g = tow, el = 1 ue Co) . —~ iss qay ize =t - —— i- 6 = = 2 -- = $F = 4] - 3. = f ~ ao a | —* ) rai {o'r} ae Pa as a 4 — es eam mr vat Mong ” Thin “ wt? rd rf oon cue 4 eu —— = Py wi o. — * aver — se os = “Fe oo patep —- 7.2 —, ea: _ t- sve on 2 = ‘i a 5. madi } =e? rw — = - 2° Dad ~~. = uy = re ve oat alt geal. eae ra ase ee ee ve Pawe ba ao «7 as oa ae ~ (09 0 aug wy? Ld) isi of < Ly Sem, n-| jaa’ (! — my ely aa a? 3 wal fl “\" ty tl in-- a er ~~ an > = 88 an tur)",
+   "hits": []
+  },
+  {
+   "file": "s0492.png",
+   "t": 16.4,
+   "frame": 492,
+   "text": "uf 7 oe ** =. vu @~ Ale wate, me ue — — = | [oo qav uit - 32 5 2. \" —— a | hod . ioe s= 4 _ ane Pinwy, © nl 1S ar} wo me yee NW “er es ea ror fat a5 i alas | 3 Tin = i: Rus = ooo wae ae g eu —_— ais o. wh arte aps i! ly se Pt Ses patey * Fa 7.7 - az 2 oe. -— ono “ci. = see 7 wed ] te vad Anig ae Os = - an = tay SS ee “es Pe ate pad ase ryt a tad Pewee ey “Rage “ an 8 pes aa ws & ees as vi a ts v it) g , of < My 8 My» ‘ua’ — * my iy aa a? j a: rt “3 fy im- = eel ~~ mee . ae _ Ran tur) | uf ef oe ** =. vu @~ Ale wate, a _e — = | 2) qav 3% - 32 o> tl = —— = | hod . ioe s= 4 _ ’ ane Pin © nl 1S ar} oe me wre Nn “er es ea i a5 a alas | 3 Tin = i: Rus = ooo vue —e g eM —_— ais o. th afer apa! ly se et SEs patey * Fa 7.2 l- az . a. — ono “i. © see 7 wodh te vad Anig — ew Os ™ - ar = bay SS ee “es Pa ate wad ase ryt a tad Pewee ey “Rage “ an 8 pes aa ws & ens as vi a ts v ity g , aA “ 1, 8 Wy» ‘ua’ -— * my ly aa a? j a rt \" “3 8y im- = eel ~~ ae sae _ Ran Gur)",
+   "hits": []
+  },
+  {
+   "file": "s0493.png",
+   "t": 16.433,
+   "frame": 493,
+   "text": "af 2m ~ v6 7 ¥ e~- &: nf J +t ue == LPP - S- °F ~s ats ~ mh ae a 3. = 2 _—~ ery = ’ ” 5s] = | peas Lad bo ~sine © oe nl 18a) all a! een ” = =e, ~) _ —. or *® == bla 2- Tin itl i: Bos Say oes wun ee ¢ eu —_— = te ws. © $ ah arte ava te Cal = “wa putep 7.2 waz “a: 1 “in @ \"ree ¢ sve 7 Bay =e\" 2 « a be pe . >. . tas re Be noun ga. as eat ae | 40 4 = ~< ta hewe Pa a an » as A) ig? er ap ics wy.\" a = | By TH ,, - ig’ fe: (! en — om yy ality aa ea i ay! a “a ey ‘na Pe Lhd) —) me r om 88 an tur) | af 2m ~ v6 1 ¥ e- £3 nf ft +t ue == LPP - = 7 us ats ~ my ae a 3. “3 —~ ery = ’ ” s= = | phen Lad a ~sine, © ie nl 18!) all = ene ” ‘= =e, ) -_ —. or *® == bd 2- Tits ith i: = aay oes wun ee ¢ ew —_— = te ws. © $ wh arte ave i pe om = “ FE purer .? waz “a: 1 “in @ ‘Sore ¢ me sve 7 ae Ba, ye? 2 « we be pe . >. . tas re fe noun ga. as eae ae | 49 4 = ~< tad hewe Pa a an » as vA) ig? Br, ap ics y.\" a enllll By HG, jaa’ fe: (! en — om yy ality aa ea i ay! a a ey ‘na Pe err —/ =e Tr om 88 an tur)",
+   "hits": []
+  },
+  {
+   "file": "s0494.png",
+   "t": 16.467,
+   "frame": 494,
+   "text": "ha .- ~ ve @” Nia = ont, =f “ omy me vu ° ~e a =/ lo) tts —~ = = =F —— ++ = 2 =e ho = ” “=a * se i, f—. +e me “i irs 7 » ™ {Ole a —_— wee wer ov) < or is hed aay ® Titi i: Bus * oes vue wee aru — + te ai ©: wh ieee jaws :!! ys! Led os va step -r 7? qaz 2. t- ae ; a ne Gas soa i Bay a 7: « ae Dad = >. \"tas * nou . ' wee. eae ry —— ase = we oe eee &. ae u ane an, Lad an ws i ae 88 ae £4 wt iz x is EW. ia’ (! — ‘my ay ei! fl “2 oy ‘un Pe tr — omg \"8 an _ | ha .- ~ ve @” Via = ont, =f “ omy we vu °* ~s a | z/ fo) tts —~ = = =F ——_ + * “2 =e ho = ” i “=a * Ss] i, i—. +e my “i {rs 4 » ™ {Oi ale —_— wee ser ov) < or as ew aay ® Titin é: Bus * oes vue wee ‘aru — + ae ai ©: wh ieee Japa! ys! Ld ot va step or 7.7? qaz a t= rae 7 a ne Gas soa : i Bay a pe « ae Dad = >. = tas * ii noun . ' wee. eae ry ae 2 ase = we oe eee ». ae u ane an, as a ws 2 ae Ba ae £4 wa iz x is EW. ia’ (! — ‘omy dy ea! iW “2 oy ‘um Lhd) — omg \"Ran Be",
+   "hits": []
+  },
+  {
+   "file": "s0495.png",
+   "t": 16.5,
+   "frame": 495,
+   "text": "af tee till 4 : =? ony pore uv = ont, “= --* —=tnn = Ye or | nlite % wee BE ‘eee aie =. —— 3-6 Sie s a ~ sume se ‘ea tea! if- = | Meas : = se i “f (oor) Lg ao a wee al Zyl: = Ee <= or te i) \"y 2 a> 2 Titi i: Rus = oun aa ae 1 ae eo: a attr. aps |! i 4 a re Lal =z surep ra ® waz ‘7 a “2 ee — cn « sue 7 Avge 2 + =: = Bay * tas 4 >. a nou “3 my baer Toey ® gac ryt a ar © = tang Pere eo. a an *R ag Sea ate A) bated we” fea vw ii ag 4i2ai-f- ‘« By ita’ ee Fi © ay ly Ui alt — ae BT J PY a | | ra tu~-' wa mr — pug 88 an am « oll — Gan) | af tee till 4 : =\" oe) we uv = et, “t -- ——tn en = Ye or | lites % wee RE ow! wiz =. —— 3-6 Sie ss } =a ~ sume S ‘ea tea! if- = | Meas , = se i “f (o'er) Lg ao a wee al nae = Eg a or '® ea \"yy ew a> @ Titi i: Rus = ous on wae a= eo: * aftr. apa |! y 4 a re om =z surer ra ® az 7.7 1 “2 ee — cn « sue 7 Avge ts 8 =: = Bay * tas 4 >. nou “3 poms hae Toay ® aac ryt ~, are = tang Pewee a, iv a an “ag Sea ass A) bd ated we” fea vw ii ag 4i2i-f- ‘« iy ia’ mee Fi © ay dy Ui alt — eae BT J ry “3 oy ra ta~-' wa mr — pug 88 an .) = Our)",
+   "hits": []
+  },
+  {
+   "file": "s0496.png",
+   "t": 16.533,
+   "frame": 496,
+   "text": "hd ae --* tll e~ £35 ne =r am) ord m= onto °° ~e Te chokes! a <> a 2 “are a | A . sz\" ¥ ~~ ery _ 1] . 3. | Mee 2 esd . ia” = 7) hd —, wo es? a a sce —sr a roe ome =e alas) a= 37 Titin i i: ose vue y ne a. © > aftr. ‘apa \\!! is re ot =z “va autep 7.7 waz “= = = atm —S. @ see 7 — wie im Say meme >. Shas rs oul ga sac ry are = ~er oe & fewe a oat) tJ ane ete “a ws nn ae Ayo as ig . Fe ‘« fi ¥ th = ita’ a i! ef © ey dy ee a! “3 in se rr — pug Be a8 an =\" | a ae --* tll e~ £5 ne =r am) ue mutton °° ue Te chst et! a <> a 2 Rdel a | Ase 3. sz\" ¥ ~~ ery 3 4 1] . se | Mee 2 esd . ie” =e aT) id —z, wo es? 0 —_— see —sr ss roe ome =e las) a= 37 Tin i i: ose vue yo ne a. © > aftr tava 5! i! te om =z “va autey 7.7 vag “= so .= n= atm —S. @ see 7 — wiie m Say meme >. s bas rs noun ge sae ry ane = ~er oe & fenwe a oat of ane ete “a ws n~ ae Ayo as ig Fe ‘« of ¥ Ls) a ita’ a i! ef © gy dy ee ay! “3 in se rr — pug Be a8 an a",
+   "hits": []
+  },
+  {
+   "file": "s0497.png",
+   "t": 16.567,
+   "frame": 497,
+   "text": "iz + ey Ps % <? AG ras d be oe 4 Age | - “ ra St a 3 ¥- | te oy ey Ps % <? AG ras 4 be Se 4 Age | - < a St a 3 e-",
+   "hits": []
+  },
+  {
+   "file": "s0498.png",
+   "t": 16.6,
+   "frame": 498,
+   "text": "¥¢. ee ay * 3 i\") Ae See Be ar “& \"|? vd PIN a one | #¢. ee ay *3 i\") Ae Sa ewe a “& \"|? ve PIN Ps one",
+   "hits": []
+  },
+  {
+   "file": "s0499.png",
+   "t": 16.633,
+   "frame": 499,
+   "text": "tay ty ve Ve at: . ey A eo ag ala > Se hg “iG | ta fe ve Ye at: a By Aj > * ala + Se hug “iG",
+   "hits": []
+  },
+  {
+   "file": "s0500.png",
+   "t": 16.667,
+   "frame": 500,
+   "text": "vg mae ian a Ds, a mI ” Jin A Ob 1 oe! & ot! ro bem ‘ ct = | wg ae take ae Ds, va mI ” we poe tt 1 oe! & *y ot! ro bem ‘ ct =",
+   "hits": []
+  },
+  {
+   "file": "s0501.png",
+   "t": 16.7,
+   "frame": 501,
+   "text": "rh Tl “4 ne vO = av ¢ —— | eh Tl “4 ne aaa > V4 —_—",
+   "hits": []
+  },
+  {
+   "file": "s0502.png",
+   "t": 16.733,
+   "frame": 502,
+   "text": "“go”, a PFs ‘Ff Less ae a dat] co (igh as | ES art et at Ps ue ~ | “ge”, wz PFs +f Les ee dat] co (igh as i a at at Pa ue —",
+   "hits": []
+  },
+  {
+   "file": "s0503.png",
+   "t": 16.767,
+   "frame": 503,
+   "text": "ee) - g + % at | ag ad 3. We oom — | ee) 2 g 4 %; ay | ag bs 3. ws oo —",
+   "hits": []
+  },
+  {
+   "file": "s0504.png",
+   "t": 16.8,
+   "frame": 504,
+   "text": "“ec a Bis Rees xs ‘ ats rf3 — | “o> a Bis eee xe ‘ ats rf3 —",
+   "hits": []
+  },
+  {
+   "file": "s0505.png",
+   "t": 16.833,
+   "frame": 505,
+   "text": "7\" P/ os aa tf, i jae = = | \" P/ a aa , i pA = | =",
+   "hits": []
+  },
+  {
+   "file": "s0506.png",
+   "t": 16.867,
+   "frame": 506,
+   "text": ") * ae i oi See pa | ) i* ae i oi See pa",
+   "hits": []
+  },
+  {
+   "file": "s0507.png",
+   "t": 16.9,
+   "frame": 507,
+   "text": "a ~~ oo oo | a ~~ a oo",
+   "hits": []
+  },
+  {
+   "file": "s0508.png",
+   "t": 16.933,
+   "frame": 508,
+   "text": "Be Pa} M +s Es? a aN —snws | Se Pa} % +s Eas aN —snnes i",
+   "hits": []
+  },
+  {
+   "file": "s0509.png",
+   "t": 16.967,
+   "frame": 509,
+   "text": "A ; Sis i ee Caen nol is | A Sis {ft ee Canaan anol is",
+   "hits": []
+  },
+  {
+   "file": "s0510.png",
+   "t": 17.0,
+   "frame": 510,
+   "text": "=. rs 3 o ei 3) “» rOtire << a et a = —— re Ss | =. Ps 3 o ei “he re Teer << a et a =e —— i Ss",
+   "hits": []
+  },
+  {
+   "file": "s0511.png",
+   "t": 17.033,
+   "frame": 511,
+   "text": "age = ke as at “- | age = bs ss at —",
+   "hits": []
+  },
+  {
+   "file": "s0512.png",
+   "t": 17.067,
+   "frame": 512,
+   "text": "ta. _— 4 ‘ at i Le | es. d « fe & : ecdes ane ie = 23 tt ver tae Ti.°4 is s” twee | be =f WO Se auf te qt ao Le) | ta. _— 4 ‘ at i | oe | es. d « ha & » ectes ane ie = 23 tt aor tae wi.°6 is .” twee | 6 be =f WO RS Be Re a> te qi ao Le)",
+   "hits": []
+  },
+  {
+   "file": "s0513.png",
+   "t": 17.1,
+   "frame": 513,
+   "text": "ta. bh mee em — —\"4 a at i -_ i e Os be ‘ acde. ans = = : 4 4 .- oer wae my o. ww > tah ; | | Sa =f wD 6 ee pe ie tril ‘ ~ a t « 7 Ce] , | ta. bhi mee em < —| ft at - i e Os be ‘ arde. ans = = at 4 4 .- oer tae ™ . ww > tah ) | | Sa =f wD 6 ee pe ie tril ‘ ~ a t « - Ce) ,",
+   "hits": []
+  },
+  {
+   "file": "s0514.png",
+   "t": 17.133,
+   "frame": 514,
+   "text": ". m=: —* _—_— - - at e i wei e is be sree, = ps tt att in ™ a i he 7 tas oft alae wos wes id te iit oa | i. -m —* _—_— - at at a i wei e is be sree, = ps tt aut in \"™ ww is the - tas =f iiimewe = au7 te iit oo",
+   "hits": []
+  },
+  {
+   "file": "s0515.png",
+   "t": 17.167,
+   "frame": 515,
+   "text": "a. me ee _— = 3 at . _ » ip & Re = sree. nose S ~ | 2a att tae \" >” is i me He Yd “a =f eS SF Ee pe a> 5 t te sant f = ! a & | i. ms ee _—_ - 3 at . _ «mip & Re = sree. nee A ~ i 2a vet tae \" >” is tal ma He Yo “i =f oD SF Ee pe a7 5 t te jay f = ! a &",
+   "hits": []
+  },
+  {
+   "file": "s0516.png",
+   "t": 17.2,
+   "frame": 516,
+   "text": "i. a & aoe _—_ - es A a “ =” * im u ke arce a | at oer tra \" »” - tal i he “~~ | “4 =f LD BSS We Re a Ly t ta Wy f _ ' a e | i. a & aoe _—_ - es A a “ =” of «im u ke aree a | it oer tau Le) »” - tal i he “~~ | “4 =f LID BS We Re a $ t a uy f 7 ' a e",
+   "hits": []
+  },
+  {
+   "file": "s0517.png",
+   "t": 17.233,
+   "frame": 517,
+   "text": "a. _—_ - -* tt Lt a be e im & sree onaye - - a 2a oer tna \" ow . ta) al he =f - ie (iit ae 1 ma | a. _—_ - -* ft Lt a be «im & acee ouaye ai aI a oer tea \" ow . ta) al ae =f Ye (iit ae 1 ma",
+   "hits": []
+  },
+  {
+   "file": "s0518.png",
+   "t": 17.267,
+   "frame": 518,
+   "text": "a. meee os ”* - « - tb ee is . ares aie = 23 F + ‘ sen tea Le »” ts wa ‘hee i =f Um SF ee Me Le ‘ au 4 t te wi t 7 _ ' f a e . ° | a. noe ”* a « - be « is . ares ate = 23 FE gr . set tae Ley »” ts of ‘fhe i =f Um SF ee He Le ‘ au 4 t te wi t 7 _ ' f a e . °",
+   "hits": []
+  },
+  {
+   "file": "s0519.png",
+   "t": 17.3,
+   "frame": 519,
+   "text": "a. ms mone _— oo we tt Lo - i eam & te bree one \\8 - - | i sa seteesa \" { ay rad | Wey =f UD BGT We HON Le My - ‘ -— om au t i f f UF | a. me mone _— we tt Lo - i eam & te bray one \\8 - - oz | i sa seteesa \" { ay rad | Wey =f UD BGT We HN Le My - ‘ -— om au t ti f f Ue",
+   "hits": []
+  },
+  {
+   "file": "s0520.png",
+   "t": 17.333,
+   "frame": 520,
+   "text": ". U im. _— mee os at . — i y a™ “s *noe & ue ares ane |e 23 - = it oer tna \" wv Va) a) a he Tue =f ‘ en 3 ee He TE a> t ' te 111 — é Pd f “a | a. U im. _— mee - at . — is y a’ “s »oe g ue are ane |e 2a - = it oer tae \" wv Va) a) 4 he can =f ‘ en 0S ee He TE au t ' te HH — é Pd f “a",
+   "hits": []
+  },
+  {
+   "file": "s0521.png",
+   "t": 17.367,
+   "frame": 521,
+   "text": "a. Lal. i me meee - aa -* ft Lt - te eus i ace ote |e 33 | oer tae ~ La 2” ial te 4 | =f ws & Oe iit a7 i Pied Li] | a. LAsl ty me meee - aa -* ft Lt - te eus i ace one |e 33 | oer tae - \" 2” ial te 4 | =f ws & Oe iit ar i Pied Li]",
+   "hits": []
+  },
+  {
+   "file": "s0522.png",
+   "t": 17.4,
+   "frame": 522,
+   "text": "KM. if ti ad ane _— -~ ft Lo us @ be ace 7 ghee a 2a * i? oer tae Li) on 2” > lah vi a: tw “a =f Ml is a7 ta ryt z= i [re a | a. iad ti 1s an ee “_— - f Lo sus @ be ace t ghee a 2a * i? oer tae Li) on a > lah ti a tw “a =f Pl us af ta rit z= ‘~re Le",
+   "hits": []
+  },
+  {
+   "file": "s0523.png",
+   "t": 17.433,
+   "frame": 523,
+   "text": "&. me a - -* t -_ Pa te us i ace a - - sa * it vere tae ay »” tal te t~ =f Se we iL ae te itt (7 re LF | &. me a - ~* t A Pia, te us i ace one \\8 - - sa * gt vere tae ti »” tal te t~ =f Se we iL ae te itt (7 re LF |",
+   "hits": []
+  },
+  {
+   "file": "s0524.png",
+   "t": 17.467,
+   "frame": 524,
+   "text": "Me =. aoe se _—- - ye we PY - Pa te us i eee ane @ a it oer tan \") »” . \\ ats ' is =f wD 8 ee Ae iL a te tt — = ot | mM. =. mee se _—- - ye we PY _ Pa te us i eee ane \\@ a 1! ser an Lit) »” . \\ BP ' iw =f uw OS ee Ae Le a te it = == = ot",
+   "hits": []
+  },
+  {
+   "file": "s0525.png",
+   "t": 17.5,
+   "frame": 525,
+   "text": "mM. me me ee oo we = ft _ / Pa «ous & be ae none - - 1 ee gj tal - ~ ak he ‘Y fl =f OF ee Ha Le \" t — a t ' 1 te f f a ' e Py | mM. me meee - we = ft s / Pa «ous i be ae none - - 1 seneega gj tal - _ a She ‘Y fl =f eS OF ee Ha Le \" ‘ = == a t ' 1 te f i a ' e Py",
+   "hits": []
+  },
+  {
+   "file": "s0526.png",
+   "t": 17.533,
+   "frame": 526,
+   "text": "“7b m ~< ifm * =\\|2 r\\\\tl' “in Es al | “7b m ~< ifm * =\\|2 r\\\\tl' “in Es ‘al",
+   "hits": []
+  },
+  {
+   "file": "s0527.png",
+   "t": 17.567,
+   "frame": 527,
+   "text": "™ ae a m AS P Beg yi\\t ‘ s | ™ “ai a A p Bey yi\\t “ s",
+   "hits": []
+  },
+  {
+   "file": "s0528.png",
+   "t": 17.6,
+   "frame": 528,
+   "text": "ae ik mA it , 1 1 ” \" | a ik A i!/t , ' T b \"",
+   "hits": []
+  },
+  {
+   "file": "s0529.png",
+   "t": 17.633,
+   "frame": 529,
+   "text": "4 \"4 nA i It hy r\\\\t\\\" Mi Ma | 4 1 m i It i r\\\\t\\\" Mi a",
+   "hits": []
+  },
+  {
+   "file": "s0530.png",
+   "t": 17.667,
+   "frame": 530,
+   "text": "~. a Sy % r\\t ‘hy I ial | | ~. “i Sy = y(t ‘hy I aly |",
+   "hits": []
+  },
+  {
+   "file": "s0531.png",
+   "t": 17.7,
+   "frame": 531,
+   "text": "é iy Sm iI? =\\|2 r\\t “iy i a | A iy Sam iI? 22 y(t “in 1 | ml",
+   "hits": []
+  },
+  {
+   "file": "s0532.png",
+   "t": 17.733,
+   "frame": 532,
+   "text": "rn | ; wo i/? ‘> a ‘ity ‘uh | | rn | ; wo i/? ‘- a ‘iy ‘uh |",
+   "hits": []
+  },
+  {
+   "file": "s0533.png",
+   "t": 17.767,
+   "frame": 533,
+   "text": "ri | q\\' il | | q\\' all",
+   "hits": []
+  },
+  {
+   "file": "s0534.png",
+   "t": 17.8,
+   "frame": 534,
+   "text": "ie A Sew :. yiit i a} i | i | A St :. yi\\t i ta} i",
+   "hits": []
+  },
+  {
+   "file": "s0535.png",
+   "t": 17.833,
+   "frame": 535,
+   "text": "a Sy 2] i “= “iy jj ts a —— | | wi | Sy 2] i a. aT jj it ‘ie ——— |",
+   "hits": []
+  },
+  {
+   "file": "s0536.png",
+   "t": 17.867,
+   "frame": 536,
+   "text": "rn | Re “* ‘inh * I du rr | Pag | ah | Re - ‘ity * I du a | Pail",
+   "hits": []
+  },
+  {
+   "file": "s0537.png",
+   "t": 17.9,
+   "frame": 537,
+   "text": "‘44 PN PL i/? .-, qt i ha | eae | a i als PL iI? = 1 i ha as | ee",
+   "hits": []
+  },
+  {
+   "file": "s0538.png",
+   "t": 17.933,
+   "frame": 538,
+   "text": "rit ke i/t ‘? al gale mee cima | rift ke i/t '? al gale eee eimai",
+   "hits": []
+  },
+  {
+   "file": "s0539.png",
+   "t": 17.967,
+   "frame": 539,
+   "text": "7h Sy iI? . Tt) s Hl >. 2 =. | | 7h Sy ‘It . Tt) s Hl >. 2 =; |",
+   "hits": []
+  },
+  {
+   "file": "s0540.png",
+   "t": 18.0,
+   "frame": 540,
+   "text": "es 2 = es : ’ P il * or — Bar i? -e “oe Naat * eee? © gas = ny 1 mom Ff it arate Go \\ oye ra bg ae 7 OF ._<alggoas tar _— a + Ser = * oe we oo? sw * ait Le cot J = ‘r Z ~ 4, * ut © ‘ ' 5 «4 * spe 8 * g 68 *¥ i it coe fe a pan 6 08 gue 8 68 258 i X: £1 ' phar fa - ky + \\ ae a {sem 4 --r gba e5 «* gau its ye — Tt | t= 2 = > : ’ P * or — Ber i? -B “a Naat * ent © gas a ny 1 mom oF t arate Go \\ oye ra ae fe 7 OF calgon ar « \\*~ = + Seer = * oe we oo? sw * ait Lect J = BE ¢ ~ “ie ut © ‘ ' 5 «4 * ope 8 * g 68 *¥ a it coe fe a, pap 6 08 gue 8 68 a58 i X: £1 ' pba: fe - ky _ \\ ae x sem 4 --r gba es «* eau v8 ye — Tt",
+   "hits": []
+  },
+  {
+   "file": "s0541.png",
+   "t": 18.033,
+   "frame": 541,
+   "text": "os Bout »~e ay om om! * wT Bar La = yt ie 1 pial fas a ou eat? i ao | sve 688 uy arated tke ra ioe bh » ity tt. pnt far 7 ar + Ser =, i oe ~ = Wii. ya asf -* a az —_ / ae ter N @ as o Ss ‘, ° » of a i J * sea 8 - ae ee *¥ Hans 4 ee ee “ i oH ane i one a on ery obs el) \\s i sem as --r gab i? we * | ooo Bout ™ ay om em! * ad Bas La => yo ie 1 pail fas = <u eat? I a | sve 088 ou arated tke ra ioe ara + thy tt. pnt far 7 ar + Ser =, i e ~ * == Wii. a ase o% a az —_ / ae ber N @ as o Ss ‘, ° «» of = % ’ ‘* seo es awe *¥ Hans 4 eee on i oH ane z ne a on Ler obs ‘a \\s 1 sem as --r gee i? we *",
+   "hits": []
+  },
+  {
+   "file": "s0542.png",
+   "t": 18.067,
+   "frame": 542,
+   "text": "iy oC — — ~~ a” a a y\" ot sd ——— aad vts a «it ear? it if Nv sve 686 a ow arave = a” at Fail , cmt ue ? ev _ apt far = + Ber mS Oe ee . =. : ah: BGs Pr ra aie | o* ~» cites | @ 25 y% Weitge ° « #4 ae — av iM eae a‘ aM us gee a ee Lb) —— » x: em ‘ pi as - 4, aed | | 2 | Wy oC — »™s a” oe & a y\" oe es —— aad wuts = «ist oar? | if N sve 686 a ome arate = ”s # § Fail , cm ue ? ev oF . _apoti tar = * 3Se@r mS. Oe ~ =. 2 oh: BGs Pr ra aie | o% ~ iin | @ 25 y% Witge ° « #4 ae — av iM sae a ' aM us gee a 68 Lb —— » x: enh ‘ gba as - 4, at | 1 |",
+   "hits": []
+  },
+  {
+   "file": "s0543.png",
+   "t": 18.1,
+   "frame": 543,
+   "text": "et an =: Bao »™e Ce ea ~ a — —o& eas ——— My suai ear? | = «ast if “ sve ote . au avert” a » Uy i Gr ——— ra wen we e7 ey OOF caliper far on * Beer a m* were ae, ae BG) e+ Se ue 1? -* -4 a A Reh ccm | =) 3 4 % %,. @ 5 4% ‘ ‘ ° » a4 ape 8 - “ye | rae 2 68 ase #¥ iM ah) ses ee ' seu 68 a 88 x: PS) .3'* ot) ‘ gba a » ‘es as ‘§ i! see yy --s enh ras «* | et an =: Bao »™e eo ea ~~ 1 ie — —o& eas —_—— My nat ear? | = «ast if “ sve 6fee ? au avert” ike — » Oy a Grea ——— ra wea we e7 my OOF caljpeoe fer on + Beer \"a am oes a, ae BG) ot Se ie 1? e% 4 a: A Rel ccm | =) 3 4 %~ %,. @ 5 4% ‘ ‘ ° » a4 ape 8 - “ye | rae 2 68 ase #¥ iM ah) ses ee ' se5 68 a 88 x: PS) .3'* ot) ‘ pba a » ‘se as ‘f i! see yy --e enh ras e*",
+   "hits": []
+  },
+  {
+   "file": "s0544.png",
+   "t": 18.133,
+   "frame": 544,
+   "text": "~——l o- “se Ban ire «er ae iB aad vase ene? ; = <tr if 0 OS ee 1 ae — arava ''o 1 iy = —— ra se: —— sf te OF aro Tar '7 on“ * Seer = a Oe a ' Bq, a a —~% mT. 1A * 4 -* i ‘ . a | @ us in 4, ria ° =» #4 * ssa 8 - ay i” sas es 6 ‘on eee a ' Wy ese a ee 3.84 x: PS) em ' gpa aX au Ya i! see -*e anh iB] | ~——l e- “se Ban ieee «er a iB aad vue ene? ; = <tr if 0 0OSee .& ake arava 13 » iy = —— ra se: —— * wt OF aro far '7 on = * Beer = am Ce a ' Bq; id ner —~% mT. 1A * 4 -* a ‘ . a | @ a in 4, Yi ° =» #4 ‘ sea 8 - ay i” sas es 8 ‘oe eee a ' Wy gue nee 3.84 x: PS) a) ‘ gpa = as Ya i! see -*e anh ay",
+   "hits": []
+  },
+  {
+   "file": "s0545.png",
+   "t": 18.167,
+   "frame": 545,
+   "text": "Nes Se ae or \"Te =. . — * iat: vas etr*? = a any = shes “ue a ta arats ake ‘fe Ow —=—— os — ae — far =? * oo * Ste = = as aes Bq: o! Sn a — ju > tT. ue a -* a i i’ iN Re ...2 @ us os mess, = of “ ope | eo 08 a¥ “\\ rae ese oath ose ses gon | ene aee nga » x: fod \\ ' oni e. y \\s aa x4 I, \\ yea | _~en 468 r@3 i | Nes Sea ae err \"Te =. -. ' — iat: vues ear\"? = bi wea. sx \". a ta arats ake— ‘Q On —=—— - —— ae — far =? * oo * Ste = = as * Bq: a ju > tT. ue a -* a i i’. N R..2 @ us os es, = af “ spa a - eo #68 a¥ “ rae ese oath ose ses gon | une a8 LBL » x: fo \\ ' oni e. oy \\5 as x4 I, \\ yea | — s | 2 r@3 i",
+   "hits": []
+  },
+  {
+   "file": "s0546.png",
+   "t": 18.2,
+   "frame": 546,
+   "text": "=< a et «er Bus te qf m o. a 3 —— My vu aad rte —_ sre 028 cour on | .& arats ae— = ——_ ' ‘oe 1 ey ed ra gya ae — =\" =m, eee Pe fer *~ on e * Seer - . errand ot eT . * Pe: Le | 71h -* — “4 iN | \"al au t b % > > = a4 ‘~ see 8 - rae 8 66 yy sou te ‘ PTT ded 2 ese 5 68 . ay n 8a a ~ Lei a). X: é « cu i) s ‘ abi 8 “Ny - ‘{ I! see Bes —-— | = F r@3 Pa | =< ~x~ * et «se, Bus te qf =m se. a 3 —— My vu aad rte —_ sre 028 cor eo | .& arate ae i ——_ i ‘oe 1 ey ed ren gya ae — =\" =m, eee Pa fer *~ on e * Eee = . error ot eT. * OM: aq 7th -* — “4 iN | | =u t b ys > = a4 ‘~ gee 8 - ee yy pes * 2 ‘ PTT ded A ese 568 . “4 1 8a 8 ~ Lei Ei. X: é « cu a) a ‘ abi 8 “Ny - yf i! pee aa —— | = o r@3 g-",
+   "hits": []
+  },
+  {
+   "file": "s0547.png",
+   "t": 18.233,
+   "frame": 547,
+   "text": "~~ »~* SS ea ts ur Te Bes afr 1 —— vas Wh % a ad . = sre 020 ot a | au arate ae — ie « | et = one ee 2—— ae =\" se epmek Te, on FF * See =, ie >< ae BY ‘asf 4 -* H's =P $ a | in _—s \\, i > = a4 ——— * ope 8 - 4 oy oe reese 08 Oth he ot gpa 8 88 gae 8 es » s.Ba Xe ra ai ‘gb i a | ‘s I! see aa vi — r@3 | ~~ »* - toe ot er Te Bes af 1 * —— vas Wh % a ad . = see 6see ot a | at arate ake ae «| et = ome ee 2 ae =\" se pnt T., on 8 * Ser = , ie >< 1a Le | ‘asf 4 -* H's =P — a | in _—- \\, i > = a4 —— “ spe 8 - 4 oy ae reese oe oth g 2 %6 ot gpa 8 88 gee 8 es » s.Ba Xe ra a ‘gb i a | ‘5 to! see as Vi —- r@3",
+   "hits": []
+  },
+  {
+   "file": "s0548.png",
+   "t": 18.267,
+   "frame": 548,
+   "text": "o- ™ te et «er re Bus -2{% oe. [ i. _ — M nd vase id * os vor = ,! avy see a Be ~ rats ike La => <c ome 19 se ——— —— [a ae dj OOF dined T-. = on & Ser fa, % mS Ot oe Bq o) eT. ‘ae -*~ ——= ~ 4 ) fe lane’ i P< : | @ 3s E! oe CA ° = «a4 4,\" $s, ~ spe 8 + h! pes eons gs? ea inf ane oof een : WS “gee a ” JER ob « fat] J iy ‘5 I \\ | \\\\ as | aa \\, _—— r@3 | o- ™ te et 7 re Bus 2] oe. [ we qs a — ~ My id vue id * os var = ! avy aee a Be —~ eat ike ‘| => Sa ome 19 se —_—— —— [a ae se OOF dined T-. = on & Ser fa, & mS Ot oe Bq o' gg — iT. 7 -*~ ——_ _ 4 ) | taew lane’ i —_ : | es VE! oe ay ° = «4 4,\" $s, ~ spe & - h! res on6 gs? ea inf ane oof . = : WS “gee a jy mn ob « fat] | ’ iy ‘5 \\ \\ | \\\\ as | aa \\ _— r@3",
+   "hits": []
+  },
+  {
+   "file": "s0549.png",
+   "t": 18.3,
+   "frame": 549,
+   "text": "‘oe Bas ~ aie eer oF q* “a& ee. = — ———— q aus = “ ar earth? a | avy fee au vata tie — une Oo » Uy a [ ! ,? ae ——— — OO net t.- = , oo 7 Se an: apr = <— i» , “a aE BY use oe 1! | ‘THE aad y= a, t 4, i iH \"1 es 7 su o4 4, es * spe 8 * : reea re au ga ee gee 8 88 i 3 *) gue 8 es a 64 a ‘gb ah =. \\s aa I, \" yeas res | ‘oe Bas ~ «ie eer ee q* “*a& ee. a et —_———— A nag = “ ar eae? a | avy fee au vata ie + ue Oo » Uy = — ! ,? ae —— — a t.- = , oo 7 Bey an: aggre’ = <*> , [a BY use oe 1! I ‘THE aad y= a, t 4, i HN “4 eas a °.s @4 4, Sian * spe 8 * : reeare au ga ee PTT ded i 3 *) gue 8 es a 64 an ‘ob ah =. \\s aa I, ; yea ras",
+   "hits": []
+  },
+  {
+   "file": "s0550.png",
+   "t": 18.333,
+   "frame": 550,
+   "text": ">? Bes SES ee a wear 1. ar ee —— —— q aad vas = * ort Said ,t + ave 6288 ety i ' ke ont c<) » Me = ys ae h—— * 7 per t.- =, Se: = aiken hs ited ‘Pe Le as? | _\" THE aad poy iN fm ein e315 % a =» a4 \\, % i * ope a: \" ne one vu ron ese eo se pa eof une aes rg oe LL X: i! » ‘ gi eh] X ‘yea I, a3 | =>? Bus Webs ee <-a& wear 1. ar aS ——e —— q ae vas = * ort Steed ,¢ + ave 6288 ety i ' k— one ce) » Mg = oa ae h—— * 7 per t.- =, Be: % mn Oe ot ta — ied ee Le as? | I THE aad poy iN ee 35 oe =» «4 \\, % i * ope a-: \" rue one vu ron eee a ee Pid aoe we aes rg oe Li X: i! » ‘ gi eh] aX ‘yea I, ras",
+   "hits": []
+  },
+  {
+   "file": "s0551.png",
+   "t": 18.367,
+   "frame": 551,
+   "text": "NES. Ta TT. Bas << oe. oe ae —t& —— a> ———* y aug vase ee * ct “re? t ave aee st rata ake => ia G. i _— one a! _—_——_— ae j—— ol t. ow Se “a, a a4 me VE THE DA Ps) a | ae, ~ | — 38 4 Ss \\, ti °°. = a4 ~ ope & - i ene ons au g a te iy PTT ded Ns ou TT 2 nga 3 a gn ‘ obi a ‘5 i! see \\, saa | NES. 7a TT. Bas << oe. on ae —t& —__— a> ——— q aus vase ee * ert Spel Pa ave aee = te rata ake — => ia G. i _— one a! _—_-_— ae )—— ol t. ow Se “a, ot Ss — Be me VE THE DA Pa) \"4 i, ~ | — 38 4 Ss \\, ti °° = «4 ~ spa & - i ene ons au g 0 te iy spe 8 88 Ns oy gue a ee 3 nga 3 a gn ‘ obi a ‘5 i! see \\, saa",
+   "hits": []
+  },
+  {
+   "file": "s0552.png",
+   "t": 18.4,
+   "frame": 552,
+   "text": "= «=. TC Bas ae <a ca | er @* a 3 —\" —_— ly aug va a * art ee a | ave ase «te 7 ade ) j = one 0. Say —_ Gea ae —_—— _——, ct. =, on Se —_'* woe ae BS a 1h be sw: as? -_— and yoy E THE DAT me as rr iN = ‘ (a3 ta ae \\, = a4 es, . ape a - UN rae oone6 ew a ta a to was ao8 a | ») use aes nga 3 mt ‘ ebi fh es ‘y pas | cs af | w= Ss, =\". rT Bas ae <a ca | ‘ew a a 3 —_— —_—_— ' aad va a * art eet a | ave ase . te 7 ade Q j = one 0. fay —_ Gee ae —_—_—— _— ct. =, on se —_'* woe ae BS a 1h be sw: as? -_— and yoy E THE DAT me ¥ | iN = ‘ (a3 td ae \\, = a4 ees, \\ ape | a UN rae oooe8 ew a ta a to ous a o8 a | ») use aes a 8a a mt ‘ ebi fh es ‘ pas | cs af",
+   "hits": []
+  },
+  {
+   "file": "s0553.png",
+   "t": 18.433,
+   "frame": 553,
+   "text": "— YS Bas a ~E <a “er -* q* <n a 3 —— —— A ais * enrt® vas oo * oe Pal + avy ase ste be —~~ ore 19 ‘ (ay = Coen ee ae -_—_—— t. = , an se = egy “a, & a Gi: Bt eo? = nh a —— ST as SAVE THE DATE a ro ae ‘a as 3 mo ha nm af a! ” ape a ee 4 rae o “6 ess e ta s a! ose a 98 one aes 84 mi) ‘gb 4 ron ‘s I \\y, ‘yea >» a2@ | — TS Bas ae ~E <a “er *. q* <n a —__— ———— a. aus * enst® vas oo * a ral : avy ase ote ba ——~ ore 19 ‘ \"ay ss aot gre ae -_—_—— t. = , an se = gts “4, & = Gi: Bt oe? = nh VR —— sd Pw SAVE THE DATE a ro a, ‘a as 3 mo ha nm af a! ” ope a a 4 rae o “6 ess e ta s x! ose s 98 one aes 8a Hi! ‘gb “ ron 's I My, ‘sea ss» a2@",
+   "hits": []
+  },
+  {
+   "file": "s0554.png",
+   "t": 18.467,
+   "frame": 554,
+   "text": "‘ 6 ae a se aid — SAVE THE DATE . © be | ‘ 6 ex a a RM, ahd —_— SAVE THE DATE . © “",
+   "hits": []
+  },
+  {
+   "file": "s0555.png",
+   "t": 18.5,
+   "frame": 555,
+   "text": "¢ 0 Re * nis — —— a SAVE THE DATE a | ‘ 0. a * sis — —— a SAVE THE DATE a",
+   "hits": []
+  },
+  {
+   "file": "s0556.png",
+   "t": 18.533,
+   "frame": 556,
+   "text": "$ 0 a 3 \\ al SAVE THE Rae b Sante | ‘ 0 a 3 \\ al SAVE THE Rae —",
+   "hits": []
+  },
+  {
+   "file": "s0557.png",
+   "t": 18.567,
+   "frame": 557,
+   "text": "‘ 8 ; - SAVE THE DATE .« ee > | ‘ 8 ; - SAVE THE DATE .« bh > oe",
+   "hits": []
+  },
+  {
+   "file": "s0558.png",
+   "t": 18.6,
+   "frame": 558,
+   "text": "$ TT > ee me SAVE THE Rae ,ie~ = | ‘ ” LLL a <7 SAVE THE ae ,i~ =",
+   "hits": []
+  },
+  {
+   "file": "s0559.png",
+   "t": 18.633,
+   "frame": 559,
+   "text": "‘0 _* Ry “byt ane? > an SAVE THE DATE ras | ‘0 _* Oy byt ane? > an SAVE THE DATE ras",
+   "hits": []
+  },
+  {
+   "file": "s0560.png",
+   "t": 18.667,
+   "frame": 560,
+   "text": "¢ 0 — ie, ee a” <7 SAVE THE Rae ces an | ‘ 0 — ie, aT a <7\" SAVE THE Rae ce _",
+   "hits": []
+  },
+  {
+   "file": "s0561.png",
+   "t": 18.7,
+   "frame": 561,
+   "text": "¢ 0. agar » on ae SAVE THE Ae Ces ee | ¢ 0 Pr ad a’ <7?\" SAVE THE Ee Ces =",
+   "hits": []
+  },
+  {
+   "file": "s0562.png",
+   "t": 18.733,
+   "frame": 562,
+   "text": "¢ 0 -* * opis, rr SAVE THE DATE > ae | ¢ 0 -* * ott, rr SAVE THE DATE “ =",
+   "hits": []
+  },
+  {
+   "file": "s0563.png",
+   "t": 18.767,
+   "frame": 563,
+   "text": "‘0 * a 2, SAVE THE DATE ~~“ = | ‘0 * a 20, SAVE THE DATE ~~“ =",
+   "hits": []
+  },
+  {
+   "file": "s0564.png",
+   "t": 18.8,
+   "frame": 564,
+   "text": "¢ 0. > * SAVE THE DATE nn | ¢ 0. > * SAVE THE DATE ~~",
+   "hits": []
+  },
+  {
+   "file": "s0565.png",
+   "t": 18.833,
+   "frame": 565,
+   "text": "¢ 0 itt ae ” — > ae SAVE THE DATE | ¢ 0 ait - — > ae SAVE THE DATE",
+   "hits": []
+  },
+  {
+   "file": "s0566.png",
+   "t": 18.867,
+   "frame": 566,
+   "text": "¢ 0 odin tl, — i SAVE THE DATE “ie | ¢ 0 odo tly, — A SAVE THE DATE ps",
+   "hits": []
+  },
+  {
+   "file": "s0567.png",
+   "t": 18.9,
+   "frame": 567,
+   "text": "+¢ = we aes Be! * oe Cant ee. nt et aa et ve tS wp ey un ON: ties Tee ¢2. Sy, SAR ae at We et Be $ 3 RY > se, nr as ts ae * Pie . ant a ¥4 Wi ar oe FAD, Hs ee eR % SAVE HE DATE i oat ts ¢ | +¢ = a aet pe! * Lv (aint ee. nh Coe ao xe oe iS we te % ON: thes Tee ¢2. Sy, SA ee at et ny Be $ a RY » +. %, nr ae ts ae = rat ea at i ¥4 Wi ar oe FAD, Hs ee me % SAVE HE DATE ts met ts ¢",
+   "hits": []
+  },
+  {
+   "file": "s0568.png",
+   "t": 18.933,
+   "frame": 568,
+   "text": "abe we se pan <% te y Pas Leena a. Pare by ves it BF i “Ra +e 29. + ys as a. Oey a5 se Rive oe me ‘Ott ex ¢ war fe SAVE THE DATE eS Pe! pay te | abe ve Nes ran =X te y rae Leen aes Cs Parse by vas id i “Re +e 29. + ys as a. Oey a5 se ive oe me ‘Ott ex ¢ war fe SAVE THE DATE we Pe! pay Sh",
+   "hits": []
+  },
+  {
+   "file": "s0569.png",
+   "t": 18.967,
+   "frame": 569,
+   "text": "* oe ae 2 re Yes Roe ee se eae , eens , erie: oes $e (Xa was oe ie 2 r@ ov mw. “aS ‘A 2 xy | SAV ETH DATE et cs SESE. $2, eae bas Pad | i aE i ‘* ou | * oe a z re Sey Rn ee aes nie <a sl Ue: , erie: oes de (Xa wes oe ie 2 °@ raed mT. “aS ‘A 2 xt , SAV E THE DATE et A amas PES. $y, eae bas Pad] 44 RZ re ‘= se",
+   "hits": []
+  },
+  {
+   "file": "s0570.png",
+   "t": 19.0,
+   "frame": 570,
+   "text": "atns vad ‘it Heh cons ah care soeeatt 45S ‘ti ey. x ed “4 ag. Uae ae ax a aed “sy BE. ton el eid % ae ie a SAVE THE DATE — “ae vr Sy Eee wel oe | tas val it Hee cons se care soeeatt 45S Ft ey. es ed “4 ag. Uae ee. ax ee aed “sy BE. ton al aed MY ae ie a SAVE THE DATE _— i vr Se Eee wel aa",
+   "hits": []
+  },
+  {
+   "file": "s0571.png",
+   "t": 19.033,
+   "frame": 571,
+   "text": "$ ci a Xs Saat: cif Rees aa Ree ee AS Ty Rese Re vy et 5 ft & ae Pct a: Thigh ¥ ay a = @ = SAVE THE DATE ah at in ¢, ks. a i aw ae AY Ts | $ cs a Xs Saat: 2: ees ae Ree ee AS ty Ree Ry vy et 5 sft & ae Pct aes Thigh ¥ Xe a = 8 = SAVE THE DATE ah Lath in ks. a fi oO cae A Ts",
+   "hits": []
+  },
+  {
+   "file": "s0572.png",
+   "t": 19.067,
+   "frame": 572,
+   "text": "> Sxye oe ae ws pyre ‘ ee, by Rts Oaks S < > etES oy se rhs S$ pai O78 FIST, bas eat feak ban > Ni ai Spe oe eS e sk ora Se ee of ras * Pe <a 2489 bet mi SAVE —= Ue” 2M Se wants e e: <7 o ies x) x toe i“ ee, et aX a 5 #3 | > rye x ee ws pint “ct ee by ted Oaks S < > etES a, gh thes S oa oF FIST bas Seat feak ban wes Si ae ng Ce ae ai oye Se ea of ras * +2 <e 2489 byl mS SAVE —= LT AE yanks e e: 74 Fe in 2) & toe i“ ee, et ay a 5 #3",
+   "hits": []
+  },
+  {
+   "file": "s0573.png",
+   "t": 19.1,
+   "frame": 573,
+   "text": ". ae tere * o> tans etbn Ree pet aS. ay om sm oe oat rh i> Fic 2 atk coe * Za ‘e Sy £65 é 54 he ye wi nie. Ree tei sg ey - a nh Sti Bee, ne es mie Sk ¥ a E 5) ay #8 Soe ae: Se “$3 “ey — SAVE TH E DATE Oy (Of ig ried eee? ye o< a pA 2 re: Ny is ay 7 | . ae Tear * aes tens eb Ree pe aS. ay om sm oe ee, se eae F< 2 atk coe * Pas ‘<4 fy £65 és . ye wy ries. eee tec og ey - 5 nh wy Bee, ne oe mi ee ok a ea E sn) oy #8 Soe ae: a “33 ‘ey — SAVE TH E DATE Ory ae (ef ek ried eee? yz o< a> pA 2 re: NS i Ay 7",
+   "hits": []
+  },
+  {
+   "file": "s0574.png",
+   "t": 19.133,
+   "frame": 574,
+   "text": "~e sg ae af ” SS ovis ere Be Ly fe iLesewee 7 ma ee So athe a oR 4$) CSS ie oa <6 om, ze y 1h EA ez Te ie ws o MALE SAVE THE DATE + = 24 Ry: awe ey ag ut 737 mate .% | —) Pit ie: id ” pe Seve wre Be Le fe tans ay ma ae So athe ee oR 44) RSS ie vt <6 om pa y ie EA 8 > ie ws o MAL EN SAVE THE DATE + = 2 Ry: awe vy ag et 737 mae .%",
+   "hits": []
+  },
+  {
+   "file": "s0575.png",
+   "t": 19.167,
+   "frame": 575,
+   "text": "> # % Ps a ces fa Ms Tay) ae Mu Soe ite Ei ae oe RS ey ¥3 bax is Ah = Rig pls Fst + e “SAVE THE DATE Bs ee x ore a Ay 4 G se at he fed aes Sp | > # % 2 AS ces fa Ms Tay) ae of Soe Alte Ei ae Me RS ey ¥3 bax i ANE 3 Rig ay by Spr + e “SAVE THE DATE ies we x ore a » 4 @ se ar =a feed ann ‘Shp",
+   "hits": []
+  },
+  {
+   "file": "s0576.png",
+   "t": 19.2,
+   "frame": 576,
+   "text": "Roe ye esi I Se: <3 be ier oars ed A vod Fa es MG, Sheet Peet RRs +f. P 4 patie. ie Lee tithe pS 2s it Fo aXe f SAVE THE DATE I oe S & ae ey | Roe ie esi I Te: = hs er ayers es Ae vod Fas es MGS, Shia eat Peat te +f. P 4 patie. ie {ji Withee pS 2 at Sa ae i SAVE THE DATE oe a S x ae ey",
+   "hits": []
+  },
+  {
+   "file": "s0577.png",
+   "t": 19.233,
+   "frame": 577,
+   "text": "Se os — oY jay = ee 3 if AZ, pe ‘5 She. ¥ Meh Sra Sim, ants ae ets 3h ee aA oe eS ay Bie Biss SS SAVE THE DATE 3 i Sy A re es? ey | se os “4 or jag 3 Pee 3 tr AZ, a ‘5 She. sj Meh Sra Sim, ant ae ets cS on MA a eS ay Bie ies SS SAVE THE DATE 3 es Sy, A re les? ey",
+   "hits": []
+  },
+  {
+   "file": "s0578.png",
+   "t": 19.267,
+   "frame": 578,
+   "text": "wi ee e): AY ee Aye 7) la 2 ee ey ax etre oe Roe at font ay ~ Carney pha ay> fe ian ~ ‘f ‘be mer SAVE THE DATE act 3 ad 4s y ike ie ef GR wit | wi fe. e): At ae Aye 7) La ve ee i oa ax eter ae Rees) at rant SY Larne pha a> fe ieee ~ ‘f er SAVE THE DATE ace 4 ad 4s Fo Bee ie a Gn wi",
+   "hits": []
+  },
+  {
+   "file": "s0579.png",
+   "t": 19.3,
+   "frame": 579,
+   "text": "Aue x Ba a bs os. 3 es ap Te fant, e San ayes = tts Sue ey, Se by we is 29 gis sa fei a5 2 me yy 4 2 bY DS & | ee <m vA Bas 2 SAVE THE DATE 2 oe s sr ase, | Sed x Be bs me 3 es ap Re ant, ei San ayes ey ts Sue ey, Se by we is 29 eis a fat a5 23 oe yy 4 2 bY # & | im WA Bas 2 SAVE THE DATE 2 ce s oa ate,",
+   "hits": []
+  },
+  {
+   "file": "s0580.png",
+   "t": 19.333,
+   "frame": 580,
+   "text": "* Pane re ee Psd it hs oe as Yh i By oe. Ft ee Puen “a aa Mar ae ae ae hoe ae pe pies Pas a SAVE THE DATE uy taal 2 Fig n aS x. Se 2 ay ae MS wa) | * Ane re ee Pik it bs fae ras Yh iy By ane. Ft ee Puen a 44 Kroes ee a be hoe oki pe pies Pas ow SAVE THE: DATE uy wal A ns as is Se 2 ay ie MS wa)",
+   "hits": []
+  },
+  {
+   "file": "s0581.png",
+   "t": 19.367,
+   "frame": 581,
+   "text": "oo) Eel yep ae ae Kf oh PS at ws <= es RS iss pre xs ry. <a 2 ee fi} rs Og A Wt cat 9, ote: Fae wy 3 ee wot be Sy i * nal ae oa ai 5 *, 25 * tt es oe hes ae ® * a en Le et ~ * Ba a, us ree z bead Ob vA my Se; AE =i er . és} -f 43 > hee a | aS ah yep a Ge & 4 uf mae we <= es S, iss pte xs ry. ao 2 ee fa} as Og t Wt RA ote: Fae wy 3 ae Tot bie Sy i * nal nae oa a 5 * 25 * tt 4st oe Kes ae 3 * 4 en Le et ~ x ea a, us ee z bead be vA may Se EE i ei . se} -f AS > he a",
+   "hits": []
+  },
+  {
+   "file": "s0582.png",
+   "t": 19.4,
+   "frame": 582,
+   "text": "fx i 5) a3 oo ioe Re 12 weg We. & axe, ie. Sy br es we a « oe aa An} ag Sai aa vw <% ty , \\e bee | fx Si sy a3 was > Re 12 18 We & axe, ae. Sy br -. wi a? € oe aa An} a ai ad w = ty , \\o xt",
+   "hits": []
+  },
+  {
+   "file": "s0583.png",
+   "t": 19.433,
+   "frame": 583,
+   "text": "+ ze es ee & xe - oe e * en Ra es * ‘aN ax > oy *> a. i nh | + ze ky & xe - id * ee Ra a = aN an ie ot %> iW 7 =n",
+   "hits": []
+  },
+  {
+   "file": "s0584.png",
+   "t": 19.467,
+   "frame": 584,
+   "text": "*¢ aed ear oka of ee be B Pose iy a7 «it zy 2 yt ee pe Kel ay! — oa ae rs oS a eee os tral a ae sons LETS | *¢ a aed lar oka of i 1s Be Peo y a7 «it zy e- ee pz Kel By: se a ze wy ey -_ sha sa tral a eae ons LETS",
+   "hits": []
+  },
+  {
+   "file": "s0585.png",
+   "t": 19.5,
+   "frame": 585,
+   "text": "= as Se So > % a « a a a. bts x ne ans x Rear rh Se ag om wv aay ‘s +n te S wD hes es oF, ates x 2h ia: Yt ee Fk +4 xs is oe * | = cas re Ye > is ae wa a a. bes x ne ans x Re ae rh Ah Se ag om wv Saas e +n tte , o> hes ks ix A seo ¥ 2h ie: Yt se Fi +S xs “i aes *",
+   "hits": []
+  },
+  {
+   "file": "s0586.png",
+   "t": 19.533,
+   "frame": 586,
+   "text": "BLD EE N | BLD EE N",
+   "hits": []
+  },
+  {
+   "file": "s0587.png",
+   "t": 19.567,
+   "frame": 587,
+   "text": "FIFTEEN | FIFTEEN",
+   "hits": []
+  },
+  {
+   "file": "s0588.png",
+   "t": 19.6,
+   "frame": 588,
+   "text": " | ",
+   "hits": []
+  },
+  {
+   "file": "s0589.png",
+   "t": 19.633,
+   "frame": 589,
+   "text": "= — | = —",
+   "hits": []
+  },
+  {
+   "file": "s0590.png",
+   "t": 19.667,
+   "frame": 590,
+   "text": "sere | ESS",
+   "hits": []
+  },
+  {
+   "file": "s0591.png",
+   "t": 19.7,
+   "frame": 591,
+   "text": "FIFTEEN | FIFTEEN",
+   "hits": []
+  },
+  {
+   "file": "s0592.png",
+   "t": 19.733,
+   "frame": 592,
+   "text": "FIFTEEN | FIFTEEN",
+   "hits": []
+  },
+  {
+   "file": "s0593.png",
+   "t": 19.767,
+   "frame": 593,
+   "text": "FIFTEEN | FIFTEEN",
+   "hits": []
+  },
+  {
+   "file": "s0594.png",
+   "t": 19.8,
+   "frame": 594,
+   "text": "FIFTEEN | FIFTEEN",
+   "hits": []
+  },
+  {
+   "file": "s0595.png",
+   "t": 19.833,
+   "frame": 595,
+   "text": "FIFTEEN | FIFTEEN",
+   "hits": []
+  },
+  {
+   "file": "s0596.png",
+   "t": 19.867,
+   "frame": 596,
+   "text": "FIFTEEN | FIFTEEN",
+   "hits": []
+  },
+  {
+   "file": "s0597.png",
+   "t": 19.9,
+   "frame": 597,
+   "text": "FIFTEEN | FIFTEEN",
+   "hits": []
+  },
+  {
+   "file": "s0598.png",
+   "t": 19.933,
+   "frame": 598,
+   "text": "“NN Vy Ww Rereyen OR I a /I\\ p | “NN Vy Ww Reyes Nee 7) I a /I\\p",
+   "hits": []
+  },
+  {
+   "file": "s0599.png",
+   "t": 19.967,
+   "frame": 599,
+   "text": "\\ ys werLY EN X Za be 6.. | lIN py Ne | \\ ys werLY EN X Qo be é.. if. ' lI\\ py Ne",
+   "hits": []
+  },
+  {
+   "file": "s0600.png",
+   "t": 20.0,
+   "frame": 600,
+   "text": "ge ® re * 04 py - Weig* N Ne & nad) i har | ge ® Nw’ 04 py - WPig* N Ne 2 nid) i it a’",
+   "hits": []
+  },
+  {
+   "file": "s0601.png",
+   "t": 20.033,
+   "frame": 601,
+   "text": "ge ' = |; oN ty! we e N Na 4 “hoa em j ] if a Y | ge ' = | NY y! we ey N Na 4 “hoa em i ] if a 4",
+   "hits": []
+  },
+  {
+   "file": "s0602.png",
+   "t": 20.067,
+   "frame": 602,
+   "text": "\\\\ \\ ty! 1 F we\" \\ > ™-4 ~™ > = 4 \"4 hi] ‘ee 8 ARON | \\\\ _ ty! 1 F ei\" \\ > ™-4 ~ > 4, \"| ‘a are",
+   "hits": []
+  },
+  {
+   "file": "s0603.png",
+   "t": 20.1,
+   "frame": 603,
+   "text": "an -_ | > ~. ty | F l@E/E N \\. fe <a ~ >= > r 1H ff | | | | an -_ | > ~. ty | F @E/E N \\ fe ~<a ~ >= > r 1H ff | |",
+   "hits": []
+  },
+  {
+   "file": "s0604.png",
+   "t": 20.133,
+   "frame": 604,
+   "text": "ey | F TE, wy / _\" X i ad | ey | F TE, wy! _*\" . i ad",
+   "hits": []
+  },
+  {
+   "file": "s0605.png",
+   "t": 20.167,
+   "frame": 605,
+   "text": "NN \\\\ Y LFT Sw / _\" a | a ee | NS \\\\ Yj LF T Se / ‘y a | at od od",
+   "hits": []
+  },
+  {
+   "file": "s0606.png",
+   "t": 20.2,
+   "frame": 606,
+   "text": "als \\\\ So 4) IFTE WN Se / & 4 ar rer | | als \\\\ ¥ 4) IFTE&N Se / & 4 at ee",
+   "hits": []
+  },
+  {
+   "file": "s0607.png",
+   "t": 20.233,
+   "frame": 607,
+   "text": "yy N “ IFTE®@N Sp / $/ A | ar | yy N “ IFTE®@N Sy / $/ A | oan",
+   "hits": []
+  },
+  {
+   "file": "s0608.png",
+   "t": 20.267,
+   "frame": 608,
+   "text": "Ww \\ ‘y // IFTEE os e | q ‘fl | Ww \\ ‘y // IFTEE ‘gs. a q ‘fl",
+   "hits": []
+  },
+  {
+   "file": "s0609.png",
+   "t": 20.3,
+   "frame": 609,
+   "text": "a & q \\ ’ \\y IFTEE ae _~_e p | j | 4 & q» \\ \\y 2 IFTEE ae _~_e p | j",
+   "hits": []
+  },
+  {
+   "file": "s0610.png",
+   "t": 20.333,
+   "frame": 610,
+   "text": "a@ a q > \\ ' ¥ IFTEE whe ~~ | ; | a@ a q > \\ ' ¥ IFTEE She ~ 6 | ;",
+   "hits": []
+  },
+  {
+   "file": "s0611.png",
+   "t": 20.367,
+   "frame": 611,
+   "text": "ri a» % ¥ IFTEE 4 ‘ B- a) ] | & a» % ¥ IFTEE A B4 ‘ Be a) j",
+   "hits": []
+  },
+  {
+   "file": "s0612.png",
+   "t": 20.4,
+   "frame": 612,
+   "text": "“f X ba, ¥ % y ux 4) 4 | “i X ba ¥ % y ux 4) 4",
+   "hits": []
+  },
+  {
+   "file": "s0613.png",
+   "t": 20.433,
+   "frame": 613,
+   "text": "4 | a 1} ‘yy % Lhe </ rl g! a ¢ | 4) Vf ‘yy % Lhe </ El g! S¢",
+   "hits": []
+  },
+  {
+   "file": "s0614.png",
+   "t": 20.467,
+   "frame": 614,
+   "text": "“y X ‘ey Lhe ./ Meal g E i | “y X ‘yy lbs </ ME r E i",
+   "hits": []
+  },
+  {
+   "file": "s0615.png",
+   "t": 20.5,
+   "frame": 615,
+   "text": "4 i, %, rw wp 9- ie \\ es an: | 4 i, %, As) wp 9- i= \\ es at",
+   "hits": []
+  },
+  {
+   "file": "s0616.png",
+   "t": 20.533,
+   "frame": 616,
+   "text": "e4 oN ¥ » Lia a, XL »,\\ 77 & Nt e, | t4 oN ¥ ” lia a, XY »,\\ 77 & Net e,",
+   "hits": []
+  },
+  {
+   "file": "s0617.png",
+   "t": 20.567,
+   "frame": 617,
+   "text": ". 1 < oN Y >? FTEEN a ys (= &, x, ya o, Y ~S | 4 & L<€ “N Y >? FTEEN Sy 4 (= & x, ra o, ve —~ Se",
+   "hits": []
+  },
+  {
+   "file": "s0618.png",
+   "t": 20.6,
+   "frame": 618,
+   "text": "4 & oN v4 1 FTEEN sae \"y ‘= r fw < 4 es Y ~4 | 4 & oN v4 1 FTEEN bas \") ‘= ir fro < 4 a Y ~4",
+   "hits": []
+  },
+  {
+   "file": "s0619.png",
+   "t": 20.633,
+   "frame": 619,
+   "text": "{ & x4 ON ” 1g FTEEN * i Pe 3 “< \\? Sa * a, a \\ #» <¢ | { & » 4 AN ” 1g FTEEN » \\ 3 “< \\? Sa * a, = \\ #» <¢",
+   "hits": []
+  },
+  {
+   "file": "s0620.png",
+   "t": 20.667,
+   "frame": 620,
+   "text": "-' FTEEN \\. vi, % ‘¢ ‘y A’ @a a | y | aN FTEEN \\s Lik % ‘¢ ‘y A’ @a a | y",
+   "hits": []
+  },
+  {
+   "file": "s0621.png",
+   "t": 20.7,
+   "frame": 621,
+   "text": "m\\ i) ~/ 4 FTEEN \\a 4 ¥ ‘¢ >. s A Sa 'h | m\\ ja ~/ 4 FTEEN \\a 4 ¥ ‘¢ >. s A oe 'h",
+   "hits": []
+  },
+  {
+   "file": "s0622.png",
+   "t": 20.733,
+   "frame": 622,
+   "text": "AN X. ~/ ” Y FTEEN ab te * ga ‘hb | AX X. ~/ ” Y FTEEN ab te > ga ‘hb",
+   "hits": []
+  },
+  {
+   "file": "s0623.png",
+   "t": 20.767,
+   "frame": 623,
+   "text": "< Ne yu \\ FTE’EN 0 ‘>. & if AN | < Ne yu \\ FTE’EN 0 ‘>. & if AN",
+   "hits": []
+  },
+  {
+   "file": "s0624.png",
+   "t": 20.8,
+   "frame": 624,
+   "text": "ir » A a x \\ 4 “2 Ww | iN » A 7 x \\ 4 2D wy",
+   "hits": []
+  },
+  {
+   "file": "s0625.png",
+   "t": 20.833,
+   "frame": 625,
+   "text": "Se OX «4 » ? ” FT E’E % bn A 4 r | / ¢ 0X «4 » ” FT E’E % bn, A 4 r",
+   "hits": []
+  },
+  {
+   "file": "s0626.png",
+   "t": 20.867,
+   "frame": 626,
+   "text": "Xe ‘ey mgs @ * a> | Xe ‘ey mgs @ * md",
+   "hits": []
+  },
+  {
+   "file": "s0627.png",
+   "t": 20.9,
+   "frame": 627,
+   "text": "Y be i ¢ ~ A t< 4 rhs FT 5! al YQ Md \\ a ® | 4 roe i ¢ ~~ t< 4 fod FT 5! al YQ Ye] N a ®",
+   "hits": []
+  },
+  {
+   "file": "s0628.png",
+   "t": 20.933,
+   "frame": 628,
+   "text": "g 0X ae A FT +f is A « “@ > ‘ws * 3 | i 0X eA FT +f, is A « “‘@ > ‘wow ® 3",
+   "hits": []
+  },
+  {
+   "file": "s0629.png",
+   "t": 20.967,
+   "frame": 629,
+   "text": "f a 4 / ” FT +2 kx A '™ * “6 | f a 4 / ” FT +2 ky A '™ * “6",
+   "hits": []
+  },
+  {
+   "file": "s0630.png",
+   "t": 21.0,
+   "frame": 630,
+   "text": "# A € Ly ” A: a4 “=, w* ¥ Bp _ | # 4 € Ly ” A: a “=, w* ¥ By _",
+   "hits": []
+  },
+  {
+   "file": "s0631.png",
+   "t": 21.033,
+   "frame": 631,
+   "text": "ph ke / wv, ¥ pf if a 7, ie > * o | ph ke / wv, NS pf if a 7, ie > * v",
+   "hits": []
+  },
+  {
+   "file": "s0632.png",
+   "t": 21.067,
+   "frame": 632,
+   "text": "ie, as ¥.. (uf f & » > * | Ws ys ¥.. rf f & » > *",
+   "hits": []
+  },
+  {
+   "file": "s0633.png",
+   "t": 21.1,
+   "frame": 633,
+   "text": "oy 1 9 14, yA q >» .& | er 1 9 14, A q >»",
+   "hits": []
+  },
+  {
+   "file": "s0634.png",
+   "t": 21.133,
+   "frame": 634,
+   "text": "Ns at 9% Ww» L. & i *\\ | N ¢ at 0% Ww» L. & i *\\",
+   "hits": []
+  },
+  {
+   "file": "s0635.png",
+   "t": 21.167,
+   "frame": 635,
+   "text": "a” \"y ™ Y * 4 4 A. Way 1 4 a My | A” \"y ™ Y * 4 4 A. Pay 1 4 a My",
+   "hits": []
+  },
+  {
+   "file": "s0636.png",
+   "t": 21.2,
+   "frame": 636,
+   "text": ", * BY x44 ol Y f° 1G M mer GA My! | , * BY x44 ol Y f° 1G M mer GA My!",
+   "hits": []
+  },
+  {
+   "file": "s0637.png",
+   "t": 21.233,
+   "frame": 637,
+   "text": "a x44 df ~ @ Y » a 7 4 ' A \\ ‘pA | en S Gal x44 r| ~ 1@ Y »7 a fi r \\ \\ ‘pA",
+   "hits": []
+  },
+  {
+   "file": "s0638.png",
+   "t": 21.267,
+   "frame": 638,
+   "text": "NY Al S 4 » es 3 [i r a. \\\\ | NY Al S 4 » es 3 [i ' a. \\\\",
+   "hits": []
+  },
+  {
+   "file": "s0639.png",
+   "t": 21.3,
+   "frame": 639,
+   "text": "€ sa > ‘Y a, iy iG , L i> h 1. <s jal v./@ | 4 sa > ‘Y a, iv iG , L i> h ‘.. L pa jal v./@",
+   "hits": []
+  },
+  {
+   "file": "s0640.png",
+   "t": 21.333,
+   "frame": 640,
+   "text": "a / & o\\; G iF 7% 44 I 7 » «.\\ > \\4 | a / & o\\; G a a 44 I ¢ » «.\\ > \\4",
+   "hits": []
+  },
+  {
+   "file": "s0641.png",
+   "t": 21.367,
+   "frame": 641,
+   "text": "| iw I vw Fy ¢ & eS) > G Y ei e rg LE iB V4 df » \\ \\ ee G\\vxr | | id I vw Fy ¢ & eS) > G Y ei @ rg LE iB V4 df S \\ \\ ee C\\wr",
+   "hits": []
+  },
+  {
+   "file": "s0642.png",
+   "t": 21.4,
+   "frame": 642,
+   "text": "SF) »* \\ 9 \\Y G ¥ Ds ie us a on 1‘ dn t\\s re | | S4y »* \\ 9 \\Y G S Ds ie OMe a on 1‘ dns t\\s oe ae |",
+   "hits": []
+  },
+  {
+   "file": "s0643.png",
+   "t": 21.433,
+   "frame": 643,
+   "text": "S47 =f eS We G ‘S “Se = <3 We v ga VA ga gr I Osh N “ we / FF \\ iyo * | 447 a eS We G ‘S “Se = <3 Ae ve ga ai ga gr I Osh \\ “ we / FF \\ a wyeo*",
+   "hits": []
+  },
+  {
+   "file": "s0644.png",
+   "t": 21.467,
+   "frame": 644,
+   "text": "of ESE ». . GY Y ms, <e oy DE SX \\ wa | of ESE ie) ® G Y a e oy DA SX \\ wa",
+   "hits": []
+  },
+  {
+   "file": "s0645.png",
+   "t": 21.5,
+   "frame": 645,
+   "text": "r= if +! > se * A Yi ‘tA, Y =n i od 4) oe. \\\\ a | » ~~. 5 | r= ff +! > Vi A Yi ‘tA, Y =n i od 4) 1 | oe. \\\\ a | » ~~. s",
+   "hits": []
+  },
+  {
+   "file": "s0646.png",
+   "t": 21.533,
+   "frame": 646,
+   "text": "P= q aye ‘4 \\ »»> % PN by, tie yy, vA *) y Ky %, 4 3 , | = Re YS AM \\\\S Ae 4 és | P= q ape ‘4 \\ »»> % PN by, tie yy, vA ) y Ye %, a 3 , | = Re YS AM \\\\ Ae 3 és",
+   "hits": []
+  },
+  {
+   "file": "s0647.png",
+   "t": 21.567,
+   "frame": 647,
+   "text": "wos iS +; > GY ¥ - < % 4 sy 7 7 ® ss 4 \\\\ > \\ 8 | wos iS +; > GY ¥ . S % é sy 7 7 ® ss 4 \\\\ > \\ 8",
+   "hits": []
+  },
+  {
+   "file": "s0648.png",
+   "t": 21.6,
+   "frame": 648,
+   "text": "ta\" / <> ( =_ G y ¥ Oe pA | wv \\,. * . s | ta”° / <> (= G y ¥ Oe pA | wv . . £",
+   "hits": []
+  },
+  {
+   "file": "s0649.png",
+   "t": 21.633,
+   "frame": 649,
+   "text": "ae 4. beeead, | ~ o oor f ii i i ‘ ey] &; dq a FF, .f SAY ad | ae 9s bene, | .~ o oor = f ii i i ‘ ey &; dq a FF, . SAP om 4",
+   "hits": []
+  },
+  {
+   "file": "s0650.png",
+   "t": 21.667,
+   "frame": 650,
+   "text": "@ #4 4, GY y Ce of E ! Ni | @ #4 , GY y Re of 5 ! Ny",
+   "hits": []
+  },
+  {
+   "file": "s0651.png",
+   "t": 21.7,
+   "frame": 651,
+   "text": "fe ge @ =) 4 G ¥ ong &. ~ | re Of FIFT 4 Be we _ a er ~ a bj \\ y* We) | fe ge 4 =) ¢\\ G ¥ org f. ~ | re Cf Bl. y 4 pe wy _ a i ~ s be 5 \\ y* We)",
+   "hits": []
+  },
+  {
+   "file": "s0652.png",
+   "t": 21.733,
+   "frame": 652,
+   "text": "Wi; fe a ¥, SS ay > ame \\ og aS A iss we oe / a E \\ ud ¢ 5 0° eee ¥ | Wh; fe “4 -, > ey, > 2 By \\ og aS A iss we ony / FILET E Nye ud ¢ a5 0° ee ¥",
+   "hits": []
+  },
+  {
+   "file": "s0653.png",
+   "t": 21.767,
+   "frame": 653,
+   "text": "if 4 > p“* ang f & wt ay Fl ie ¥ ae! iy oT 9 my Hs, ied | if 4 > p“* ong f & a ay Fl ie 4 ae! 7’ oT 9 a % Hs gd",
+   "hits": []
+  },
+  {
+   "file": "s0654.png",
+   "t": 21.8,
+   "frame": 654,
+   "text": "47 ¢ 14 \\ a W ¥ p* ore 1ff & a w 2 «, | 47 ¢ 14 \\ i W y- y* ore 1ff & a w 2 «,",
+   "hits": []
+  },
+  {
+   "file": "s0655.png",
+   "t": 21.833,
+   "frame": 655,
+   "text": "| af “4q ¥ & 4 > »\\ “ if 4 ¥ yo pions, \\ 2, wy ~— | of 4 ¥ & 4 » » X “ if 4 ¥ yo pairs, \\ 2, wy ~—",
+   "hits": []
+  },
+  {
+   "file": "s0656.png",
+   "t": 21.867,
+   "frame": 656,
+   "text": "HES « €: » Pe a Y | His « €: » 0 Ps ry Y",
+   "hits": []
+  },
+  {
+   "file": "s0657.png",
+   "t": 21.9,
+   "frame": 657,
+   "text": "iw ; @ te A 6 Ad \\o % | cw @ te Ps oe Ad \\go 4%",
+   "hits": []
+  },
+  {
+   "file": "s0658.png",
+   "t": 21.933,
+   "frame": 658,
+   "text": "i” 7 ¢ 2, WOH 1 ae » tA ry ‘ey | i 7 4 2, WOH 1 ae » A 4 ‘ey",
+   "hits": []
+  },
+  {
+   "file": "s0659.png",
+   "t": 21.967,
+   "frame": 659,
+   "text": "Y < arg “p> \\ ee | Y < XE \"p> on ee",
+   "hits": []
+  },
+  {
+   "file": "s0660.png",
+   "t": 22.0,
+   "frame": 660,
+   "text": "CH <p C aSSe. | Che <p C aSSe.",
+   "hits": []
+  },
+  {
+   "file": "s0661.png",
+   "t": 22.033,
+   "frame": 661,
+   "text": "—— F 6 xe % +& | ee I 6 - ce % +4",
+   "hits": []
+  },
+  {
+   "file": "s0662.png",
+   "t": 22.067,
+   "frame": 662,
+   "text": "HT) 4. wan | BET 4. rin",
+   "hits": []
+  },
+  {
+   "file": "s0663.png",
+   "t": 22.1,
+   "frame": 663,
+   "text": " | ",
+   "hits": []
+  },
+  {
+   "file": "s0664.png",
+   "t": 22.133,
+   "frame": 664,
+   "text": "Invitaciédn digital creada por 4 F é MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS | Invitaci6n digital creada por 4 - # MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS",
+   "hits": []
+  },
+  {
+   "file": "s0665.png",
+   "t": 22.167,
+   "frame": 665,
+   "text": "Invitacién digital creada por 4% MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS | Invitacién digital creada por 4% MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS",
+   "hits": []
+  },
+  {
+   "file": "s0666.png",
+   "t": 22.2,
+   "frame": 666,
+   "text": "Invitacio6n digital creada por 4 # MeDA TOS SOLUCIONES DIGITALES PARA EMPRESAS | Invitaci6n digital creada por 4 # MeDA TOS SOLUCIONES DIGITALES PARA EMPRESAS",
+   "hits": []
+  },
+  {
+   "file": "s0667.png",
+   "t": 22.233,
+   "frame": 667,
+   "text": "Invitacién digital creada por A g MeDA TOS SOLUCIONES DIGITALES PARA EMPRESAS | Invitacién digital creada por A g MeDA TOS SOLUCIONES DIGITALES PARA EMPRESAS",
+   "hits": []
+  },
+  {
+   "file": "s0668.png",
+   "t": 22.267,
+   "frame": 668,
+   "text": "Invitaci6n digital creada por at M-eDATOS SOLUCIONES DIGITALES PARA EMPRESAS | Invitaci6n digital creada por mM M-eDATOS SOLUCIONES DIGITALES PARA EMPRESAS",
+   "hits": []
+  },
+  {
+   "file": "s0669.png",
+   "t": 22.3,
+   "frame": 669,
+   "text": "Invitacién digital creada por % MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS | Invitaciédn digital creada por ps MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS",
+   "hits": []
+  },
+  {
+   "file": "s0670.png",
+   "t": 22.333,
+   "frame": 670,
+   "text": "Invitaci6n digital creada por g 6 MeDA TOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por g @ MeDA TOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0671.png",
+   "t": 22.367,
+   "frame": 671,
+   "text": "Invitaci6n digital creada por 4 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por 4 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0672.png",
+   "t": 22.4,
+   "frame": 672,
+   "text": "Invitaci6n digital creada por M@ MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por Mo MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0673.png",
+   "t": 22.433,
+   "frame": 673,
+   "text": "Invitacién digital creada por g; # MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitacién digital creada por g; # MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0674.png",
+   "t": 22.467,
+   "frame": 674,
+   "text": "Invitacién digital creada por 4% MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitacién digital creada por 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0675.png",
+   "t": 22.5,
+   "frame": 675,
+   "text": "Invitaci6n digital creada por MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0676.png",
+   "t": 22.533,
+   "frame": 676,
+   "text": "Invitacién digital creada por 4 Cd MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitacién digital creada por 4 Cd MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0677.png",
+   "t": 22.567,
+   "frame": 677,
+   "text": "Invitaci6n digital creada por ‘ 4 MeDA TOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por ‘ 4 MeDA TOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0678.png",
+   "t": 22.6,
+   "frame": 678,
+   "text": "Invitacién digital creada por at MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitacién digital creada por mM MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0679.png",
+   "t": 22.633,
+   "frame": 679,
+   "text": "Invitaci6n digital creada por hs MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por % MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0680.png",
+   "t": 22.667,
+   "frame": 680,
+   "text": "Invitaci6n digital creada por 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0681.png",
+   "t": 22.7,
+   "frame": 681,
+   "text": "Invitaci6n digital creada por 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por i MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0682.png",
+   "t": 22.733,
+   "frame": 682,
+   "text": "Invitaci6n digital creada por ‘ 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por 4 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0683.png",
+   "t": 22.767,
+   "frame": 683,
+   "text": "Invitaciédn digital creada por rs MeDA TOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaciédn digital creada por y M:eDA TOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0684.png",
+   "t": 22.8,
+   "frame": 684,
+   "text": "Invitacién digital creada por M MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitacién digital creada por M MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0685.png",
+   "t": 22.833,
+   "frame": 685,
+   "text": "Invitacién digital creada por 4 6 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitacién digital creada por 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0686.png",
+   "t": 22.867,
+   "frame": 686,
+   "text": "Invitaci6n digital creada por 4 ld MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por 4 ld MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0687.png",
+   "t": 22.9,
+   "frame": 687,
+   "text": "Invitaci6n digital creada por M MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por M MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0688.png",
+   "t": 22.933,
+   "frame": 688,
+   "text": "Invitacién digital creada por M MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitacién digital creada por M MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0689.png",
+   "t": 22.967,
+   "frame": 689,
+   "text": "Invitaci6n digital creada por g, 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por g, 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0690.png",
+   "t": 23.0,
+   "frame": 690,
+   "text": "Invitacién digital creada por I; 9 MeDA TOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitacién digital creada por I; 9 MeDA TOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0691.png",
+   "t": 23.033,
+   "frame": 691,
+   "text": "Invitaci6n digital creada por * ed MeDA TOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por * sd MeDA TOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0692.png",
+   "t": 23.067,
+   "frame": 692,
+   "text": "Invitacién digital creada por Ij 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitacién digital creada por Ij 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0693.png",
+   "t": 23.1,
+   "frame": 693,
+   "text": "Invitaci6n digital creada por ¢ MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por ¢ MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0694.png",
+   "t": 23.133,
+   "frame": 694,
+   "text": "Invitaci6n digital creada por 4 g MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por 4 g MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0695.png",
+   "t": 23.167,
+   "frame": 695,
+   "text": "Invitaciédn digital creada por at MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitacién digital creada por at MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0696.png",
+   "t": 23.2,
+   "frame": 696,
+   "text": "Invitaci6n digital creada por g, cs p 4 MeDA TOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por gf, cs p 4 MeDA TOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0697.png",
+   "t": 23.233,
+   "frame": 697,
+   "text": "Invitacién digital creada por 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitacién digital creada por 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0698.png",
+   "t": 23.267,
+   "frame": 698,
+   "text": "Invitacién digital creada por at MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitacién digital creada por at MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0699.png",
+   "t": 23.3,
+   "frame": 699,
+   "text": "Invitacién digital creada por # J 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitacién digital creada por y y 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0700.png",
+   "t": 23.333,
+   "frame": 700,
+   "text": "Invitaci6n digital creada por * A 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por * yy 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0701.png",
+   "t": 23.367,
+   "frame": 701,
+   "text": "Invitacién digital creada por g, MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitacién digital creada por g, MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0702.png",
+   "t": 23.4,
+   "frame": 702,
+   "text": "Invitaci6n digital creada por g @ MeDA TOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por g 4 MeDA TOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0703.png",
+   "t": 23.433,
+   "frame": 703,
+   "text": "Invitacién digital creada por ‘ d MeDA TOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitacién digital creada por 4 4 M-eDA TOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0704.png",
+   "t": 23.467,
+   "frame": 704,
+   "text": "Invitaci6n digital creada por # 3 8 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por # 3 4 MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0705.png",
+   "t": 23.5,
+   "frame": 705,
+   "text": "Invitaci6n digital creada por at MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitaci6n digital creada por at MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0706.png",
+   "t": 23.533,
+   "frame": 706,
+   "text": "Invitaci6n digital creada por M MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar | Invitacién digital creada por at MeDATOS SOLUCIONES DIGITALES PARA EMPRESAS www.mdatos.com.ar",
+   "hits": []
+  },
+  {
+   "file": "s0707.png",
+   "t": 23.567,
+   "frame": 707,
+   "text": " | ",
+   "hits": []
+  }
+ ]
+}

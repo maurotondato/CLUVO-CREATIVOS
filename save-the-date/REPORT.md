@@ -47,7 +47,26 @@ Rangos sin texto viejo, validados con OCR (sin coincidencias en ninguno, salvo u
 
 | Plano | Frames | Tiempo (s) | Tipo | Luma media | Descripción | Notas |
 |---|---|---|---|---|---|---|
-POOL_TABLE
+| crystals | 1-16 | 0,03–0,57 | cristales | 14,1 | Cristales/diamantes 3D facetados cayendo sobre negro |  |
+| street | 17-20 | 0,57–0,70 | ciudad | 13,8 | Calle de noche con faros (antes de que entre el texto) | solo 4 frames limpios |
+| dj | 114-126 | 3,80–4,23 | fiesta | 35,5 | Bandeja de DJ / vinilo |  |
+| stage | 127-140 | 4,23–4,70 | luces | 130,1 | Siluetas de multitud con escenario blanco |  |
+| flash | 141-155 | 4,70–5,20 | luces | 195,1 | Flash blanco que quema, copa a contraluz | trazo chico tipo '4' abajo a la derecha en 150-151 |
+| bokeh | 156-169 | 5,20–5,67 | luces | 41,1 | Bokeh | 167 casi negro |
+| hands | 170-182 | 5,67–6,10 | fiesta | 41,5 | Manos arriba con confeti y destellos |  |
+| handwriting | 183-201 | 6,10–6,73 | doodle | 52,1 | Frases manuscritas stop motion (we were, Sunshine & Rainbows...) | texto manuscrito del template, no es texto de la invitación |
+| vhs | 202-209 | 6,73–7,00 | doodle | 29,8 | Collage de paneles con ruido VHS e íconos |  |
+| neon | 210-218 | 7,00–7,30 | luces | 38,6 | Cartel de neón | desde 219 asoman caracteres de la fecha vieja |
+| sparklers | 306-318 | 10,20–10,63 | fiesta | 36,3 | Multitud con bengalas |  |
+| sparklers_close | 319-326 | 10,63–10,90 | fiesta | 66,2 | Bengalas en primer plano | carita malvada quemada desde 323 |
+| scratches | 327-328 | 10,90–10,97 | doodle | 71,1 | Rayas blancas sobre bengalas | desde 329 fantasmas tenues de MADERO TANGO a la izquierda |
+| car_smoke | 417-428 | 13,90–14,30 | humo | 48,9 | Auto con humo en la calle |  |
+| radio_city | 429-439 | 14,30–14,67 | ciudad | 34,1 | Radio City, cartel vertical | carita malvada quemada desde 440 |
+| zoom_city | 442-458 | 14,73–15,30 | ciudad | 52,3 | Zoom blur, ciudad con doodles (carita, calavera, sonrisa, scanlines) | doodles quemados del original |
+| chrysler | 459-463 | 15,30–15,47 | ciudad | 24,6 | Chrysler de noche | 464-467 con garabato y corazón quemados |
+| chrysler_b | 468-470 | 15,60–15,70 | ciudad | 13,4 | Chrysler de noche (después del corazón) |  |
+| flatiron | 471-485 | 15,70–16,20 | ciudad | 91,1 | Flatiron con bus y estelas de luz |  |
+| metlife | 486-493 | 16,20–16,47 | aerea | 53,1 | Aérea MetLife | desde 494 entra la O cromada |
 
 ## 3. Fondos de los tramos con texto viejo
 
@@ -55,7 +74,39 @@ Se usa el mismo tipo de plano que en el original cuando existe limpio: humo por 
 
 | Frames | Tiempo (s) | Estado | Fuente | Tratamiento | Nota |
 |---|---|---|---|---|---|
-EDL_TABLE
+| 0-0 | 0,00–0,03 | nuevo | bokeh (161-161) | cuadro fijo, zoom 1.15 | portada: bokeh fijo |
+| 1-16 | 0,03–0,57 | limpio | crystals (1-16) |  |  |
+| 17-32 | 0,57–1,10 | reconstruido | street (17-20, ida y vuelta) | zoom 1.00→1.06 | calle: 4 frames limpios en ida y vuelta a 0,5x |
+| 33-44 | 1,10–1,50 | reconstruido | metlife (486-493) | espejado, 0.67x, zoom 1.32→1.40, rot -8°, punch-in | avenida aérea en diagonal -> MetLife espejada y rotada |
+| 45-59 | 1,50–2,00 | reconstruido | car_smoke (417-428) | espejado, 0.80x, zoom 1.12→1.18 | vapor -> humo del auto, espejado |
+| 60-73 | 2,00–2,47 | reconstruido | flatiron (471-484) | espejado, zoom 1.12→1.20, punch-in | avenida con skyline -> Flatiron espejado |
+| 74-87 | 2,47–2,93 | reconstruido | radio_city (429-439) | 0.79x, zoom 1.08→1.14 | marquesina con cartel vertical -> Radio City |
+| 88-99 | 2,93–3,33 | reconstruido | bokeh (158-166) | 0.75x, zoom 1.20→1.28, punch-in | bola de espejos -> bokeh |
+| 100-113 | 3,33–3,80 | reconstruido | chrysler (459-463) | 0.31x, zoom 1.05→1.22 | vista cenital -> Chrysler con push-in lento |
+| 114-209 | 3,80–7,00 | limpio | original 114-209 |  | DJ, multitud, flash, bokeh, manos, manuscritos, VHS |
+| 210-225 | 7,00–7,53 | reconstruido | neon (210-218) | 0.56x | neón: los 9 frames limpios estirados a 16 |
+| 226-237 | 7,53–7,93 | reconstruido | hands (171-181) | espejado, 0.92x, zoom 1.15→1.20, punch-in | bola de espejos -> destellos sobre la multitud (oscuro, como la bola), espejado |
+| 238-250 | 7,93–8,37 | reconstruido | flash (141-153) | espejado, zoom 1.10→1.14 | panel LED que se quema -> flash que quema, espejado |
+| 251-263 | 8,37–8,80 | reconstruido | bokeh (159-163) | espejado, 0.33x, zoom 1.30→1.36, punch-in | bokeh con cartel -> bokeh espejado |
+| 264-277 | 8,80–9,27 | reconstruido | negro |  | doodles sobre negro (doodles recreados en Remotion) |
+| 278-294 | 9,27–9,83 | reconstruido | vhs (202-209) | espejado, 0.47x, zoom 1.05→1.10 | collage VHS -> collage de 6,73 espejado a 0,47x |
+| 295-305 | 9,83–10,20 | reconstruido | stage (128-138) | espejado, zoom 1.25→1.30 | panel de luces -> luces del escenario arriba, siluetas detrás de la fecha |
+| 306-328 | 10,20–10,97 | limpio | original 306-328 |  |  |
+| 329-349 | 10,97–11,67 | limpio+fantasmas | original 329-349 | borrado de fantasmas | doodles originales; se rellenan los contornos tenues de MADERO TANGO |
+| 350-373 | 11,67–12,47 | reconstruido | flatiron (471-485) | 0.62x, zoom 1.30→1.45, punch-in | Grand Central con estelas -> estelas del Flatiron |
+| 374-386 | 12,47–12,90 | reconstruido | radio_city (429-439) | espejado, 0.85x, zoom 1.50→1.56 | edificio con ventanas -> ventanas de Radio City, espejado |
+| 387-401 | 12,90–13,40 | reconstruido | negro |  | cristales sobre negro (cristales en la capa de overlay) |
+| 402-416 | 13,40–13,90 | reconstruido | street (17-20, ida y vuelta) | espejado, zoom 1.06→1.00 | calle con faros: 4 frames limpios en ida y vuelta, espejada |
+| 417-485 | 13,90–16,20 | limpio | original 417-485 |  |  |
+| 486-496 | 16,20–16,57 | reconstruido | metlife (486-493) | 0.73x | aérea MetLife: los 8 frames limpios estirados a 11 (la O vieja asoma desde 494) |
+| 497-511 | 16,57–17,07 | reconstruido | car_smoke (417-428) | 0.80x, zoom 1.25→1.30, punch-in | humo -> humo del auto |
+| 512-525 | 17,07–17,53 | reconstruido | chrysler (459-463) | espejado, 0.31x, zoom 1.00→1.08 | avenida con skyline y Chrysler -> Chrysler espejado |
+| 526-539 | 17,53–18,00 | reconstruido | radio_city (429-439) | espejado, 0.79x, zoom 1.18→1.24 | marquesina -> Radio City espejado |
+| 540-553 | 18,00–18,47 | reconstruido | metlife (486-493) | espejado, 0.57x, zoom 1.30→1.42, punch-in | cenital -> MetLife espejada |
+| 554-566 | 18,47–18,90 | reconstruido | dj (114-126) | zoom 1.06→1.08 | bandeja de DJ: el mismo plano que en 3,80 |
+| 567-580 | 18,90–19,37 | reconstruido | flash (141-154) | zoom 1.60→1.68, punch-in, ganancia 0.85 | brindis a contraluz -> flash con copa a contraluz |
+| 581-582 | 19,37–19,43 | reconstruido | flash (154-154) | cuadro fijo, zoom 1.68, smear vertical, ganancia 0.85 | smear vertical de salida |
+| 583-707 | 19,43–23,60 | nuevo | negro |  |  |
 
 Todos los fondos pasan por el mismo look: escala de grises, curva de contraste en S con negros aplastados y blancos que queman, escalado 576→1080 con lanczos y unsharp suave. El grano animado (cada frame) y la viñeta los suma Remotion arriba de todo.
 
@@ -90,7 +141,62 @@ Montserrat, Cormorant Garamond y Allura de Google Fonts. Son exactamente los wof
 
 ## 5. QA
 
-QA_SECTION
+Corrido con `python scripts/qa.py output/save_the_date_PIA_1080x1920.mp4` sobre el render final (708 frames). Los detalles están en `qa/qa_report.json`.
+
+1. **Comparativa lado a lado:** `qa/side_by_side.mp4` y `qa/sheets/` (cada 0,125 s, por bloque). Las revisé una por una e iteré sobre estos puntos: los contornos con las curvas internas de la fuente variable (pasaron a filtros SVG sobre el alfa), la legibilidad de la fecha sobre el blanco que quema, la perspectiva y el interlineado del bloque C, la velocidad de los flips y de la apertura de la franja, el tamaño del monograma y el light leak.
+2. **Cero texto viejo:**
+   - **Por construcción:** ningún frame del fondo lee frames del original con texto viejo. El control de procedencia recorre el EDL, incluida la mezcla entre frames vecinos de la cámara lenta, y da `frames_con_fuente_sucia = {}`. La única excepción son los frames 329–349, con los fantasmas borrados (sección 3).
+   - **OCR:** 2 coincidencias en 708 frames, las dos falsos positivos que revisé a ojo: un "28" leído en la textura de ventanas de MetLife (frame 35) y otro en un destello de las manos con confeti (frame 175, que es un frame original limpio). Cero lecturas de ONA, MADERO, TANGO, Lombardi u OL.
+   - **A ojo:** sin restos en los tramos rojos ni en 10,97–11,67.
+3. **Tilde de PÍA:** `qa/tilde.jpg` muestra la portada, el bloque A, los frames 505 a 516 (el flip de la Í y de la A) y la franja. La tilde entra con la letra y nunca se recorta ni queda tapada por la franja.
+4. **Sincronía:** los 37 cortes del fondo caen en el mismo frame que en el original (diferencia 0). 36 se detectaron en el render; el de 402 es entre dos planos casi negros y se verificó contra el EDL. Contra la grilla de beats ajustada a los cortes (período 0.4528 s), el original ya se desvía hasta ±3,4 frames; esa desviación se conserva tal cual.
+
+| Corte original (frame) | t (s) | Corte nuevo | Diferencia (frames) | Desvío del original respecto de la grilla de beats (frames) |
+|---|---|---|---|---|
+| 17 | 0,57 | 17 | +0 | +3,2 |
+| 33 | 1,10 | 33 | +0 | -1,2 |
+| 45 | 1,50 | 45 | +0 | -2,8 |
+| 60 | 2,00 | 60 | +0 | -1,4 |
+| 74 | 2,47 | 74 | +0 | -1,0 |
+| 88 | 2,93 | 88 | +0 | -0,5 |
+| 100 | 3,33 | 100 | +0 | -2,1 |
+| 114 | 3,80 | 114 | +0 | -1,7 |
+| 127 | 4,23 | 127 | +0 | -2,3 |
+| 141 | 4,70 | 141 | +0 | -1,9 |
+| 156 | 5,20 | 156 | +0 | -0,5 |
+| 170 | 5,67 | 170 | +0 | -0,0 |
+| 183 | 6,10 | 183 | +0 | -0,6 |
+| 210 | 7,00 | 210 | +0 | -0,8 |
+| 226 | 7,53 | 226 | +0 | +1,6 |
+| 238 | 7,93 | 238 | +0 | +0,0 |
+| 251 | 8,37 | 251 | +0 | -0,5 |
+| 264 | 8,80 | 264 | +0 | -1,1 |
+| 278 | 9,27 | 278 | +0 | -0,7 |
+| 295 | 9,83 | 295 | +0 | +2,7 |
+| 306 | 10,20 | 306 | +0 | +0,1 |
+| 319 | 10,63 | 319 | +0 | -0,5 |
+| 350 | 11,67 | 350 | +0 | +3,4 |
+| 374 | 12,47 | 374 | +0 | +0,2 |
+| 387 | 12,90 | 387 | +0 | -0,4 |
+| 402 | 13,40 | 402 | +0 | +1,0 |
+| 417 | 13,90 | 417 | +0 | +2,5 |
+| 429 | 14,30 | 429 | +0 | +0,9 |
+| 442 | 14,73 | 442 | +0 | +0,3 |
+| 471 | 15,70 | 471 | +0 | +2,1 |
+| 486 | 16,20 | 486 | +0 | -3,3 |
+| 497 | 16,57 | 497 | +0 | +0,9 |
+| 512 | 17,07 | 512 | +0 | +2,4 |
+| 526 | 17,53 | 526 | +0 | +2,8 |
+| 540 | 18,00 | 540 | +0 | +3,2 |
+| 554 | 18,47 | 554 | +0 | -3,2 |
+| 567 | 18,90 | 567 | +0 | +3,0 |
+
+5. **Repetición de planos:** ningún plano reutilizado aparece en dos cortes consecutivos. Usos de cada plano del pool en los tramos reconstruidos (siempre con encuadre distinto: espejado, zoom, centro o velocidad): bokeh ×3, crystals ×1, street ×2, metlife ×3, car_smoke ×2, flatiron ×2, radio_city ×3, chrysler ×2, neon ×1, hands ×1, flash ×3, vhs ×1, stage ×1, dj ×1.
+6. **Exports:**
+   - 1080×1920: H.264 High, yuv420p, 30 fps, CRF 16, AAC 192 kbps 44,1 kHz, 23,6 s, 47,6 MB.
+   - WhatsApp: 720×1280, 12,2 MB.
+   - Póster en 20,5 s.
+   - Audio: el original sin tocar (comparado muestra por muestra contra el decodificado del original: diferencia 0), silencio después de los 21,9 s y un shimmer a −24 dBFS en 22,1 s.
 
 ## 6. Cómo hacer otra invitación
 

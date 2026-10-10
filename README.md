@@ -44,3 +44,10 @@ Cada pieza que se haga con el skill queda en `runs/<key>/` (ignorado en git).
 ## Wan 2.2 (video con IA)
 
 Hay scripts para generar clips con [Wan2.2](https://github.com/Wan-Video/Wan2.2), ya sea pagando en fal (`wan/fal.sh`) o gratis en una PC con GPU NVIDIA de 24 GB (`wan/instalar-local.sh` y `wan/generar-local.sh`). Ver [`wan/README.md`](wan/README.md).
+
+## Save the Date XV · PÍA (M·DATOS)
+
+Invitación "Save the Date" de XV años (9:16, 23,6 s) replicada cuadro por cuadro de un template, con los textos nuevos y una placa final de M·DATOS. Todo está en [`save-the-date/`](save-the-date/):
+
+- Videos: `save-the-date/output/save_the_date_PIA_1080x1920.mp4` (Reels/Stories) y `save_the_date_PIA_whatsapp.mp4` (menos de 16 MB), más `poster.jpg`.
+- Cómo se hizo, el QA y cómo hacer otra invitación cambiando `invitation.config.json`: [`save-the-date/REPORT.md`](save-the-date/REPORT.md).
