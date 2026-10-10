@@ -1,0 +1,22 @@
+{
+  "name": "save-the-date-xv",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts SaveTheDate output/render_master.mov --codec=prores --prores-profile=4444 --pixel-format=yuva444p10le"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.529",
+    "@remotion/fonts": "^4.0.529",
+    "@remotion/google-fonts": "4.0.529",
+    "@remotion/layout-utils": "^4.0.529",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.12",
+    "typescript": "5.9.2"
+  }
+}

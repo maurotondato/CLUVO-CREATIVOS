@@ -1,0 +1,16 @@
+node_modules/
+.venv/
+__pycache__/
+# regenerables (scripts/build_all.sh)
+analysis/frames/
+analysis/plates_frames/
+analysis/*.wav
+public/plates.mp4
+public/crystals.mp4
+output/render_master.mov
+output/audio_final.wav
+output/x264wa*
+qa/final_frames/
+qa/final_frames_png/
+qa/stills/
+qa/render*.log
