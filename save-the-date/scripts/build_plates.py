@@ -124,6 +124,8 @@ def plate_frame(n):
         pos = seg["src"] + (span - abs(span - (x % (2 * span))))
     else:
         pos = seg["src"] + k * speed
+    if "srcMax" in seg:
+        pos = min(pos, seg["srcMax"])
     strong = n >= 344
     img = sample(pos, seg.get("ghosts", False), strong)
     z0, z1 = seg.get("zoom", [1.0, 1.0])

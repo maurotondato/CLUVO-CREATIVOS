@@ -3,7 +3,7 @@ import {AbsoluteFill, useCurrentFrame} from 'remotion';
 import {fitText} from '@remotion/layout-utils';
 import {MONTSERRAT} from '../fonts';
 import {COVER, D, H, W} from '../timeline';
-import {MONT_CAP, MONT_CAP_CENTER, clamp01, easeOutBack} from './fx';
+import {MONT_CAP, MONT_CAP_CENTER, clamp01} from './fx';
 import type {InvitationConfig} from '../config';
 
 // Medido en el original (#558): letras cromadas con mayúsculas de ~14,5 % del alto,
@@ -87,15 +87,15 @@ export const ChromeName: React.FC<{cfg: InvitationConfig; frame: number; still?:
 
 	// como en el original: primero asoma "THE" en el centro y después se abre rápido
 	const bandP = still ? 1 : Math.pow(clamp01((frame - D.band[0] + 1) / (D.band[1] - D.band[0])), 2.6);
-	const bandH = CAP * 0.21;
+	const bandH = CAP * 0.23;
 	const {fontSize: bandSize} = fitText({
 		text: cfg.saveTheDate,
-		withinWidth: W * 0.74,
+		withinWidth: W * 0.8,
 		fontFamily: MONTSERRAT,
 		fontWeight: '600',
 		letterSpacing: '0.25em',
 	});
-	const bandFont = Math.min(bandSize, bandH * 0.78);
+	const bandFont = Math.min(bandSize, bandH * 0.86);
 
 	return (
 		<AbsoluteFill>
@@ -112,8 +112,11 @@ export const ChromeName: React.FC<{cfg: InvitationConfig; frame: number; still?:
 				}}
 			>
 				{letters.map((ch, i) => {
-					const p = still ? 1 : (frame - starts[i]) / D.flip;
-					const angle = still ? 0 : 90 * (1 - easeOutBack(p));
+					// como en el original: la letra asoma despacio desde la base, termina rápido y rebota apenas
+					const p = still ? 1 : clamp01((frame - starts[i]) / D.flip);
+					const ease = p * p * (3 - 2 * p);
+					const overshoot = -7 * Math.sin(Math.PI * clamp01((p - 0.78) / 0.22));
+					const angle = still ? 0 : 90 * (1 - ease) + overshoot;
 					return <Letter key={i} ch={ch} angle={angle} visible={still || frame >= starts[i]} sweep={sweep} />;
 				})}
 			</div>

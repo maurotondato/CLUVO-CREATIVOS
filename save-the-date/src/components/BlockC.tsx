@@ -67,8 +67,8 @@ const Lines: React.FC<{
 export const BlockC: React.FC<{cfg: InvitationConfig}> = ({cfg}) => {
 	const frame = useCurrentFrame();
 	if (frame < C.preroll[0] || frame >= C.out) return null;
-	const {fontSize} = fitText({text: cfg.venue, withinWidth: W * 0.84, fontFamily: MONTSERRAT, fontWeight: '800'});
-	const size = Math.min(fontSize, 124);
+	const {fontSize} = fitText({text: cfg.venue, withinWidth: W * 0.9, fontFamily: MONTSERRAT, fontWeight: '800'});
+	const size = Math.min(fontSize, 132);
 	// plano inclinado con temblor constante (cambia cada 2 frames)
 	const step = Math.floor(frame / 2);
 	const sx = (random(`c-sx-${step}`) - 0.5) * 4;

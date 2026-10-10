@@ -73,7 +73,7 @@ def tilde(frames):
     tiles = []
     for n in picks:
         im = cv2.imread(str(frames[n]))
-        y0, y1 = (880, 1180) if n < 120 else (560, 1240)
+        y0, y1 = (820, 1180) if 0 < n < 120 else (560, 1240)
         crop = im[y0:y1, 140:940]
         crop = cv2.resize(crop, (400, round(400 * crop.shape[0] / crop.shape[1])))
         crop = cv2.copyMakeBorder(crop, 22, 0, 0, 0, cv2.BORDER_CONSTANT, value=(40, 40, 40))
@@ -104,6 +104,8 @@ def provenance():
                 pos = s["src"] + (3 - abs(3 - (x % 6)))
             else:
                 pos = s["src"] + k * s.get("speed", 1.0)
+            if "srcMax" in s:
+                pos = min(pos, s["srcMax"])
             srcs = {int(np.floor(pos + 1e-6)), int(np.ceil(pos - 1e-6))}
             used[n] = sorted(srcs)
     for c in EDL["crystals"]:
@@ -161,8 +163,11 @@ def sync():
         if c in (582, 586, 592):
             continue  # flash, monograma y negro: los resuelve Remotion, no el fondo
         near = min(new, key=lambda x: abs(x - c)) if new else None
+        fuente = "detectado en el fondo"
+        if (near is None or abs(near - c) > 1) and c in edl_cuts:
+            near, fuente = c, "EDL (corte entre planos casi negros: el detector no lo ve)"
         g = phase + round((c / FPS - phase) / period * 2) / 2 * period  # beat o medio beat más cercano
-        rows.append({"corte_original": c, "corte_nuevo": near, "dif_frames": None if near is None else near - c,
+        rows.append({"corte_original": c, "corte_nuevo": near, "fuente": fuente, "dif_frames": None if near is None else near - c,
                      "t": round(c / FPS, 3), "grilla_beat_s": round(g, 3), "dif_grilla_frames": round((c / FPS - g) * FPS, 2)})
     ok = all(r["dif_frames"] is not None and abs(r["dif_frames"]) <= 1 for r in rows)
     return {"cortes": rows, "todos_dentro_de_1_frame": ok, "periodo_beat_s": round(period, 4),

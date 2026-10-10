@@ -15,7 +15,7 @@
 | 238-250 | 7,93–8,37 | reconstruido | flash (141-153) | espejado, zoom 1.10→1.14 | panel LED que se quema -> flash que quema, espejado |
 | 251-263 | 8,37–8,80 | reconstruido | bokeh (159-163) | espejado, 0.33x, zoom 1.30→1.36, punch-in | bokeh con cartel -> bokeh espejado |
 | 264-277 | 8,80–9,27 | reconstruido | negro |  | doodles sobre negro (doodles recreados en Remotion) |
-| 278-294 | 9,27–9,83 | reconstruido | vhs (202-210) | espejado, 0.47x, zoom 1.05→1.10 | collage VHS -> collage de 6,73 espejado a 0,47x |
+| 278-294 | 9,27–9,83 | reconstruido | vhs (202-209) | espejado, 0.47x, zoom 1.05→1.10 | collage VHS -> collage de 6,73 espejado a 0,47x |
 | 295-305 | 9,83–10,20 | reconstruido | stage (128-138) | espejado, zoom 1.25→1.30 | panel de luces -> luces del escenario arriba, siluetas detrás de la fecha |
 | 306-328 | 10,20–10,97 | limpio | original 306-328 |  |  |
 | 329-349 | 10,97–11,67 | limpio+fantasmas | original 329-349 | borrado de fantasmas | doodles originales; se rellenan los contornos tenues de MADERO TANGO |
@@ -30,6 +30,6 @@
 | 526-539 | 17,53–18,00 | reconstruido | radio_city (429-439) | espejado, 0.79x, zoom 1.18→1.24 | marquesina -> Radio City espejado |
 | 540-553 | 18,00–18,47 | reconstruido | metlife (486-493) | espejado, 0.57x, zoom 1.30→1.42, punch-in | cenital -> MetLife espejada |
 | 554-566 | 18,47–18,90 | reconstruido | dj (114-126) | zoom 1.06→1.08 | bandeja de DJ: el mismo plano que en 3,80 |
-| 567-580 | 18,90–19,37 | reconstruido | flash (141-154) | zoom 1.30→1.36, punch-in, ganancia 0.8 | brindis a contraluz -> flash con copa a contraluz |
-| 581-582 | 19,37–19,43 | reconstruido | flash (154-154) | cuadro fijo, zoom 1.36, smear vertical, ganancia 0.8 | smear vertical de salida |
+| 567-580 | 18,90–19,37 | reconstruido | flash (141-154) | zoom 1.60→1.68, punch-in, ganancia 0.85 | brindis a contraluz -> flash con copa a contraluz |
+| 581-582 | 19,37–19,43 | reconstruido | flash (154-154) | cuadro fijo, zoom 1.68, smear vertical, ganancia 0.85 | smear vertical de salida |
 | 583-707 | 19,43–23,60 | nuevo | negro |  |  |

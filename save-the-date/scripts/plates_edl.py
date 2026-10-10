@@ -107,9 +107,9 @@ SEGMENTS = [
          status="reconstruido", note="cenital -> MetLife espejada"),
     dict(out=[554, 567], shot="dj", src=114, speed=1.0, zoom=[1.06, 1.08], status="reconstruido",
          note="bandeja de DJ: el mismo plano que en 3,80"),
-    dict(out=[567, 581], shot="flash", src=141, speed=1.0, zoom=[1.3, 1.36], center=[0.66, 0.3], punch=True, gain=0.8, status="reconstruido",
+    dict(out=[567, 581], shot="flash", src=141, speed=1.0, zoom=[1.6, 1.68], center=[0.72, 0.28], punch=True, gain=0.85, status="reconstruido",
          note="brindis a contraluz -> flash con copa a contraluz"),
-    dict(out=[581, 583], shot="flash", src=154, speed=0, zoom=[1.36, 1.36], center=[0.66, 0.3], smear=True, gain=0.8, status="reconstruido",
+    dict(out=[581, 583], shot="flash", src=154, speed=0, zoom=[1.68, 1.68], center=[0.72, 0.28], smear=True, gain=0.85, status="reconstruido",
          note="smear vertical de salida"),
     # Tramo 11-13: negro (flash, light leak, monograma, cristales y placa en Remotion)
     dict(out=[583, TOTAL], shot="black", status="nuevo"),
@@ -148,6 +148,13 @@ def main():
                          type=typ, description=desc, notes=note, meanLuma=round(float(np.mean(lum)), 1)))
     (ROOT / "analysis/clean_pool.json").write_text(json.dumps(pool, ensure_ascii=False, indent=1))
 
+    # cada segmento lee solo dentro de su plano limpio (la cámara lenta mezcla frames vecinos)
+    ranges = {sid: (a, b) for sid, a, b, *_ in POOL}
+    for s in SEGMENTS:
+        if s["shot"] in ranges:
+            s["srcMax"] = ranges[s["shot"]][1]
+        elif s["shot"] == "orig":
+            s["srcMax"] = s["src"] + (s["out"][1] - s["out"][0]) - 1
     # validar cobertura continua
     pos = 0
     for s in SEGMENTS:

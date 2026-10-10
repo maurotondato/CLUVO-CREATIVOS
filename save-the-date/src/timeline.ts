@@ -47,7 +47,7 @@ export const C = {
 // Bloque D: PÍA cromado + franja SAVE THE DATE
 export const D = {
 	letters: [494, 505, 516], // P, Í, A: cada una entra con flip 3D
-	flip: 10,
+	flip: 11,
 	band: [545, 555], // la franja se abre desde el centro
 	smear: [581, 583],
 	out: 581,

@@ -26,7 +26,7 @@ for s in EDL["segments"]:
         if s.get("path") == "pingpong":
             src = f"{shot} ({p['start']}-{p['end']}, ida y vuelta)"
         else:
-            last = s["src"] + (o1 - o0 - 1) * sp
+            last = min(s["src"] + (o1 - o0 - 1) * sp, s.get("srcMax", 1e9))
             src = f"{shot} ({s['src']}-{last:.0f})"
     tr = []
     if s.get("mirror"):
